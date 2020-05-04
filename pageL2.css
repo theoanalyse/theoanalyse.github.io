@@ -1,6 +1,7 @@
 body {
 	text-align: center;
 	font-family: 'Arial', Helvetica, sans-serif;
+	background: linear-gradient(#f4f4f4, #fafafa) fixed;
 }
 
 div {
