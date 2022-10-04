@@ -1,7 +1,7 @@
 body {
-	text-align: center;
-	background: linear-gradient(#7effc9, #97d9ff) fixed;
-	font-family: 'Noto Sans', sans-serif;
+	text-align: justify;
+	/* background: linear-gradient(#7effc9, #97d9ff) fixed; */
+	/* font-family: 'Noto Sans', sans-serif; */
 }
 
 div {
