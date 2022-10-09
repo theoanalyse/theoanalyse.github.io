@@ -31,7 +31,9 @@ twitter_username: jekyllrb
 github_username:  jekyll
 
 # Build settings
-theme: architect
+# theme: architect
+markdown: kramdown
+remote_theme: cotes2020/jekyll-theme-chirpy
 plugins:
   - jekyll-feed
 
