@@ -4,26 +4,16 @@ title:  "Welcome to Jekyll!"
 date:   2022-10-09 22:53:16 +0200
 categories: jekyll update
 ---
-You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
 
-Jekyll requires blog post files to be named according to the following format:
+# On the study of Turing instabilities in the $p$ cells reaction-diffusion model with two morphogens  (M2 DEVBIO - HW1)
 
-`YEAR-MONTH-DAY-title.MARKUP`
+## Some biological context
 
-Where `YEAR` is a four-digit number, `MONTH` and `DAY` are both two-digit numbers, and `MARKUP` is the file extension representing the format used in the file. After that, include the necessary front matter. Take a look at the source for this post to get an idea about how it works.
+Nature is known to present patterns, resulting from a perfect balance between regularity and chaos. Probably the most classical example one can give is the strangely regular distribution of petals and pistils in flowers. Based on this observations, mathematicians of the world started to try finding models that could describe best the emergence of these patterns. Some people see a close link with the Fibonacci sequence and the golden ratio $\phi \approx 1.618$, some see a connection to prime numbers' distribution but the existence or not of these links is beyond the scope of this report. We also observe the appearance of patterns in the animal. Whether it is the skin of the zebrafish, the stripes of the zebra, the spots of the giraffe, the back of the ladybug, or a mixture of spots and stripes in the leopard... It would seem that the model introduced in 1952 by Alan Turing, in his paper "The chemical basis of Morphogenesis", covers all these pigmentation processes involved in the generation of all this fauna of shapes.
 
-Jekyll also offers powerful support for code snippets:
+The goal of this project is, thus, to present and study the 1-dimensional, 2-morphogens, reaction-diffusion equation across $p$-cells arranged on a torus of length $L$, as proposed in 1952.
 
-{% highlight ruby %}
-def print_hi(name)
-  puts "Hi, #{name}"
-end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
+{% highlight python %}
+def print_hi(name):
+	print("hi")
 {% endhighlight %}
-
-Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
-
-[jekyll-docs]: https://jekyllrb.com/docs/home
-[jekyll-gh]:   https://github.com/jekyll/jekyll
-[jekyll-talk]: https://talk.jekyllrb.com/
