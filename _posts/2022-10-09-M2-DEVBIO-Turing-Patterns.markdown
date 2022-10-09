@@ -1,11 +1,10 @@
 ---
 layout: post
-title:  "Turing instabilities : p cells on a ring"
+title:  "On the study of Turing instabilities in the $p$ cells reaction-diffusion model with two morphogens"
 date:   2022-10-09 22:53:16 +0200
 categories: project
 ---
 
-# On the study of Turing instabilities in the $p$ cells reaction-diffusion model with two morphogens  (M2 DEVBIO - HW1)
 
 ## Some biological context
 
