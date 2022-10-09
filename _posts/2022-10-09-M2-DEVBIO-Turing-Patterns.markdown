@@ -1,5 +1,6 @@
 ---
 layout: post
+use_math: true
 title:  "On the study of Turing instabilities in the $p$ cells reaction-diffusion model with two morphogens"
 date:   2022-10-09 22:53:16 +0200
 categories: project
