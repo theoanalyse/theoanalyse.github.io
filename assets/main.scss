@@ -1,0 +1,75 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@300&display=swap');
+
+/** Basic styling */
+body { 
+    font: 400 12px/1.5;
+    font-family: 'Roboto', sans-serif;
+    color: #111;
+    background-color: #fdfdfd;
+    -webkit-text-size-adjust: 100%;
+    -webkit-font-feature-settings:
+    "kern" 1;
+    -moz-font-feature-settings:"kern" 1;
+    -o-font-feature-settings: "kern" 1;
+    font-feature-settings: "kern" 1;
+    font-kerning: normal;
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+body, h1, h2, h3, h4, h5, h6,
+p, pre, hr,
+dl, dd, ol, ul, figure {
+  margin: 0;
+  padding: 0;
+  text-align: justify;
+}
+
+pre {
+  margin: 2em 10px;
+  padding: 2em 10px;
+}
+
+/**
+ * Page content
+ */
+ .page-content {
+    padding: $spacing-unit 0;
+    flex: 1;
+  }
+
+
+.wrapper {
+    max-width: 70% !important;
+}
+
+.product__img-wrapper {
+    max-width: 100% !important;
+}
+
+.product__img-wrapper .product__img {
+    max-width: 100% !important;
+    max-height: 100% !important;
+}
+
+blockquote {
+    background: #f9f9f9;
+    border-left: 5px solid #ccc;
+    margin: 2em 10px;
+    padding: 1.5em 10px;
+    font-style: normal;
+    font-size: 16px;
+}
+
+blockquote p {
+    display: inline;
+}
+
+code.has-jax {font: inherit; font-size: 100%; background: inherit; border: inherit;}
