@@ -271,7 +271,7 @@ def build_trajectories(B, D_X, D_Y, p):
     return (y, p, D_X, D_Y, B)
 ```
 
-Notice this is nothing less than an adapted version of the last chunks of code. We can now fix $D_X := 0.5$ and test our function for different values of $D_Y$ in $[0.7, 1.2]$ to mimic the slides.
+Notice this is nothing less than an adapted version of the last chunks of code. We can now fix $D_X := 0.5$ and test our function for different values of $D_Y$ in ¨[0.7, 1.2]$ to mimic the slides.
 
 
 ```python
@@ -329,7 +329,7 @@ $$Z^* \text{ is stable }
 \quad \iff \quad
 \text{sp} \underbrace{\begin{bmatrix}b_xx - D_X \mu_k & b_xy \\ b_yx & b_yy - D_y \mu_k \end{bmatrix}}_{\bar M_2(\mu_k)} \subset \mathbb R_{<0}, \quad k = 1, ..., p$$
 
-Where $\mu_k := 2 \left( 1 - \cos\left( \frac{2k \pi}{p}\right)\right)$ and $\bar M = \text{diag}(\bar M_2(\mu_1), \dots, \bar M_2(\mu_p))$. Us being the bad guys of this story, we seek for values of $D_X, D_Y$ inducing the instability of $Z^*$. By our criterion, since $\text{Tr} \left(\bar M_2(\mu_k) \right) < 0$, it suffices to find $1 \le k \le p$ so that the eigenvalues of $\bar M_2(\mu_k)$ are of opposite sign, *i.e.* $\det \bar M_2(\mu_k) < 0$. Choice is ours, let us pick a value of $k$ and find the appropriate $D_X, D_Y$ as wanted.
+Where $\mu_k := 2 \left( 1 - \cos\left( \frac{2k \pi}{p}\right)\right)$ and $\bar M = \text{diag}(\bar M_2(\mu_1), \dots, \bar M_2(\mu_p))$. Us being the bad guys of this story, we seek for values of $D_X, D_Y$ inducing the instability of $Z^\star$. By our criterion, since $\text{Tr} \left(\bar M_2(\mu_k) \right) < 0$, it suffices to find $1 \le k \le p$ so that the eigenvalues of $\bar M_2(\mu_k)$ are of opposite sign, *i.e.* $\det \bar M_2(\mu_k) < 0$. Choice is ours, let us pick a value of $k$ and find the appropriate $D_X, D_Y$ as wanted.
 
 
 ```python
