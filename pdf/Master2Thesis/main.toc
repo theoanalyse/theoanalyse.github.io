@@ -1,7 +1,10 @@
 \babel@toc {english}{}\relax 
-\contentsline {section}{\numberline {1}Notations}{2}{section.1}%
-\contentsline {section}{\numberline {2}General Theory}{2}{section.2}%
-\contentsline {section}{\numberline {3}Reduction of the Model}{2}{section.3}%
-\contentsline {subsection}{\numberline {3.1}Quasi-steady-state approximation}{3}{subsection.3.1}%
-\contentsline {subsection}{\numberline {3.2}Change of variable}{3}{subsection.3.2}%
-\contentsline {section}{\numberline {4}Behavior of the system}{4}{section.4}%
+\contentsline {section}{\numberline {1}Notations}{3}{section.1}%
+\contentsline {section}{\numberline {2}Hydra Morphogenesis and regenerative properties}{3}{section.2}%
+\contentsline {section}{\numberline {3}The importance of Wnt signaling}{3}{section.3}%
+\contentsline {section}{\numberline {4}Emergence of Patterns and Diffusion-Driven Instability}{3}{section.4}%
+\contentsline {section}{\numberline {5}General Theory}{4}{section.5}%
+\contentsline {section}{\numberline {6}Reduction of the Model}{4}{section.6}%
+\contentsline {subsection}{\numberline {6.1}Quasi-steady-state approximation}{4}{subsection.6.1}%
+\contentsline {subsection}{\numberline {6.2}Change of variable}{5}{subsection.6.2}%
+\contentsline {section}{\numberline {7}Behavior of the system}{6}{section.7}%

@@ -72,6 +72,140 @@
       \verb https://doi.org/10.1016/j.jde.2022.08.007
       \endverb
     \endentry
+    \entry{Engel2000-nj}{book}{}
+      \name{author}{2}{}{%
+        {{hash=65c941a1a1b12ebbafd658a09a89b334}{%
+           family={Engel},
+           familyi={E\bibinitperiod},
+           given={Klaus-Jochen},
+           giveni={K\bibinithyphendelim J\bibinitperiod}}}%
+        {{hash=a3677a98a02dd239c00af22363bd492b}{%
+           family={Nagel},
+           familyi={N\bibinitperiod},
+           given={Rainer},
+           giveni={R\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \list{location}{1}{%
+        {New York, NY}%
+      }
+      \list{publisher}{1}{%
+        {Springer}%
+      }
+      \strng{namehash}{2e2696ad9059e2bf945cb0a30bb790d7}
+      \strng{fullhash}{2e2696ad9059e2bf945cb0a30bb790d7}
+      \strng{bibnamehash}{2e2696ad9059e2bf945cb0a30bb790d7}
+      \strng{authorbibnamehash}{2e2696ad9059e2bf945cb0a30bb790d7}
+      \strng{authornamehash}{2e2696ad9059e2bf945cb0a30bb790d7}
+      \strng{authorfullhash}{2e2696ad9059e2bf945cb0a30bb790d7}
+      \field{sortinit}{E}
+      \field{sortinithash}{8da8a182d344d5b9047633dfc0cc9131}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{edition}{2000}
+      \field{month}{12}
+      \field{series}{Graduate Texts in Mathematics}
+      \field{title}{One-parameter semigroups for linear evolution equations}
+      \field{year}{2000}
+      \true{nocite}
+    \endentry
+    \entry{https://doi.org/10.48550/arxiv.2201.12748}{misc}{}
+      \name{author}{3}{}{%
+        {{hash=0c22b0d25e1caa158dfc473a8ca2c691}{%
+           family={Kowall},
+           familyi={K\bibinitperiod},
+           given={Chris},
+           giveni={C\bibinitperiod}}}%
+        {{hash=e3d0db70dbef160b7a38fd7c643466f0}{%
+           family={Marciniak-Czochra},
+           familyi={M\bibinithyphendelim C\bibinitperiod},
+           given={Anna},
+           giveni={A\bibinitperiod}}}%
+        {{hash=142eee4c9d6133d03eb8d753f1dbed45}{%
+           family={Münnich},
+           familyi={M\bibinitperiod},
+           given={Finn},
+           giveni={F\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {arXiv}%
+      }
+      \strng{namehash}{9f54c5cb2d691e84132907d3fa5b2a8b}
+      \strng{fullhash}{9f54c5cb2d691e84132907d3fa5b2a8b}
+      \strng{bibnamehash}{9f54c5cb2d691e84132907d3fa5b2a8b}
+      \strng{authorbibnamehash}{9f54c5cb2d691e84132907d3fa5b2a8b}
+      \strng{authornamehash}{9f54c5cb2d691e84132907d3fa5b2a8b}
+      \strng{authorfullhash}{9f54c5cb2d691e84132907d3fa5b2a8b}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Stability Results for Bounded Stationary Solutions of Reaction-Diffusion-ODE Systems}
+      \field{year}{2022}
+      \true{nocite}
+      \verb{doi}
+      \verb 10.48550/ARXIV.2201.12748
+      \endverb
+      \verb{urlraw}
+      \verb https://arxiv.org/abs/2201.12748
+      \endverb
+      \verb{url}
+      \verb https://arxiv.org/abs/2201.12748
+      \endverb
+      \keyw{Analysis of PDEs (math.AP),Spectral Theory (math.SP),FOS: Mathematics,FOS: Mathematics,35K57,35B35 (primary) 35B36,35P05,47D06 (secondary)}
+    \endentry
+    \entry{Lepschy1988}{article}{}
+      \name{author}{3}{}{%
+        {{hash=ed5d7eb525fa3fe57cdc94a81793023b}{%
+           family={Lepschy},
+           familyi={L\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
+        {{hash=38a93d15d351eae89cdf13b41f0830ec}{%
+           family={Mian},
+           familyi={M\bibinitperiod},
+           given={G.A.},
+           giveni={G\bibinitperiod}}}%
+        {{hash=23a254808eeeaf1b573845a80c8bd4a0}{%
+           family={Viaro},
+           familyi={V\bibinitperiod},
+           given={U.},
+           giveni={U\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier {BV}}%
+      }
+      \strng{namehash}{8158e534f23ee4fa4bc479128e4f1a7a}
+      \strng{fullhash}{8158e534f23ee4fa4bc479128e4f1a7a}
+      \strng{bibnamehash}{8158e534f23ee4fa4bc479128e4f1a7a}
+      \strng{authorbibnamehash}{8158e534f23ee4fa4bc479128e4f1a7a}
+      \strng{authornamehash}{8158e534f23ee4fa4bc479128e4f1a7a}
+      \strng{authorfullhash}{8158e534f23ee4fa4bc479128e4f1a7a}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of the Franklin Institute}
+      \field{month}{1}
+      \field{number}{6}
+      \field{title}{A Geometrical Interpretation of the Routh Test}
+      \field{volume}{325}
+      \field{year}{1988}
+      \true{nocite}
+      \field{pages}{695\bibrangedash 703}
+      \range{pages}{9}
+      \verb{doi}
+      \verb 10.1016/0016-0032(88)90003-8
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1016/0016-0032(88)90003-8
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1016/0016-0032(88)90003-8
+      \endverb
+    \endentry
     \entry{AnnaThesis}{article}{}
       \name{author}{1}{}{%
         {{hash=e3d0db70dbef160b7a38fd7c643466f0}{%
@@ -138,6 +272,40 @@
       \field{series}{Biomathematics}
       \field{title}{Mathematical biology}
       \field{year}{1990}
+      \true{nocite}
+    \endentry
+    \entry{Pazy2012-rc}{book}{}
+      \name{author}{1}{}{%
+        {{hash=a15d3bdd508deabfc7d45824da2a7c92}{%
+           family={Pazy},
+           familyi={P\bibinitperiod},
+           given={Amnon},
+           giveni={A\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \list{location}{1}{%
+        {New York, NY}%
+      }
+      \list{publisher}{1}{%
+        {Springer}%
+      }
+      \strng{namehash}{a15d3bdd508deabfc7d45824da2a7c92}
+      \strng{fullhash}{a15d3bdd508deabfc7d45824da2a7c92}
+      \strng{bibnamehash}{a15d3bdd508deabfc7d45824da2a7c92}
+      \strng{authorbibnamehash}{a15d3bdd508deabfc7d45824da2a7c92}
+      \strng{authornamehash}{a15d3bdd508deabfc7d45824da2a7c92}
+      \strng{authorfullhash}{a15d3bdd508deabfc7d45824da2a7c92}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{edition}{1983}
+      \field{month}{12}
+      \field{series}{Applied mathematical sciences}
+      \field{title}{Semigroups of linear operators and applications to partial differential equations}
+      \field{year}{2012}
       \true{nocite}
     \endentry
     \entry{philip_2022}{misc}{}

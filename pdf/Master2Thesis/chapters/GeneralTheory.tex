@@ -1,16 +1,24 @@
 \section{General Theory}
 
-In this thesis, we aim to investigate properties of a reaction-diffusion-ODE problem
+Consider positive integers $k, m, n \in \N$ such that $m+k = n$ and a bounded domain $\Omega \subset \R^{n}$. Let $\bm f : \R^k \times \R^m \longrightarrow \R^{m+k}$. We aim to investigate properties of a reaction-diffusion-ODE problem
  
-\begin{equation}
-	\frac{\del u}{\del t} = f(u, v, x)
-\end{equation}
+\begin{align}
+	\del_t\uu  &= \bm{\mathrm D} \Delta \uu + \bm{f}(\uu) \quad \text{on } \Omega \times \mathbb R^{+} \notag \\  \grad u_i \cdot \nu &= 0 \qquad\qquad\qquad\! \text{on } \del\Omega \times \mathbb R^{+}, \text{ for } i \in [\![ m+1, k ]\!]\\
+	\mathbf{u}(\cdot, 0) &= \mathbf{u}_0(\cdot) \qquad\qquad\; \text{on } \Omega, \notag
+\end{align}
+
+
+\begin{theorem}[Spectral Mapping Theorem] 
+	
+\end{theorem}
+
+
 
 \begin{itemize}
     \item Spectral Bound
     \item Linear / NonLinear decomposition
     \item Bound on the Nonlinear part $\mathcal N$
-    \item Spectral Mapping Theorem
+    
     \item Why is the spectrum so important here
     \item Define DDI
     \item Maybe include Finn's result on the $d_1$ $d_2$ ? (and add full acknowledgement to his work)
