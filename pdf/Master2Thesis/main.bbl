@@ -19,6 +19,51 @@
 
 \refsection{0}
   \datalist[entry]{nty/global//global/global}
+    \entry{Arendt1984}{article}{}
+      \name{author}{2}{}{%
+        {{hash=84d43c5b47aab622c6cb71599e59d107}{%
+           family={Arendt},
+           familyi={A\bibinitperiod},
+           given={Wolfgang},
+           giveni={W\bibinitperiod}}}%
+        {{hash=f93dc1ee57d5eac7a6b1aa75366fa411}{%
+           family={Greiner},
+           familyi={G\bibinitperiod},
+           given={Günther},
+           giveni={G\bibinitperiod}}}%
+      }
+      \list{publisher}{2}{%
+        {Springer Science}%
+        {Business Media {LLC}}%
+      }
+      \strng{namehash}{7f6222a9941a2f3b4332d2d73bd395b7}
+      \strng{fullhash}{7f6222a9941a2f3b4332d2d73bd395b7}
+      \strng{bibnamehash}{7f6222a9941a2f3b4332d2d73bd395b7}
+      \strng{authorbibnamehash}{7f6222a9941a2f3b4332d2d73bd395b7}
+      \strng{authornamehash}{7f6222a9941a2f3b4332d2d73bd395b7}
+      \strng{authorfullhash}{7f6222a9941a2f3b4332d2d73bd395b7}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Semigroup Forum}
+      \field{month}{12}
+      \field{number}{1}
+      \field{title}{The spectral mapping theorem for one-parameter groups of positive operators on Co(X)}
+      \field{volume}{30}
+      \field{year}{1984}
+      \field{pages}{297\bibrangedash 330}
+      \range{pages}{34}
+      \verb{doi}
+      \verb 10.1007/bf02573461
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1007/bf02573461
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1007/bf02573461
+      \endverb
+    \endentry
     \entry{Cygan2022}{article}{}
       \name{author}{4}{}{%
         {{hash=38bd87831670d8817ad98eedd26420ef}{%

@@ -5,6 +5,6 @@
 \contentsline {section}{\numberline {4}Emergence of Patterns and Diffusion-Driven Instability}{3}{section.4}%
 \contentsline {section}{\numberline {5}General Theory}{4}{section.5}%
 \contentsline {section}{\numberline {6}Reduction of the Model}{4}{section.6}%
-\contentsline {subsection}{\numberline {6.1}Quasi-steady-state approximation}{4}{subsection.6.1}%
+\contentsline {subsection}{\numberline {6.1}Quasi-steady-state approximation}{5}{subsection.6.1}%
 \contentsline {subsection}{\numberline {6.2}Change of variable}{5}{subsection.6.2}%
 \contentsline {section}{\numberline {7}Behavior of the system}{6}{section.7}%
