@@ -1,15 +1,16 @@
 \section{General Theory}
 
-Consider positive integers $k, m, n \in \N$ such that $m+k = n$ and a bounded domain $\Omega \subset \R^{n}$. Let $\bm f : \R^k \times \R^m \longrightarrow \R^{m+k}$. We aim to investigate properties of a reaction-diffusion-ODE problem
+Consider positive integers $k, m, n \in \N$ such that $m+k = n$ and a bounded domain $\Omega \subset \R^{n}$. Let the $\mathcal C^2$-function $\bm f : \R^k \times \R^m \longrightarrow \R^{m+k}$ describe the reaction kinetics. We aim to investigate properties of the reaction-diffusion-ODE problem
  
 \begin{align}
 	\del_t\uu  &= \bm{\mathrm D} \Delta \uu + \bm{f}(\uu) \quad \text{on } \Omega \times \mathbb R^{+} \notag \\  \grad u_i \cdot \nu &= 0 \qquad\qquad\qquad\! \text{on } \del\Omega \times \mathbb R^{+}, \text{ for } i \in [\![ m+1, k ]\!]\\
-	\mathbf{u}(\cdot, 0) &= \mathbf{u}_0(\cdot) \qquad\qquad\; \text{on } \Omega, \notag
+	\bm{u}(\cdot, 0) &= \bm{u}_0(\cdot) \qquad\qquad\; \text{on } \Omega, \notag
 \end{align}
 
 
+
 \begin{theorem}[Spectral Mapping Theorem] 
-	\com{Add the correct assumptions on $L$ and $A$}. Consider a locally compact space $X$. Let $A$ be the generator of a positive, bounded, compact, strongly continuous group on $\mathcal C_0(X)$, denoted by $(L(t))_{t\in\R}.$ Then
+	Consider a locally compact space $X$. Let $A$ be the generator of a positive, bounded, compact, strongly continuous group on $\mathcal C_0(X)$, denoted by $(L(t))_{t\in\R}.$ Then
 	$$\sigma(L(t)) = \overline{\exp(t \sigma(A))}$$
 \end{theorem}
 
@@ -18,9 +19,45 @@ Consider positive integers $k, m, n \in \N$ such that $m+k = n$ and a bounded do
 \end{proof}
 
 
+%
+%\begin{proposition}[Generated Semigroups]
+%	The operator $L$ generates an analytic $\mathcal C^0$-semigroup $(T(t))_{t\ge 0}$ through the map $t \longmapsto \exp(tL)$. The system $\del_t \xi = L\xi$ is therefore linearly stable if the growth exponent $w < 0$. It is linearly unstable otherwise.
+%\end{proposition}
+%
+%\begin{definition}[Mild solutions]
+%	Let $X$ be a Banach space and take $L$, the infinitesimal generator of a $\mathcal C^0$-semigroup $(T(t))_{t\ge 0}$. Let $\xi : I \times \Omega \longrightarrow \R^{m+k}$ such that $\xi(t, \cdot) \in X$. The function $\xi$ is said to be a mild solution of the system if it obeys
+%	$$\xi(t, \cdot) = T(t)\xi(0, \cdot) + \int_{0}^{t} T(t- \tau) \xi(\tau, \cdot) d\tau$$
+%\end{definition}
+
+
+\begin{definition}[Submatrices defined by a pair of indices]
+	Consider a matrix $A \in \euM_n(\R)$, for any couple of distinct indices $(i, j)$ with $1 \le i, j \le n$, we introduce the notation $A_{ij}$ to be the $2 \! \times \! 2$-matrix whose entries are formed by the entries of $A$ on line and column $i, j$.
+\end{definition}
+
+\begin{proposition}[Characteristic polynomial of a $3\times3$ matrix] Consider a matrix $A \in \euM_3(\R)$ whose entries are the $a_{ij}$ for $1 \le i, j \le 3$. Then 
+	$$\chi_A(\lambda) = -\lambda^3 + \tr(A) \lambda^2 - \lp \sum_{i < j} \det(A_{ij})\rp \lambda + \det(A)$$
+\end{proposition}
+
+\begin{proof}
+	It is a straightforward computation. The characteristic polynomial of $A$ is given by
+	$$\det(A-\lambda) = \det \bpm
+	a_{11} - \lambda & a_{12} & a_{13} \\
+	a_{21} & a_{22} - \lambda & a_{23} \\
+	a_{31} & a_{32} & a_{33} - \lambda
+	\epm$$
+	By the rule of Sarrus, we get 
+	
+	\begin{multline}
+		\det(A - \lambda) = (a_{11} - \lambda)(a_{22} - \lambda)(a_{33} - \lambda) + a_{12} a_{23} a_{31} +  a_{13} a_{21} a_{32} \\ - (a_{11} - \lambda) a_{23} a_{31} - (a_{33} - \lambda) a_{12} a_{21} - (a_{22} - \lambda) a_{13} a_{31} 
+	\end{multline}
+	\begin{multline}
+		= -\lambda^3 + (a_{11} + a_{22} + a_{33}) \lambda^2 \\ - (a_{11} a_{22} - a_{21} a_{12} + a_{11} a_{33} - a_{31} a_{13} + a_{22} a_{33} - a_{32} a_{23}) \lambda + \det(A)
+	\end{multline}
+Hence the final result
+	$$\det(A - \lambda) = - \lambda^3 + \tr(A)\lambda^2 - \biggl(\det(A_{12}) + \det(A_{13}) + \det(A_{23})\biggr)\lambda + \det(A)$$
+\end{proof}
 
 \begin{itemize}
-    \item Spectral Bound
     \item Linear / NonLinear decomposition
     \item Bound on the Nonlinear part $\mathcal N$
     

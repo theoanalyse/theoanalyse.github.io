@@ -1,4 +1,4 @@
-\section{Notations}
+\section{Notations and Definitions}
 
 In the entirety of the thesis, we use the following naming conventions
 
@@ -6,3 +6,21 @@ In the entirety of the thesis, we use the following naming conventions
     \item $\Delta$: The Neumann Laplace operator defined by $\Delta f = \sum_{j = 1}^n \frac{\del^2 f}{\del x_j^2}$ with domain $$\euD(\Delta) = \lc f \in \bigcap_{p\ge 1} W_{loc}^{2, p}(\Omega) : f, \Delta f \in \mathcal{C}(\Omega) \text{ and } \frac{\del f}{\del \nu} = 0 \text{ on } \del\Omega \rc$$
     \com{this notation is the one from \cite{Cygan2022}, maybe it is unnecessarly developped for this thesis}
 \end{itemize}
+
+
+\begin{definition}[Sobolev spaces]
+	Let $\Omega \subset \R^n$ be a bounded domain with $\del \Omega \in \mathcal C^1$. We denote by $W^{k, p}(\Omega)$ the Sobolev space defined by
+	$$W^{k, p}(\Omega) := \lc u \in L^p(\Omega) : \forall \alpha \in \N^n, \varphi \in \mathcal C^\infty(\Omega), \exists v \in L^p(\Omega) : \int_\Omega v \varphi = (-1)^{|\alpha|} \int_\Omega u \del^\alpha \varphi \rc$$   
+\end{definition}
+
+\begin{definition}[spectral bound]
+	Let $(L, \euD(L))$ be a linear operator with spectrum $\sigma(L)$. We define the spectral bound $s(L)$ by 
+	$$s(L) = \sup \lc \re(\lambda) : \lambda \in \sigma(L) \rc$$
+\end{definition}
+
+
+\begin{definition}[Growth Exponent]
+	We call the growth exponent of an exponentially bounded $\mathcal{C}^0$-semigroup $(T(t))_{t\ge 0}$ the real number $w$ defined by
+	
+	$$w = \inf_{\R} \bl\{ w : \exists M > 1, \forall t \ge 0, ||T(t)|| \le Me^{wt} \br\}$$
+\end{definition}

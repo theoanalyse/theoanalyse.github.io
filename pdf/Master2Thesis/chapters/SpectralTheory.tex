@@ -21,28 +21,6 @@ $$L \xi = \bpm \bm{0} & \bm{0} \\ \bm{0}& D\epm \lap \xi + \bpm j_{11} & j_{12} 
 and the non-linear part being the terms of order $\ge2$ in the expansion of $\xi$
 
 
-\begin{definition}[spectral bound]
-    Let $L$ be an operator with spectrum $\sigma(L)$, then, the spectral bound $s(L)$ is defined by
-    $$s(L) = \sup \lc \re(\lambda) : \lambda \in \sigma(L) \rc$$
-\end{definition}
-\bigskip
-
-\begin{definition}[Growth Exponent]
-    We call the growth exponent of an exponentially bounded $\mathcal{C}^0$-semigroup $(T(t))_{t\ge 0}$ the real number $w$ defined by
-
-    $$w = \inf_{\R} \bl\{ w : \exists M > 1, \forall t \ge 0, ||T(t)|| \le Me^{wt} \br\}$$
-\end{definition}
-\bigskip
-
-\begin{proposition}[Generated Semigroups]
-The operator $L$ generates an analytic $\mathcal C^0$-semigroup $(T(t))_{t\ge 0}$ through the map $t \longmapsto \exp(tL)$. The system $\del_t \xi = L\xi$ is therefore linearly stable if the growth exponent $w < 0$. It is linearly unstable otherwise.
-\end{proposition}
-
-\begin{definition}[Mild solutions]
-    Let $X$ be a Banach space and take $L$, the infinitesimal generator of a $\mathcal C^0$-semigroup $(T(t))_{t\ge 0}$. Let $\xi : I \times \Omega \longrightarrow \R^{m+k}$ such that $\xi(t, \cdot) \in X$. The function $\xi$ is said to be a mild solution of the system if it obeys
-    $$\xi(t, \cdot) = T(t)\xi(0, \cdot) + \int_{0}^{t} T(t- \tau) \xi(\tau, \cdot) d\tau$$
-\end{definition}
-
 
 \section{Conditions Required for Diffusion Driven Instabilities (DDI)}
 \label{app:Turing}
