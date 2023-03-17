@@ -1,0 +1,7 @@
+\babel@toc {english}{}\relax 
+\contentsline {section}{\numberline {1}Notations}{2}{section.1}%
+\contentsline {section}{\numberline {2}General Theory}{2}{section.2}%
+\contentsline {section}{\numberline {3}Reduction of the Model}{2}{section.3}%
+\contentsline {subsection}{\numberline {3.1}Quasi-steady-state approximation}{3}{subsection.3.1}%
+\contentsline {subsection}{\numberline {3.2}Change of variable}{3}{subsection.3.2}%
+\contentsline {section}{\numberline {4}Behavior of the system}{4}{section.4}%

@@ -1,0 +1,175 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.2 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{nty/global//global/global}
+    \entry{Cygan2022}{article}{}
+      \name{author}{4}{}{%
+        {{hash=38bd87831670d8817ad98eedd26420ef}{%
+           family={Cygan},
+           familyi={C\bibinitperiod},
+           given={Szymon},
+           giveni={S\bibinitperiod}}}%
+        {{hash=e3d0db70dbef160b7a38fd7c643466f0}{%
+           family={Marciniak-Czochra},
+           familyi={M\bibinithyphendelim C\bibinitperiod},
+           given={Anna},
+           giveni={A\bibinitperiod}}}%
+        {{hash=61eafd64a1031f8f2a176ffd6b6717e6}{%
+           family={Karch},
+           familyi={K\bibinitperiod},
+           given={Grzegorz},
+           giveni={G\bibinitperiod}}}%
+        {{hash=5bfb51d8b769bf47b4a29d50a5e74d5a}{%
+           family={Suzuki},
+           familyi={S\bibinitperiod},
+           given={Kanako},
+           giveni={K\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier {BV}}%
+      }
+      \strng{namehash}{4ee6d8e7f85086308ff7bc02b84b5d8d}
+      \strng{fullhash}{c0f5a1e3bd9f6be8d139131fc7fb8103}
+      \strng{bibnamehash}{4ee6d8e7f85086308ff7bc02b84b5d8d}
+      \strng{authorbibnamehash}{4ee6d8e7f85086308ff7bc02b84b5d8d}
+      \strng{authornamehash}{4ee6d8e7f85086308ff7bc02b84b5d8d}
+      \strng{authorfullhash}{c0f5a1e3bd9f6be8d139131fc7fb8103}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Differential Equations}
+      \field{month}{11}
+      \field{title}{Instability of all regular stationary solutions to reaction-diffusion-{ODE} systems}
+      \field{volume}{337}
+      \field{year}{2022}
+      \field{pages}{460\bibrangedash 482}
+      \range{pages}{23}
+      \verb{doi}
+      \verb 10.1016/j.jde.2022.08.007
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1016/j.jde.2022.08.007
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1016/j.jde.2022.08.007
+      \endverb
+    \endentry
+    \entry{AnnaThesis}{article}{}
+      \name{author}{1}{}{%
+        {{hash=e3d0db70dbef160b7a38fd7c643466f0}{%
+           family={Marciniak-Czochra},
+           familyi={M\bibinithyphendelim C\bibinitperiod},
+           given={Anna},
+           giveni={A\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Heidelberg University Library}%
+      }
+      \strng{namehash}{e3d0db70dbef160b7a38fd7c643466f0}
+      \strng{fullhash}{e3d0db70dbef160b7a38fd7c643466f0}
+      \strng{bibnamehash}{e3d0db70dbef160b7a38fd7c643466f0}
+      \strng{authorbibnamehash}{e3d0db70dbef160b7a38fd7c643466f0}
+      \strng{authornamehash}{e3d0db70dbef160b7a38fd7c643466f0}
+      \strng{authorfullhash}{e3d0db70dbef160b7a38fd7c643466f0}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Developmental models with cell surface receptor densities defining morphological position}
+      \field{year}{2004}
+      \verb{doi}
+      \verb 10.11588/HEIDOK.00004549
+      \endverb
+      \verb{urlraw}
+      \verb http://archiv.ub.uni-heidelberg.de/volltextserver/id/eprint/4549
+      \endverb
+      \verb{url}
+      \verb http://archiv.ub.uni-heidelberg.de/volltextserver/id/eprint/4549
+      \endverb
+      \keyw{510 Mathematics}
+    \endentry
+    \entry{Murray1990-ad}{book}{}
+      \name{author}{1}{}{%
+        {{hash=790abbe74e44643827c46e77f00c8397}{%
+           family={Murray},
+           familyi={M\bibinitperiod},
+           given={James\bibnamedelima D},
+           giveni={J\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \list{location}{1}{%
+        {Berlin, Germany}%
+      }
+      \list{publisher}{1}{%
+        {Springer}%
+      }
+      \strng{namehash}{790abbe74e44643827c46e77f00c8397}
+      \strng{fullhash}{790abbe74e44643827c46e77f00c8397}
+      \strng{bibnamehash}{790abbe74e44643827c46e77f00c8397}
+      \strng{authorbibnamehash}{790abbe74e44643827c46e77f00c8397}
+      \strng{authornamehash}{790abbe74e44643827c46e77f00c8397}
+      \strng{authorfullhash}{790abbe74e44643827c46e77f00c8397}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{edition}{1}
+      \field{month}{11}
+      \field{series}{Biomathematics}
+      \field{title}{Mathematical biology}
+      \field{year}{1990}
+      \true{nocite}
+    \endentry
+    \entry{philip_2022}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=6fa092e5d7d81a6504e3f2292e2dd0fb}{%
+           family={Philip},
+           familyi={P\bibinitperiod},
+           given={Peter},
+           giveni={P\bibinitperiod}}}%
+      }
+      \strng{namehash}{6fa092e5d7d81a6504e3f2292e2dd0fb}
+      \strng{fullhash}{6fa092e5d7d81a6504e3f2292e2dd0fb}
+      \strng{bibnamehash}{6fa092e5d7d81a6504e3f2292e2dd0fb}
+      \strng{authorbibnamehash}{6fa092e5d7d81a6504e3f2292e2dd0fb}
+      \strng{authornamehash}{6fa092e5d7d81a6504e3f2292e2dd0fb}
+      \strng{authorfullhash}{6fa092e5d7d81a6504e3f2292e2dd0fb}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{09}
+      \field{title}{Ordinary diﬀerential equations - LMU}
+      \field{year}{2022}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://www.mathematik.uni-muenchen.de/~philip/publications/lectureNotes/philipPeter_ODE.pdf
+      \endverb
+      \verb{url}
+      \verb https://www.mathematik.uni-muenchen.de/~philip/publications/lectureNotes/philipPeter_ODE.pdf
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

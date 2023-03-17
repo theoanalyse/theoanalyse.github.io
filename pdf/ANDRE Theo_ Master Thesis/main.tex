@@ -1,0 +1,95 @@
+\documentclass[11pt]{article}
+
+%% EXCLUSIVE PACKAGES
+\usepackage[utf8]{inputenc}
+\usepackage[affil-it]{authblk}
+\usepackage[dvipsnames]{xcolor}
+
+\usepackage{epigraph}
+\setlength\epigraphwidth{.8\textwidth}
+\setlength\epigraphrule{0pt}
+
+
+\usepackage{array}
+
+\usepackage{biblatex}
+\addbibresource{biblio.bib}
+
+
+\usepackage{TheoStyle}
+
+\title{\textbf{Patterns Analysis in Coupled Parabolic-ODE Systems}}
+\author{Théo ANDRÉ}
+\affil{Turing Center For Living Systems \& Aix-Marseille Université}
+
+\date{January 2023 - July 2023}
+
+
+
+% EXCLUSIVE DEFS
+\def\uu{\bm{u}}
+\def\vv{\bm{v}}
+\def\ww{\bm{w}}
+
+\begin{document}
+
+% LE TITRE
+\maketitle
+
+
+% ABSTRACT
+\begin{abstract}
+    This thesis builds upon previous work pioneered by Anna Marciniak-Czochra in using coupled reaction-diffusion equations to ODE to model pattern formation in Hydra, a freshwater polyp known for its regenerative abilities. Previous studies have shown that such models can successfully capture the emergence of spatial patterns of gene expression during regeneration, and have identified key signaling molecules such as Wnt and Notch as playing a critical role in this process. However, these models have largely ignored the physical properties of the tissues in which regeneration occurs. In this thesis, we come back to the model presented in \cite{AnnaThesis} that integrates coupled reaction-diffusion to ODE models and see if we can reduce the amount of parameters, exhibit hysteresis and investigate the phenomenon occurring when we let one of the diffusion coefficients grow to infinity: shadow limits. Ultimately, this thesis aims to provide classical results on the topic and use these notions to further extend the analysis of the model.
+\end{abstract}
+
+
+% LA TABLE DES MATIÈRES
+\tableofcontents
+\bigskip\bigskip
+
+\begin{remark}[Color code for Editing] Each color has a meaning: 
+\bigskip
+
+    \com{Pink text:} A remark / Comment: \texttt{\textbackslash com\{ ...\}}
+    \bigskip
+
+    \incl{Green text: } Potential text to include but has the wrong formulation: \texttt{\textbackslash incl\{ ...\}}
+    \bigskip
+
+    \bref{Blue text:} A reference that is missing and has to be included in the bibliography : \texttt{\textbackslash bref\{ ...\}}
+\end{remark}
+
+\newpage
+
+
+% QUOTE
+
+		\epigraph{``In the 300 years since Newton, mankind has come to realize that the laws of physics are always expressed in the language of differential equations''}{--- \textit{Steven Strogatz}}
+
+
+% DOCUMENT
+
+
+
+\input{chapters/Notations}
+% \input{chapters/Biology.tex}
+\input{chapters/GeneralTheory}
+\input{chapters/Reduction}
+\input{chapters/Behavior}
+% \input{chapters/SpectralTheory.tex}
+
+% \input{chapters/HydraRD.tex}
+
+\newpage
+
+\appendix
+
+
+
+
+
+
+\nocite{*}
+\printbibliography
+
+\end{document}

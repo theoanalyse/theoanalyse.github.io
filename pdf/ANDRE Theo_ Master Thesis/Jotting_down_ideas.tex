@@ -1,0 +1,115 @@
+\documentclass{amsart}
+
+\usepackage{TheoStyle}
+\usepackage{mathtools}
+\usepackage{biblatex}
+\addbibresource{biblio.bib}
+
+\def\uu{\bm{u}}
+\def\vv{\bm{v}}
+\def\ww{\bm{w}}
+
+\def\tu{\Tilde{\uu}}
+\def\tv{\Tilde{\vv}}
+\def\tw{\Tilde{\ww}}
+
+\def\sa{\sqrt{\alpha}}
+
+\newcommand{\ti}[1]{\Tilde{#1}}
+
+\title{\textbf{Lemmas and some elements for the thesis}}
+\author{\quad}
+
+\def\fd{\mathfrak{D}}
+
+
+\begin{document}
+
+\maketitle
+
+
+% \begin{lemma}
+% Let $(e^{t \mathfrak D})_{t\in\R}$ be a Uniformly-Continuous group on a $\mathcal B \!\star-$algebra $\mathfrak U$ with unit $e \in \mathfrak U$. The following are equivalent
+
+% \begin{itemize}
+%     \item[(a)] $(e^{t\mathfrak D})$ is a group of $\star$-automorphisms
+%     \medskip
+
+%     \item[(b)] $\mathfrak D$ is a $\star-$derivation
+% \end{itemize}
+% \end{lemma}
+% \vspace{10pt}
+
+% \begin{proof}
+% to show $(a) \implies (b)$, introduce the function $\xi_{a, b} : t \longmapsto e^{t\fd}(ab^\star)$ and assume $(a)$ is true. Since $e^{t \fd}$ is a $\star-$automorphism, we obtain
+
+% $$\xi_{a,b}(t) =\left( e^{t\fd}a \right) \left( e^{t\fd}b\right)^\star$$
+% hence the derivative at $t$ is
+
+% $$\frac{d}{dt} \xi_{a, b}(t) = \lp \frac{d}{dt} e^{t\fd}a\rp \bl( e^{t\fd} b \br)^\star + \bl( e^{t\fd}a\br) \bl( \frac{d}{dt} e^{t\fd} b^\star \br) = (\fd a) (e^{t\fd} b)^\star + (e^{t\fd}a)(\fd  b)^\star$$
+
+% where at $t=0$, we find
+
+% $$\fd(ab^\star) = \dot{\xi}_{a, b}(t=0) = (\fd a) b^\star + a (\fd b)^\star$$
+% \end{proof}
+
+\begin{definition}[Cauchy Problem]
+Let $f$ be a continuous function, define the initial value problem
+
+\begin{align}
+\label{cp}
+y' &= f(t, y) \tag{CP}\\
+y(0) &= y_0 \notag{}
+\end{align}
+
+\end{definition}
+
+\begin{lemma}[Equilibria of the reduced system]
+Let $X$ denote the vector $(U, V, W)$. Once the system is reduced under the form $\dot X = F(X)$, we find that 
+
+$$F(t, X) = 0 \quad \iff\quad \left\{\begin{matrix*}[l] W = \dfrac{m_3}{\mu_e} \dfrac{UV}{1 + UV} \\[1.2em] \dfrac{UV}{1 + UV} = \dfrac{\mu_b}{m_1} UV + \dfrac{\mu_f}{m_1} U \\[1.2em] U = \dfrac{m_1 \mu_1 V}{m_3 \frac{\mu_b}{\mu_e} V^2 + \left(\frac{m_3}{\mu_e} + (m_2 - m_1) \mu_b \right)V + m_2 \mu_f}\end{matrix*}\right.$$
+\medskip
+In particular, equilibria of the system lie on the algebraic curve described by the third relation.
+    
+\end{lemma}
+
+\begin{lemma}[Change of Variable] Consider the Cauchy problem \eqref{cp} and introduce the change of variable $T : \R^n \longmapsto \R^n$. If $T$ is a diffeomorphism, then \eqref{cp} is equivalent to 
+\begin{align}
+\label{cp2}
+\dfrac{d}{dt} z &= \lp DT^{-1}(z) \rp^{-1} f\lp T^{-1}(z) \rp \notag \\ z(0) &= T(y_0) \notag
+\end{align}
+
+\end{lemma}
+
+This lemma is a consequence of theorem (2.10) from \cite{philip_2022}
+
+\begin{remark}
+Operator of the form $\del_t - D \Delta$
+\end{remark}
+
+\begin{lemma}[model reduction]
+
+We start with the system resulting from the quasi-steady-state approximation 
+
+\be
+\bc
+    \del_t \uu &= -\mu_f \uu + m_1 \dfrac{\alpha \uu \vv}{1 + \alpha \uu \vv} - \mu_b \alpha \uu \vv \\[0.9em]
+    \del_t \vv &=  - \mu_l \vv + m_2 \dfrac{\alpha \uu \vv}{1 + \alpha \uu\vv} - \mu_b \alpha \uu \vv - b_e \vv\ww \\[0.9em]
+    \del_t \ww &= - \mu_e \ww + m_3 \dfrac{\alpha\uu\vv}{1 + \alpha\uu\vv}
+\ec
+\ee
+\bigskip
+
+Let $(\tu, \tv, \tw)^t := T(X) = MX$ with $M = \textbf{diag}(\sa, \sa, b_e) \in \euM_3(\R)$. $T$ is clearly differentiable and invertible with inverse $T^{-1}(X) = M^{-1}X$ and derivative $DT^{-1} = M^{-1}$ which is polynomial with respect to $X$'s coordinates hence continuous. It follows from Lemma (...)
+
+$$\delt{} \bbm \tu \\[2em] \tv \\[2em] \tw \ebm = \bbm -\mu_f \tu + m_1 \sa \dfrac{\tu \tv}{1 + \tu \tv} - \mu_b \sa \tu \tv \\[1.2em] -\mu_l \tv + m_2 \sa \dfrac{\tu \tv}{1 + \tu \tv} - \mu_b \sa \tu \tv -  \tv \tw \\[1.2em]  -\mu_e \tw +  m_3 b_e \dfrac{\tu \tv}{1 + \tu \tv} \ebm = \bbm -\mu_f \tu + \ti m_1 \dfrac{\tu \tv}{1 + \tu \tv} - \ti \mu_b \tu \tv \\[1.2em] -\mu_l \tv + \ti  m_2 \dfrac{\tu \tv}{1 + \tu \tv} - \ti  \mu_b \tu \tv -  \tv \tw \\[1.2em]  -\mu_e \tw +  \ti  m_3  \dfrac{\tu \tv}{1 + \tu \tv} \ebm$$
+\bigskip
+
+On renomme les paramètres $\ti m_1 = \sqrt{\alpha} m_1, \quad \ti m_2 = \sqrt{\alpha} m_2, \quad \ti m_3 = b_e m_3$, ainsi que $\ti \mu_b = \sa\mu_b$.     
+\end{lemma}
+
+\nocite{*}
+\printbibliography
+
+
+\end{document}

@@ -1,0 +1,29 @@
+% TALK ABOUT HYDRA AND HOW THE ORGANISMS CAN REGENERATE PARTS OF ITS BODY.
+
+\section{Emergence of Patterns and Turing Instabilities}
+
+\subsection{Historical context and a little bit of biology}
+
+How do patterns form? Pattern formation is the result of the collaboration of a large amount of biological processes ranging from the nanoscopic up to the microscopic scale. Together, they form motifs, which we define as the structural organization of cells in space and time, often leading to pretty shapes such as the fur coat of some animals or the shapes on the wings of a butterfly. In his pioneer paper  published in 1952 [\bref{ref}], Alan Turing proposes a chemical model for pattern formation involving two chemical species: one Activator, one Inhibitor \incl{(Probably inspired from the Lotka-Volterra prey-predator model introduced in 1910 which was itself applied to mathematical biology for the first time in 1926)}. The concentration of each specie is described with reaction-diffusion equations \com{(reformulate)} with appropriate boundary conditions, \textit{i.e.} equations of the form 
+
+\be
+\label{eq:TuringModel}
+\left| \ 
+\begin{aligned}
+\del_t u - d_1 \lap u &= f(u) \\ \del_t v - d_2 \lap v &= g(v) \\
+\grad u \bigl\vert_{\Omega} = 0
+\end{aligned}
+\right.
+\ee
+
+for a specific choice of $f$ and $g$ describing the kinetics of the reaction. This choice is usually what determines the model type, to cite a few, we enumerate the Gray-Scott Model [\bref{ref}],  Gierer-Meinhardt [\bref{ref}], Fitzhugh-Nagumo [\bref{ref}], Bard-Lauder [\bref{ref}], Schnakenberg [\bref{ref}], Belousov-Zhabotinskii [\bref{ref}], the list goes on... 
+
+\subsection{Turing Patterns}
+
+We call Turing Pattern "a spatially homogeneous solution which is stable in the sense of linearized stability in the space of constant functions, but unstable with respect to spatially inhomogeneous perturbations" \com{Full quote from [AMC], maybe customize the def a little bit?} [\bref{AMC}]. In the context of (\ref{eq:TuringModel}), one can easily derive conditions inducing Turing Instabilities \com{make a clean definition of (DDI)}.
+
+\begin{theorem}[Turing instabilities]
+\com{Put the definition of Turing instabilities here}
+\end{theorem}
+
+The theory to derive such a result is discussed in appendix \ref{app:Turing}. To figure out what DDI represents in real life, \com{put a nice visualisation in case this is too abstract}.

@@ -1,0 +1,24 @@
+\section{Behavior of the system}
+
+Looking at the kinetics system, the Jacobian matrix $A$ is given by $A(\uu, \vv, \ww) = (a_{ij})_{1 \le i, j, \le n}$, with
+
+$$
+A(\uu, \vv, \ww) = \bpm  -\mu_f +  \dfrac{m_1\vv}{(1+\uu \vv)^2} - \mu_b \vv &  \dfrac{m_1 \uu}{(1+\uu \vv)^2} - \mu_b \uu & 0 \\[1.2em]
+ \dfrac{m_2 \vv}{(1+\uu \vv)^2} - \mu_b \vv   & -\mu_l + \dfrac{m_2 \uu}{(1+\uu \vv)^2} - \mu_b \uu - \ww  & -\vv \\[1.2em] 
+  \dfrac{m_3 \vv}{(1+\uu \vv)^2} &  \dfrac{m_3 \vv}{(1+\uu \vv)^2} & -\mu_e \epm
+$$
+
+\begin{definition}[submatrices defined by a pair of indices]
+	Consider a matrix $A \in \euM_n(\R)$, for any couple of distinct indices $(i, j)$ with $1 \le i, j \le n$, we introduce the notation $A_{ij}$ to be the $2 \! \times \! 2$-matrix whose entries are formed by the entries of $A$ on line and column $i, j$.
+\end{definition}
+
+\begin{example}[submatrices of the jacobian]
+	Take $A \in \euM_3(\R)$ the Jacobian of the kinetics system, then
+	$$A_{12} = \bpm a_{11} & a_{12} \\  a_{21} & a_{22} \epm$$
+\end{example}
+
+\begin{lemma}[Routh-Hurwitz criterion]
+	The third order polynomial $P(z) = z^3 + a_2 z^2 + a_1 z + a_0$ has all its roots in the negative half-plane if and only if $a_0, a_1, a_2 > 0$ and $a_2 a_1 > a_0$
+\end{lemma}
+
+
