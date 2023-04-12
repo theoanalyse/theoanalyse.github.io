@@ -3,8 +3,8 @@
 Consider positive integers $k, m, n \in \N$ such that $m+k = n$ and a bounded domain $\Omega \subset \R^{n}$. Let the $\mathcal C^2$-function $\bm f : \R^k \times \R^m \longrightarrow \R^{m+k}$ describe the reaction kinetics. We aim to investigate properties of the reaction-diffusion-ODE problem
  
 \begin{align}
-	\del_t\uu  &= \bm{\mathrm D} \Delta \uu + \bm{f}(\uu) \quad \text{on } \Omega \times \mathbb R^{+} \notag \\  \grad u_i \cdot \nu &= 0 \qquad\qquad\qquad\! \text{on } \del\Omega \times \mathbb R^{+}, \text{ for } i \in [\![ m+1, k ]\!]\\
-	\bm{u}(\cdot, 0) &= \bm{u}_0(\cdot) \qquad\qquad\; \text{on } \Omega, \notag
+	& \del_t\uu  = \bm{\mathrm D} \Delta \uu + \bm{f}(\uu) \quad\quad \text{on } \Omega \times \mathbb R^{+} \notag \\  &\grad u_i \cdot \nu = 0 \qquad\qquad\qquad\! \text{on } \del\Omega \times \mathbb R^{+}, \text{ for } i \in [\![ m+1, k ]\!]\\
+	&\bm{u}(\cdot, 0) = \bm{u}_0(\cdot) \qquad\qquad\; \text{on } \Omega, \notag
 \end{align}
 
 
@@ -12,7 +12,7 @@ Consider positive integers $k, m, n \in \N$ such that $m+k = n$ and a bounded do
 
 The goal of this section is to show that for an autonomous abstract Cauchy problem, if the operator $A$ is the infinitesimal generator of an analytic $C_0$-semigroup of operators, then the problem admits a unique solution whose regularity depends on the regularity of the initial condition.
 
-\begin{definition}[Abstract Cauchy problem] 
+\begin{definition}[Abstract Cauchy problem] La définition du problème de Cauchy abstrait nous vient de E. Hille 
 	\begin{align}
 		\del_t u = Au + f(u) \notag \\
 		u(0) = u_0 \notag
