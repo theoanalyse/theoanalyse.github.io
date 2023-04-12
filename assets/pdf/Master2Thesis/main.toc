@@ -1,0 +1,17 @@
+\babel@toc {english}{}\relax 
+\contentsline {section}{\numberline {1}Notations and Definitions}{3}{section.1}%
+\contentsline {section}{\numberline {2}Hydra Morphogenesis and regenerative properties}{3}{section.2}%
+\contentsline {subsection}{\numberline {2.1}Anatomy of a Hydra}{3}{subsection.2.1}%
+\contentsline {subsection}{\numberline {2.2}Hydra reproduction and selection}{4}{subsection.2.2}%
+\contentsline {subsection}{\numberline {2.3}The importance of Wnt signaling}{4}{subsection.2.3}%
+\contentsline {section}{\numberline {3}Emergence of Patterns and Diffusion-Driven Instability}{4}{section.3}%
+\contentsline {section}{\numberline {4}General Theory}{5}{section.4}%
+\contentsline {subsection}{\numberline {4.1}Existence of solutions}{5}{subsection.4.1}%
+\contentsline {section}{\numberline {5}Reduction of the Model}{6}{section.5}%
+\contentsline {subsection}{\numberline {5.1}Quasi-steady-state approximation}{6}{subsection.5.1}%
+\contentsline {subsection}{\numberline {5.2}Change of variable}{7}{subsection.5.2}%
+\contentsline {subsection}{\numberline {5.3}Invariant Region}{7}{subsection.5.3}%
+\contentsline {section}{\numberline {6}Finding equilibria and bounds on parameters}{9}{section.6}%
+\contentsline {section}{\numberline {7}Behavior of the system}{9}{section.7}%
+\contentsline {subsection}{\numberline {7.1}In a neighborhood of the origin}{9}{subsection.7.1}%
+\contentsline {subsection}{\numberline {7.2}Around the other steady state}{10}{subsection.7.2}%

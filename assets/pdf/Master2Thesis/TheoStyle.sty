@@ -1,0 +1,134 @@
+\NeedsTeXFormat{LaTeX2e}
+
+\ProvidesPackage{TheoStyle}[23/01/2023]
+
+% PRÉAMBULE - LES PAQUETS
+\RequirePackage[left=27mm, right=27mm, bottom=25mm, top=15mm, marginparwidth=0pt, headheight=25mm, verbose]{geometry}
+\RequirePackage{amssymb}
+\RequirePackage{hyperref}
+\RequirePackage{euscript}
+\RequirePackage{amsmath}
+\RequirePackage{amsfonts}
+\RequirePackage{bm}
+\RequirePackage{tcolorbox}
+\RequirePackage[utf8]{inputenc}
+\RequirePackage{mdframed}
+\RequirePackage{fourier-orns}
+\RequirePackage{nameref}
+\RequirePackage{graphicx}
+\RequirePackage{textcomp}
+\RequirePackage{titling}
+\RequirePackage{mathabx}
+\RequirePackage{comment}
+\RequirePackage{csquotes}
+\RequirePackage[french, english]{babel}
+\RequirePackage[T1]{fontenc}
+\RequirePackage{amsthm}
+\RequirePackage[affil-it]{authblk}
+\RequirePackage{tikz}
+
+
+%% NUMEROTATIONS DES EQUATIONS
+\numberwithin{equation}{section}
+
+
+% DEFINITIONS - LES ENVIRONNEMENTS
+\newtheorem{lemma}{Lemma}
+\newtheorem{theorem}{Theorem}
+\newtheorem{definition}{Definition}
+\newtheorem{proposition}{Proposition}
+\newtheorem{remark}{Remark}
+\newtheorem{example}{Example}
+
+
+% DEFINITIONS - LES ENVIRONNEMENTS 2
+\def\be{\begin{equation}}
+\def\ee{\end{equation}}
+\def\bc{\begin{cases}}
+\def\ec{\end{cases}}
+\def\ba{\begin{array}}
+\def\ea{\end{array}}
+\def\bpm{\begin{pmatrix}}
+\def\epm{\end{pmatrix}}
+\def\bbm{\begin{bmatrix}}
+\def\ebm{\end{bmatrix}}
+\def\bvm{\begin{vmatrix}}
+\def\evm{\end{vmatrix}}
+
+
+% DEFINITIONS - LES MATRICES
+
+
+
+% DEFINITIONS - LES ENSEMBLES DE NOMBRES
+\def\N{\mathbb{N}}
+\def\Z{\mathbb{Z}}
+\def\Q{\mathbb{Q}}
+\def\R{\mathbb{R}}
+\def\C{\mathbb{C}}
+
+
+% DEFINITIONS - LE PARENTHÉSAGE
+\def\lp{\left(}
+\def\rp{\right)}
+\def\lb{\left[}
+\def\rb{\right[}
+\def\lc{\left\{}
+\def\rc{\right\}}
+\def\bl{\biggl}
+\def\br{\biggr}
+
+\newcommand{\internat}[2]{[\![ #1, #2 ]\!]} % intervalle de naturels
+
+
+% DEFINITIONS - LES OPÉRATEURS
+\def\del{\partial}
+\def\lap{\Delta}
+\def\grad{\nabla}
+\def\tr{\mathrm{tr}}
+\def\det{\mathrm{det}}
+
+\newcommand{\delt}[1]{\frac{\del #1}{\del t}}
+\newcommand{\delxx}[1]{\frac{\del^2 #1}{\del x^2}}
+
+
+% DEFINITIONS - LA CALLIGRAPHIE
+\def\euA{\EuScript{A}}
+\def\euB{\EuScript{B}}
+\def\euC{\EuScript{C}}
+\def\euD{\EuScript{D}}
+\def\euE{\EuScript{E}}
+\def\euF{\EuScript{F}}
+\def\euG{\EuScript{G}}
+\def\euH{\EuScript{H}}
+\def\euI{\EuScript{I}}
+\def\euJ{\EuScript{J}}
+\def\euK{\EuScript{K}}
+\def\euL{\EuScript{L}}
+\def\euM{\EuScript{M}}
+\def\euN{\EuScript{N}}
+\def\euO{\EuScript{O}}
+\def\euP{\EuScript{P}}
+\def\euQ{\EuScript{Q}}
+\def\euR{\EuScript{R}}
+\def\euS{\EuScript{S}}
+\def\euT{\EuScript{T}}
+\def\euU{\EuScript{U}}
+\def\euV{\EuScript{V}}
+\def\euW{\EuScript{W}}
+\def\euX{\EuScript{X}}
+\def\euY{\EuScript{Y}}
+\def\euZ{\EuScript{Z}}
+
+
+% DEFINITION - PARTIE RÉELLE ET IMAGINAIRE
+\def\re{\mathfrak{Re}}
+\def\im{\mathfrak{Im}}
+
+
+% DEFINITIONS - LES COULEURS
+\newcommand{\com}[1]{\textcolor{WildStrawberry}{#1}}
+\newcommand{\incl}[1]{\textcolor{olive}{#1}}
+\newcommand{\bref}[1]{\textcolor{blue}{#1}}
+
+

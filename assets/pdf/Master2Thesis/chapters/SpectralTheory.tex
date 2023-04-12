@@ -1,0 +1,32 @@
+
+\section{From Operator Semigroups to Spectral Theory}
+\label{app:SpecTheo}
+
+(\com{Maybe put this section in Appendix})
+In this section, we introduce classical results from semigroup and spectral theory to prove that the RD system has solutions under relatively weak assumptions.
+
+
+The system can be rewritten more generally under the form
+
+$$\left\{\begin{aligned}
+& \del_t \xi = L \xi + N(\xi)  \quad &\xi = (\bm u, \bm v) - (\bar{\bm u}, \bar{\bm v})  \\[1em]
+& \xi(0, x) \in L^\infty(\Omega)^m \times L ^{\infty}(\Omega)^k    
+\end{aligned}
+\right.
+$$
+
+With the linear operator part of the system
+
+$$L \xi = \bpm \bm{0} & \bm{0} \\ \bm{0}& D\epm \lap \xi + \bpm j_{11} & j_{12} \\ j_{21} & j_{22} \epm \xi $$
+and the non-linear part being the terms of order $\ge2$ in the expansion of $\xi$
+
+
+
+\section{Conditions Required for Diffusion Driven Instabilities (DDI)}
+\label{app:Turing}
+
+We provide a set of conditions for one to obtain DDI for a $n$-dimensional reaction diffusion  (RD). Such systems are often represented under the form
+$$\del_t u - D \lap u = F(U)$$
+with $u \in \R^n$, $D \in \euM_n(\R)$ and $F \in \mathcal C^1(\R^n, \R^n)$. Let $\bar u$ be a constant equilibrium of the system and introduce $B := \mathcal J_F(\bar u)$ the Jacobian matrix of $F$ computed at the steady-state $\bar u$. Consider a small perturbation $\xi := u - \bar u \in \R^n$ around the steady state and linearize the system around $\bar u$.
+$$\del_t \xi - D \lap \xi = B \xi $$
+Now look for solutions of the form $\xi(x, t) = e^{\lambda t} \Phi(x)$ yields $D\lap \Phi + (B - \lambda) \Phi = 0$. We then decompose $\Phi = \sum_{m \ge 0} y_m \varphi_m(x)$ in the basis composed of eigenfunctions of the Laplacian with Neumann boundary conditions.

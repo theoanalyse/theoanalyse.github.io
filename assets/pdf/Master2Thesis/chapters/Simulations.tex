@@ -1,0 +1,26 @@
+\section{Code for the Simulations}
+\label{app:code}
+
+
+\begin{remark}[Purpose]
+    This section has for purpose to introduce the conventions used in the Python code to run the simulations.
+\end{remark}
+
+To run some simulations, we take advantage of the 1-D character of each equation in the system. The method is very basic and shall be upgraded to a more robust one in the future. We first discretize $\Omega = [0, 1]$ with a mesh $(x_k)_{1 \le k \le N}$ where $x_k = k\cdot h$ ($h =$ space step). We perform pointwise approximations: $\xi(x, t) := \xi_k(t) \approx \xi(x_k, t)$ for $x \in [x_k, x_{k+1}[$. A Taylor expansions allows one to write $\del_{xx} \xi_k(t) \approx (\xi_{k-1}(t) + \xi_{k+1}(t) - 2\xi_k(t))/h^2$ leading to the following ODE system
+
+\be\ba{llr}
+    \frac{\del u_k}{\del t} &= f_1(u_k, v_k, w_k) \\[1em]
+    \frac{\del v_k}{\del t} &= \frac{1}{\gamma h^2} \bl( v_{k-1} + v_{k+1} - 2v_k \br) + f_2(u_k, v_k, w_k) & \qquad k \in \internat{2}{N-1} \\[1em] 
+    \frac{\del w_k}{\del t} &= \frac{d_2}{\gamma h^2} \bl( w_{k-1} + w_{k+1} - 2w_k \br) + f_3(u_k, v_k, w_k)
+\ea\ee
+
+We will deal with boundary conditions $\xi'(t, 0) = \xi'(t, 1) = 0$ which correspond to the terms $\xi_0$ and $\xi_N+1$ that appear when $k=1$ or $k=N$ 
+once the time-discretization is done. Speaking of which, we let $\delta t$ be a small time-step and consider the quantity $t_n = n\cdot\delta t$. The time derivative is approximated by the classical differential quotient. We use a forward Euler method, leading to
+
+\be \ba{llr}
+    u_k^{n+1} &= u_k^n + \delta t f_1(u_k^n, v_k^n, w_k^n) \\[1em]
+    v_k^{n+1} &= v_k^n + \delta t \bl[\dfrac{1}{\gamma h^2} \bl( v_{k-1} + v_{k+1} - 2v_k \br) + f_2(u_k, v_k, w_k) \br] & \qquad k \in \internat{2}{N-1} \\[1em] 
+    w_k^{n+1} &= w_k^n + \delta t \bl[\dfrac{d_2}{\gamma h^2} \bl( w_{k-1} + w_{k+1} - 2w_k \br) + f_3(u_k, v_k, w_k) \br]
+\ea \ee
+
+\begin{remark}[Boundary Conditions] We use the approximation $0 = \xi_0^n \approx (\xi_1^n - \xi_0^n ) / dt$ to get $\xi_0^n = \xi_1^n$ (same reasoning for $k=N$). Substituting in each equation of the system and taking $k = 1$ leads to $\del_{xx} \xi_0^n \approx (\xi_2^n - \xi_1^n) / h^2$. Once again, the same goes for $k=N$. \end{remark}

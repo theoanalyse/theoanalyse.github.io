@@ -1,0 +1,71 @@
+\section{General Theory}
+
+Consider positive integers $k, m, n \in \N$ such that $m+k = n$ and a bounded domain $\Omega \subset \R^{n}$. Let the $\mathcal C^2$-function $\bm f : \R^k \times \R^m \longrightarrow \R^{m+k}$ describe the reaction kinetics. We aim to investigate properties of the reaction-diffusion-ODE problem
+ 
+\begin{align}
+	& \del_t\uu  = \bm{\mathrm D} \Delta \uu + \bm{f}(\uu) \quad\quad \text{on } \Omega \times \mathbb R^{+} \notag \\  &\grad u_i \cdot \nu = 0 \qquad\qquad\qquad\! \text{on } \del\Omega \times \mathbb R^{+}, \text{ for } i \in [\![ m+1, k ]\!]\\
+	&\bm{u}(\cdot, 0) = \bm{u}_0(\cdot) \qquad\qquad\; \text{on } \Omega, \notag
+\end{align}
+
+
+\subsection{Existence of solutions}
+
+The goal of this section is to show that for an autonomous abstract Cauchy problem, if the operator $A$ is the infinitesimal generator of an analytic $C_0$-semigroup of operators, then the problem admits a unique solution whose regularity depends on the regularity of the initial condition.
+
+\begin{definition}[Abstract Cauchy problem] La définition du problème de Cauchy abstrait nous vient de E. Hille 
+	\begin{align}
+		\del_t u = Au + f(u) \notag \\
+		u(0) = u_0 \notag
+	\end{align}
+\end{definition}
+
+\begin{itemize}
+	\item Abstract Cauchy Problem
+	\item 
+\end{itemize}
+
+
+\begin{theorem}[Spectral Mapping Theorem] 
+	Consider a locally compact space $X$. Let $A$ be the generator of a positive, bounded, compact, strongly continuous group on $\mathcal C_0(X)$, denoted by $(L(t))_{t\in\R}.$ Then
+	$$\sigma(L(t)) = \overline{\exp(t \sigma(A))}$$
+\end{theorem}
+
+\begin{proof}
+	see Theorem 1.1. from \cite{Arendt1984}
+\end{proof}
+
+
+%
+%\begin{proposition}[Generated Semigroups]
+%	The operator $L$ generates an analytic $\mathcal C^0$-semigroup $(T(t))_{t\ge 0}$ through the map $t \longmapsto \exp(tL)$. The system $\del_t \xi = L\xi$ is therefore linearly stable if the growth exponent $w < 0$. It is linearly unstable otherwise.
+%\end{proposition}
+%
+%\begin{definition}[Mild solutions]
+%	Let $X$ be a Banach space and take $L$, the infinitesimal generator of a $\mathcal C^0$-semigroup $(T(t))_{t\ge 0}$. Let $\xi : I \times \Omega \longrightarrow \R^{m+k}$ such that $\xi(t, \cdot) \in X$. The function $\xi$ is said to be a mild solution of the system if it obeys
+%	$$\xi(t, \cdot) = T(t)\xi(0, \cdot) + \int_{0}^{t} T(t- \tau) \xi(\tau, \cdot) d\tau$$
+%\end{definition}
+
+
+\begin{definition}[Submatrices defined by a pair of indices]
+	Consider a matrix $A \in \euM_n(\R)$, for any couple of distinct indices $(i, j)$ with $1 \le i, j \le n$, we introduce the notation $A_{ij}$ to be the $2 \! \times \! 2$-matrix whose entries are formed by the entries of $A$ on line and column $i, j$.
+\end{definition}
+
+
+\begin{proposition}[Characteristic polynomial of a $3\times3$ matrix] Consider a matrix $A \in \euM_3(\R)$ whose entries are the $a_{ij}$ for $1 \le i, j \le 3$. Then 
+	$$\chi_A(\lambda) = -\lambda^3 + \tr(A) \lambda^2 - \lp \sum_{i < j} \det(A_{ij})\rp \lambda + \det(A)$$.
+\end{proposition}
+
+\begin{proof}
+	It is a straightforward computation. The result is obtained by expanding and refactoring the expression $\det(A - \lambda)$
+\end{proof}
+
+\begin{itemize}
+    \item Linear / NonLinear decomposition
+    \item Bound on the Nonlinear part $\mathcal N$
+    
+    \item Why is the spectrum so important here
+    \item Define DDI
+    \item Maybe include Finn's result on the $d_1$ $d_2$ ? (and add full acknowledgement to his work)
+    \item linearization of a PDE system
+    \item Solving for the eigenvalue problem   
+\end{itemize}
