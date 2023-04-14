@@ -13,12 +13,17 @@
         <link href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css" />
         <link href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" rel="stylesheet" type="text/css" />
         <!-- Core theme CSS (includes Bootstrap)-->
-        <link href="css/styles.css" rel="stylesheet" />
+        <link href="../css/styles.css" rel="stylesheet" />
         <!-- KaTeX distribution for mathematics -->
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.4/dist/katex.min.css" integrity="sha384-vKruj+a13U8yHIkAyGgK1J3ArTLzrFGBbBc0tDp4ad/EyewESeXE/Iv67Aj8gKZ0" crossorigin="anonymous">
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.4/dist/katex.min.css" integrity="sha384-vKruj+a13U8yHIkAyGgK1J3ArTLzrFGBbBc0tDp4ad/EyewESeXE/Iv67Aj8gKZ0" crossorigin="anonymous">
-        <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.4/dist/katex.min.js" integrity="sha384-PwRUT/YqbnEjkZO0zZxNqcxACrXe+j766U2amXcgMg5457rve2Y7I6ZJSm2A0mS4" crossorigin="anonymous"></script>
-        <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.4/dist/contrib/auto-render.min.js" integrity="sha384-+VBxd3r6XgURycqtZ117nYw44OOcIax56Z4dCRWbxyPt0Koah1uHoK0o4+/RRE05" crossorigin="anonymous" onload="renderMathInElement(document.body);"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.7.1/katex.min.css">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.7.1/katex.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.7.1/contrib/auto-render.min.js"></script>
+
+        <style>
+            p{
+                text-align: justify;
+            }
+        </style>
     </head>
     <body>
         <!-- Navigation-->
@@ -43,12 +48,12 @@
             </div>
         </nav>
         <!-- Page Header-->
-        <header class="masthead" style="background-image: url('assets/img/about-bg.png')">
+        <header class="masthead" style="background-image: url('assets/img/turingfd.jpg')">
             <div class="container position-relative px-4 px-lg-5">
                 <div class="row gx-4 gx-lg-5 justify-content-center">
                     <div class="col-md-10 col-lg-8 col-xl-7">
                         <div class="page-heading">
-                            <h1>ABOUT ME</h1>
+                            <h1>Turing patterns and R-D systems</h1>
                         </div>
                     </div>
                 </div>
@@ -57,19 +62,32 @@
         <!-- Main Content-->
         <main class="mb-4">
             <div class="container px-4 px-lg-5">
-                <div class="row gx-4 gx-lg-5 justify-content-center">
-                        <div class="col-8">
-                            <p>Greetings! My name is Théo, and I am a soon-to-be PhD student at the interface of applied mathematics and computer science with a strong focus on Partial Differential Equations and their applications. My research centers around Reaction Diffusion Equations of the form, which are essential tools in understanding complex biological phenomena, such as the behavior of cancer cells (glioblastoma).</p>
-
-                            <p>Although my work is heavily math-focused, I also have a keen interest in programming and enjoy overusing Python to help me solve mathematical problems more efficiently or simply as a tool to better visualize complex sceniaros. I am a passionate problem solver and enjoy tackling challenging mathematical concepts head-on, whatever the field.</p>
-                        
-                            <p>When I'm not working on my research or coding projects, I like to spend my free time playing the guitar and exploring the great outdoors. This allows me to clear my mind, find balance between work and personal space. This way, I am always ready to face the next day's mathematical challenges! I also work as a fashion model on the side when I am not in the lab. </p>
-
-                            <p>Overall, my love of mathematics and programming fuels my curiosity and drives me to constantly learn more. I believe that these skills are not just important in my academic work, but are valuable assets that can be applied in a wide range of fields than one could think of.</p>
-                        </div>
-                    <div class="col-4 my-auto p-8 d-none d-md-block">                          
-                            <img src="assets/img/photo-theo3.jpg" class="rounded img-fluid"> 
+                <div class="row justify-content-end">
+                    <div class="col-8 ">
+                            <blockquote>
+                                "Mathematical reasoning may be regarded rather schematically as the exercise of a combination of two facilities, which we may call intuition and ingenuity." - Alan Turing
+                            </blockquote>
                     </div>
+                </div>
+                <div class="row gx-4 gx-lg-5 justify-content-center">
+                        <div class="col">
+                            <p>Turing patterns are what is called by mathematicians a class of finite-wavelength, stationary solutions which can develop from homogeneous initial conditions following local systems of parabolic reaction-diffusion equations. Barbaric terms aside, this is what the common of mortals call "spots" and "stripes" that can be observed on the fur coat of zebras, giraffe, leopards, cats and other animal species (see figure [1]). In this rather short blog post, I intend to numerically implement the classical system of two partial differential equations derived by Alan Turing in his original paper "The Chemical basis of morphogenesis" published in 1952 using Python. The structure is three-folds: In the first part I derive mathematical equations of finite differences schemes used in the code. A second part is dedicated to the code implementation in Python using <span style="font-weight:bold;">Numpy</span> and <span style="font-weight:bold;">Matplotlib</span>. Finally, the last part is dedicated to what can one obtain by playing with parameters of the model.</p>
+
+                            <figure>
+                            <img src="assets/img/maya.jpeg" style="display: block;margin-left: auto;margin-right: auto;width: 50%;" alt="missing"/>
+                            <figcaption style="text-align: center;">Figure 1: My cat.</figcaption>
+                            </figure>
+                        
+                            <h2>Deriving Equations of the scheme</h2>
+
+                            For the sake of simplicity, I choose the easy way by using an Euler-Explicit method for the time discretization while using 1D Finite-Differences for each equation. We recall that the system proposed by turing is the following
+
+                            $$\begin{aligned} \partial_t U = d_1 \partial_{xx}^2 U + f(U, V) & \quad \text{in } \Omega \\[0.7em] \partial_t V = d_2 \partial_{xx}^2 V + g(U, V) & \quad \text{in } \Omega \\[0.7em] \partial_x U = 0, \partial_x V = 0 & \quad \text{in }\partial\Omega \end{aligned},$$
+
+                            Where $U$ and $V$ denote two chemical quantities and $\Omega = [0, 1]$ is the domain in which the problem lies. Conventionally, $U$ is considered to be an activator, which is mathematically translated by $\partial_U f(U, V) > 0$ and $V$ an inhibitor, i.e. $\partial_V g(U, V) < 0$. The two functions $f$ and $g$ are what defines the kinetics of the reaction between $U$ and $V$. They are assumed to be continuous and sufficiently smooth: $f, g \in \mathcal{C}^k(\Omega, \mathbb{R})$.
+                            </p>
+
+                        </div>
                 </div>
             </div>
         </main>
@@ -101,6 +119,20 @@
                 </div>
             </div>
         </footer>
+        <!-- Maths delimiters -->
+        <script>
+            renderMathInElement(
+                document.body,
+                {
+                    delimiters: [
+                        {left: "$$", right: "$$", display: true},
+                        {left: "\\[", right: "\\]", display: true},
+                        {left: "$", right: "$", display: false},
+                        {left: "\\(", right: "\\)", display: false}
+                    ]
+                }
+            );
+          </script>
         <!-- Bootstrap core JS-->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
         <!-- Core theme JS-->
