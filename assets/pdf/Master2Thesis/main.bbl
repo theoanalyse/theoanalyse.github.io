@@ -201,6 +201,29 @@
       \endverb
       \keyw{Analysis of PDEs (math.AP),Spectral Theory (math.SP),FOS: Mathematics,FOS: Mathematics,35K57,35B35 (primary) 35B36,35P05,47D06 (secondary)}
     \endentry
+    \entry{Neupane2022}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=242ce4d83307430a98173cae52d00091}{%
+           family={Laxmi\bibnamedelima Neupane},
+           familyi={L\bibinitperiod\bibinitdelim N\bibinitperiod},
+           given={Sagar\bibnamedelima Aryal},
+           giveni={S\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+      }
+      \strng{namehash}{242ce4d83307430a98173cae52d00091}
+      \strng{fullhash}{242ce4d83307430a98173cae52d00091}
+      \strng{bibnamehash}{242ce4d83307430a98173cae52d00091}
+      \strng{authorbibnamehash}{242ce4d83307430a98173cae52d00091}
+      \strng{authornamehash}{242ce4d83307430a98173cae52d00091}
+      \strng{authorfullhash}{242ce4d83307430a98173cae52d00091}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://thebiologynotes.com/hydra-reproduction-regeneration/}}
+      \field{note}{[Online; accessed 15-April 2023]}
+      \field{title}{{Hydra- Reproduction (Budding and Sexual), Regeneration, Immortality}}
+      \field{year}{2022}
+    \endentry
     \entry{Lepschy1988}{article}{}
       \name{author}{3}{}{%
         {{hash=ed5d7eb525fa3fe57cdc94a81793023b}{%
@@ -380,6 +403,39 @@
       \endverb
       \verb{url}
       \verb https://www.mathematik.uni-muenchen.de/~philip/publications/lectureNotes/philipPeter_ODE.pdf
+      \endverb
+    \endentry
+    \entry{Smoller1994}{book}{}
+      \name{author}{1}{}{%
+        {{hash=ad4840b151d71d36090dfd910120f7f5}{%
+           family={Smoller},
+           familyi={S\bibinitperiod},
+           given={Joel},
+           giveni={J\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Springer New York}%
+      }
+      \strng{namehash}{ad4840b151d71d36090dfd910120f7f5}
+      \strng{fullhash}{ad4840b151d71d36090dfd910120f7f5}
+      \strng{bibnamehash}{ad4840b151d71d36090dfd910120f7f5}
+      \strng{authorbibnamehash}{ad4840b151d71d36090dfd910120f7f5}
+      \strng{authornamehash}{ad4840b151d71d36090dfd910120f7f5}
+      \strng{authorfullhash}{ad4840b151d71d36090dfd910120f7f5}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Shock Waves and Reaction{—}Diffusion Equations}
+      \field{year}{1994}
+      \verb{doi}
+      \verb 10.1007/978-1-4612-0873-0
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1007/978-1-4612-0873-0
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1007/978-1-4612-0873-0
       \endverb
     \endentry
   \enddatalist
