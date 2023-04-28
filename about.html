@@ -59,11 +59,13 @@
             <div class="container px-4 px-lg-5">
                 <div class="row gx-4 gx-lg-5 justify-content-center">
                         <div class="col-8">
-                            <p>Greetings! My name is Théo, and I am a soon-to-be PhD student at the interface of applied mathematics and computer science with a strong focus on Partial Differential Equations and their applications. My research centers around Reaction Diffusion Equations of the form, 
+                            <p>Greetings! My name is Théo, and I am a soon-to-be PhD student at the interface of applied mathematics and computer science with a strong focus on Partial Differential Equations and their applications. My research centers around Reaction Diffusion equations with non-linear kinetics, i.e., equations of the form, 
                                 
-                            $$\sum_{|\alpha| \le m} a_\alpha(x) \partial_s^\alpha \mathbf{u} + f(\mathbf{u}) = 0 \quad \text{on } \Omega$$
-                            $$\partial_{\nu} \mathbf{u} = 0 \quad \text{on } \partial\Omega$$
-                            which are essential tools in understanding complex biological phenomena, such as the behavior of cancer cells (glioblastoma).</p>
+                            $$\begin{aligned} \partial_t \mathbf{u} - \sum_{|\alpha| \le m} a_\alpha(x) \partial_s^\alpha \mathbf{u} + f(\mathbf{u}) = 0 \quad &\text{on } \Omega \\
+                            \partial_{\nu} \mathbf{u} = 0 \quad &\text{on } \partial\Omega\\[0.7em]
+                            \mathbf{u}(\cdot, 0) = \mathbf{u}_0 \quad & \text{in } L^p(\Omega)\end{aligned}$$
+
+                            which are essential tools in understanding complex biological phenomena, such as the behavior of cancer cells (glioblastoma), angiogenesis, the receptor dynamics of cells and other diffusion-related processes.</p>
 
                             <p>Although my work is heavily math-focused, I also have a keen interest in programming and enjoy overusing Python to help me solve mathematical problems more efficiently or simply as a tool to better visualize complex sceniaros. I am a passionate problem solver and enjoy tackling challenging mathematical concepts head-on, whatever the field.</p>
                         
