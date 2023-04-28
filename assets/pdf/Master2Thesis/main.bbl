@@ -376,6 +376,40 @@
       \field{year}{2012}
       \true{nocite}
     \endentry
+    \entry{Perthame2015}{book}{}
+      \name{author}{1}{}{%
+        {{hash=52efbc4b2bc845c82cd9fbb82cb9e0b7}{%
+           family={Perthame},
+           familyi={P\bibinitperiod},
+           given={Benoit},
+           giveni={B\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Springer International Publishing}%
+      }
+      \strng{namehash}{52efbc4b2bc845c82cd9fbb82cb9e0b7}
+      \strng{fullhash}{52efbc4b2bc845c82cd9fbb82cb9e0b7}
+      \strng{bibnamehash}{52efbc4b2bc845c82cd9fbb82cb9e0b7}
+      \strng{authorbibnamehash}{52efbc4b2bc845c82cd9fbb82cb9e0b7}
+      \strng{authornamehash}{52efbc4b2bc845c82cd9fbb82cb9e0b7}
+      \strng{authorfullhash}{52efbc4b2bc845c82cd9fbb82cb9e0b7}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Parabolic Equations in Biology}
+      \field{year}{2015}
+      \true{nocite}
+      \verb{doi}
+      \verb 10.1007/978-3-319-19500-1
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1007/978-3-319-19500-1
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1007/978-3-319-19500-1
+      \endverb
+    \endentry
     \entry{philip_2022}{misc}{}
       \name{author}{1}{}{%
         {{hash=6fa092e5d7d81a6504e3f2292e2dd0fb}{%
@@ -436,6 +470,32 @@
       \endverb
       \verb{url}
       \verb https://doi.org/10.1007/978-1-4612-0873-0
+      \endverb
+    \endentry
+    \entry{1952}{article}{}
+      \list{publisher}{1}{%
+        {The Royal Society}%
+      }
+      \field{sortinit}{T}
+      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Philosophical Transactions of the Royal Society of London. Series B, Biological Sciences}
+      \field{month}{8}
+      \field{number}{641}
+      \field{title}{The chemical basis of morphogenesis}
+      \field{volume}{237}
+      \field{year}{1952}
+      \true{nocite}
+      \field{pages}{37\bibrangedash 72}
+      \range{pages}{36}
+      \verb{doi}
+      \verb 10.1098/rstb.1952.0012
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1098/rstb.1952.0012
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1098/rstb.1952.0012
       \endverb
     \endentry
   \enddatalist
