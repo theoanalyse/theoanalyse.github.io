@@ -1,6 +1,12 @@
 \section{Finding equilibria and bounds on parameters}
 
-Depending on the choice of parameters, there is either one (stable), two (stable-unstable) or three (stable-unstable-stable) equilibria to \ref{system}. In each scenario, the origin $(0, 0, 0)$ is a steady state and will always be stable. For a specific range of parameters, another stable, positive equilibrium arises whose value turns out to be rather cumbersome due to the "Michaelis-Menten" term in the kinetics equations. However, having in mind that the choice of parameters directly impacts the value of $\bar X$, one can derive a set of conditions $\bar X$ must satisfy in order for this positive steady-state to exists.
+Depending on the choice of parameters, there is either one (stable), two (stable-unstable) or three (stable-unstable-stable) equilibria to \ref{system}. In each scenario, the origin $(0, 0, 0)$ is a stable steady state. For a specific range of parameters, another stable, positive equilibrium arises whose value turns out to be rather cumbersome to compute due to the "Michaelis-Menten" term in the kinetics equations, see (\ref{fig:nullclines}). However, having in mind that the choice of parameters directly impacts the value of $\bar X$, one can derive a set of conditions $\bar X$ must satisfy in order for this positive steady-state to exists.
+
+\begin{figure}[h]
+	\floatbox[{\capbeside\thisfloatsetup{capbesideposition={left,center},capbesidewidth=0.5\linewidth}}]{figure}[1.2\FBwidth]
+	{\caption{Algebraic curves describing the Nullclines of the system. in blue, $f^1(u, v, w) = 0$, green, $f^2(u, v, w) = 0$ and red, $f^3(u, v, w) = 0$ }\label{fig:nullclines}}
+	{\includegraphics[width=\linewidth]{figures/nullclines.png}}
+\end{figure}
 
 \section{Behavior of the system}
 

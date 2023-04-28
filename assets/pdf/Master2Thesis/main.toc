@@ -1,17 +1,19 @@
 \babel@toc {english}{}\relax 
-\contentsline {section}{\numberline {1}Notations and Definitions}{3}{section.1}%
-\contentsline {section}{\numberline {2}Hydra Morphogenesis and regenerative properties}{3}{section.2}%
-\contentsline {subsection}{\numberline {2.1}Anatomy of a Hydra}{3}{subsection.2.1}%
-\contentsline {subsection}{\numberline {2.2}The importance of Wnt signaling}{4}{subsection.2.2}%
-\contentsline {section}{\numberline {3}Emergence of Patterns and Diffusion-Driven Instability}{4}{section.3}%
-\contentsline {section}{\numberline {4}General Theory}{5}{section.4}%
-\contentsline {subsection}{\numberline {4.1}Existence of solutions}{5}{subsection.4.1}%
-\contentsline {section}{\numberline {5}Introduction of the model}{6}{section.5}%
-\contentsline {section}{\numberline {6}Reduction of the Model}{6}{section.6}%
-\contentsline {subsection}{\numberline {6.1}Quasi-steady-state approximation}{7}{subsection.6.1}%
-\contentsline {subsection}{\numberline {6.2}Change of variable}{7}{subsection.6.2}%
-\contentsline {subsection}{\numberline {6.3}Invariant Region}{8}{subsection.6.3}%
-\contentsline {section}{\numberline {7}Finding equilibria and bounds on parameters}{9}{section.7}%
-\contentsline {section}{\numberline {8}Behavior of the system}{10}{section.8}%
-\contentsline {subsection}{\numberline {8.1}In a neighborhood of the origin}{10}{subsection.8.1}%
-\contentsline {subsection}{\numberline {8.2}Around the other steady state}{10}{subsection.8.2}%
+\contentsline {section}{\numberline {1}Hydra Morphogenesis and regenerative properties}{3}{section.1}%
+\contentsline {subsection}{\numberline {1.1}Anatomy of a Hydra}{3}{subsection.1.1}%
+\contentsline {subsection}{\numberline {1.2}A few words about Wnt proteins}{4}{subsection.1.2}%
+\contentsline {subsection}{\numberline {1.3}Position-based regrowth and grafting experiments}{4}{subsection.1.3}%
+\contentsline {section}{\numberline {2}General Theory}{4}{section.2}%
+\contentsline {subsection}{\numberline {2.1}Derivation of reaction-diffusion equations}{4}{subsection.2.1}%
+\contentsline {subsection}{\numberline {2.2}Reaction-Diffusion-ODE problems}{5}{subsection.2.2}%
+\contentsline {subsubsection}{\numberline {2.2.1}Existence of solutions}{6}{subsubsection.2.2.1}%
+\contentsline {section}{\numberline {3}Emergence of Patterns and Diffusion-Driven Instability}{7}{section.3}%
+\contentsline {section}{\numberline {4}Introduction of the model}{8}{section.4}%
+\contentsline {section}{\numberline {5}Reduction of the Model}{8}{section.5}%
+\contentsline {subsection}{\numberline {5.1}Quasi-steady-state approximation}{8}{subsection.5.1}%
+\contentsline {subsection}{\numberline {5.2}Change of variable}{9}{subsection.5.2}%
+\contentsline {subsection}{\numberline {5.3}Invariant Region}{9}{subsection.5.3}%
+\contentsline {section}{\numberline {6}Finding equilibria and bounds on parameters}{11}{section.6}%
+\contentsline {section}{\numberline {7}Behavior of the system}{11}{section.7}%
+\contentsline {subsection}{\numberline {7.1}In a neighborhood of the origin}{12}{subsection.7.1}%
+\contentsline {subsection}{\numberline {7.2}Around the other steady state}{12}{subsection.7.2}%

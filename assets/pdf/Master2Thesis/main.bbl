@@ -105,6 +105,7 @@
       \field{title}{Instability of all regular stationary solutions to reaction-diffusion-{ODE} systems}
       \field{volume}{337}
       \field{year}{2022}
+      \true{nocite}
       \field{pages}{460\bibrangedash 482}
       \range{pages}{23}
       \verb{doi}
@@ -485,7 +486,6 @@
       \field{title}{The chemical basis of morphogenesis}
       \field{volume}{237}
       \field{year}{1952}
-      \true{nocite}
       \field{pages}{37\bibrangedash 72}
       \range{pages}{36}
       \verb{doi}

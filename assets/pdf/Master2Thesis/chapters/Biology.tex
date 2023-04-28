@@ -4,8 +4,8 @@
 
 \subsection{Anatomy of a Hydra}
 
-Hydras are fascinating organisms. Despite their rather small size (roughly 5mm of length in average), they are capable of extraordinary regenerative properties that allow them to fully reconstruct their body out of a very small portion of tissue (see figure \ref{hydraregen}).
-\begin{figure}
+Hydras (\textit{diploblastic metazoan hydra}) are fascinating creatures. Small freshwater polyps, Despite their rather small size of roughly 5mm of length in average, they are capable of extraordinary regenerative properties that allow them to fully reconstruct their body out of a very small portion of tissue (\ref{hydraregen}).
+\begin{figure}[h]
 \label{hydraregen}
 \includegraphics[width=0.19\textwidth]{figures/hydra_growth1}
 \includegraphics[width=0.19\textwidth]{figures/hydra_growth2}
@@ -14,10 +14,10 @@ Hydras are fascinating organisms. Despite their rather small size (roughly 5mm o
 \caption{Sequence of pictures taken under a traditional microscope. It shows how hydras are capable of regenerating their entire body using small extracted samples of tissue coming from the body column of another hydra (tissue diameter is about 100 $\mu$m). The timestamp on each picture is formatted as "hours:minutes", meaning the entire regeneration process takes less than two days to occur.}
 \end{figure}
 
-Their body is composed of essentially three regions: the head, body column and foot. Spatially speaking, the small cnidarian is symmetrically organized around the oral-aboral axis giving it its hollow, tubular shape. Taking a step closer on each parts, one can notice that the head is composed of two sub-regions, one being a set of tentacles while the other one is called hypostome and acts as a mouth (it is also the only orifice in the whole organism). The foot, on the other hand is composed of a basal disc that allows hydras to stick to leaves and rocks - among others - underwater. Lastly, the body column is a long hollow tube made of cells undergoing constant mitosis through the life of the polyp, this process ensures a constant cellular turnover of the derm.
+Their body is composed of essentially three regions: the head, body column and foot. Spatially speaking, the small cnidarian is symmetrically organized around the oral-aboral axis giving it its hollow, tubular shape. Taking a closer look on each part, one can notice that the head is composed of two sub-regions. One being a set of tentacles while the other one is called hypostome and acts as a mouth (it is also the only orifice in the whole organism). The foot, on the other hand is composed of a basal disc that allows hydras to stick to underwater leaves and rocks - among others -. Lastly, the body column is a long hollow tube made of cells undergoing constant mitosis through the life of the polyp, this process ensures a constant cellular turnover of the derm.
 
 \begin{remark}[Hydra reproduction]
-	The way hydras reproduce is very peculiar but is of great interest to the scientific community since they are able to give birth either sexually or not, see figure \ref{hydrareprod} (the latter being the most common way of reproduction in labs). The main difference between these two methods is that asexual reproduction preserves the totality of information in one individual, letting one the ability to duplicate a specific hydra with nice genetic information if they wish. This opens the door to further reproduction preserving genetics and repeated multiplication of specimens. This considerably enhances the pace at which experiments occur while reducing randomness factor linked to genetics (therefore improving reproducibility of experiments). 
+	The way hydras reproduce is very peculiar but is of great interest to the scientific community since they are able to give birth either sexually or through natural cloning, see figure \ref{fig:hydrareprod} (the latter being the most common way of reproduction in labs). The main difference between these two methods is that asexual reproduction preserves the totality of information in one individual, letting one the ability to duplicate a specific hydra with nice genetic information if they wish. This considerably enhances the pace at which experiments occur while reducing the randomness factor due to genetics (therefore improving reproducibility of experiments). 
 \end{remark}
 
 %\begin{figure}[h!]
@@ -29,28 +29,14 @@ Their body is composed of essentially three regions: the head, body column and f
 
 \begin{figure}[h]
 	\floatbox[{\capbeside\thisfloatsetup{capbesideposition={right,center},capbesidewidth=0.6\linewidth}}]{figure}[\FBwidth]
-	{\caption{Illustrated process of asexual reproduction in Hydra. A new head grows on the body column at the top of the peduncle (this small lump is familiarly call "the bud") and keeps growing until it detaches from the "adult"'s body. Once detached, the new individual sticks to nearby rocks or leaves and keeps growing until adult size is reached. (credit: picture from \cite{Neupane2022})}\label{fig:test}}
+	{\caption{Illustrated process of asexual reproduction (natural cloning) in Hydra. A new head grows on the body column at the top of the peduncle (this small lump is familiarly call "the bud") and keeps growing until it detaches from the "adult"'s body. Once detached, the new individual sticks to nearby rocks or leaves and keeps growing until adult size is reached. (credit: picture from \cite{Neupane2022})}\label{fig:hydrareprod}}
 	{\includegraphics[width=0.9\linewidth]{figures/hydra_asexual.png}}
 \end{figure}
 
 
   
 
-\subsection{The importance of Wnt signaling}
-
-What's up ? pal
-
-\section{Emergence of Patterns and Diffusion-Driven Instability}
-How do patterns form? Pattern formation is the result of the collaboration of a large amount of biological processes ranging from the nanoscopic up to the microscopic scale. Together, they form motifs, which we define as the structural organization of cells in space and time, often leading to pretty shapes such as the fur coat in animals or that on the wings of a butterfly. In his pioneer paper  published in 1952 [\bref{ref}], Alan Turing proposes a chemical model for pattern formation involving two chemical species: one Activator ($u$), one Inhibitor ($v$) \incl{(Probably inspired from the Lotka-Volterra prey-predator model introduced in 1910 which was itself applied to mathematical biology for the first time in 1926)}. The concentration of each specie is described with 2-morphogens reaction-diffusion equations with appropriate boundary conditions, \textit{i.e.} equations of the form 
+\subsection{A few words about Wnt proteins}
 
 
-\begin{align}
-	\del_t u &= d_1 \lap u + f(u, v) &\text{on} \ \R^{+} \times \Omega \notag \\[0.7em]
-	\del_t v &= d_2 \lap v + g(u, v) & \text{on} \ \R^{+} \times \Omega \\[0.7em]
-	\del_\nu u & = 0; \quad \del_\nu v = 0 & \text{on} \ \del\Omega \notag \\[0.7em]
-	u(0, x) &= u_0(x) ; \quad v(0, x) = v_0(x) & u_0, v_0 \in X
-\end{align}
-\label{eq:TuringModel}
-
-
-for a specific choice of $f$ and $g$ describing the chemical kinetics of the reaction. This choice is usually what determines the model type. To cite a few, we enumerate the Gray-Scott Model,  Gierer-Meinhardt, Fitzhugh-Nagumo , Bard-Lauder , Schnakenberg, Belousov-Zhabotinskii, the list goes on... [\bref{B. Perthame}]
+\subsection{Position-based regrowth and grafting experiments}

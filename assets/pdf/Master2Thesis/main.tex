@@ -5,6 +5,11 @@
 \usepackage[affil-it]{authblk}
 \usepackage[dvipsnames]{xcolor}
 
+%% Frontpage
+\usepackage[absolute]{textpos}
+\usepackage{ragged2e}
+\usepackage{fancyhdr}
+
 \usepackage{epigraph}
 \setlength\epigraphwidth{.8\textwidth}
 \setlength\epigraphrule{0pt}
@@ -20,9 +25,8 @@
 
 \usepackage{TheoStyle}
 
-\title{\textbf{Patterns Analysis in Coupled Parabolic-ODE Systems}}
-\author{Théo ANDRÉ}
-\affil{Turing Center For Living Systems \& Aix-Marseille Université}
+\title{\textbf{Pattern formation in  Parabolic-ODE receptor-based models}}
+\author{Théo ANDRÉ \\ Turing Center For Living Systems,  Aix-Marseille Université \and Anna MARCINIAK-CZOCHRA \\ Universität Heidelberg, Institut für Angewandte Analysis, IWR} 
 
 \date{January 2023 - July 2023}
 
@@ -34,30 +38,37 @@
 \def\vv{\bm{v}}
 \def\ww{\bm{w}}
 
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{\footnotesize{\leftmark}}
+\fancyhead[R]{\textit{\thepage}}
+\renewcommand{\headrulewidth}{0pt}
+
+
 \begin{document}
 
-% LE TITRE
 \maketitle
 
+% LE TITRE
+\input{chapters/titlepage}
 
-% ABSTRACT
+\vspace{1.5cm}
+%ABSTRACT
 \begin{abstract}
-    This thesis builds upon previous work pioneered by Anna Marciniak-Czochra in using coupled reaction-diffusion equations to ODE to model pattern formation in Hydra, a freshwater polyp known for its regenerative abilities. Previous studies have shown that such models can successfully capture the emergence of spatial patterns of gene expression during regeneration, and have identified key signaling molecules such as Wnt and Notch as playing a critical role in this process. However, these models have largely ignored the physical properties of the tissues in which regeneration occurs. In this thesis, we come back to the model presented in \cite{AnnaThesis} that integrates coupled reaction-diffusion to ODE models and see if we can reduce the amount of parameters, exhibit hysteresis and investigate the phenomenon of Turing Patterns / Far-From-Equilibrium patterns. Ultimately, this thesis aims to provide classical results on the topic and use these notions to further extend the analysis of the model.
+This thesis builds upon previous work pioneered by Anna Marciniak-Czochra \cite{AnnaThesis}, in using coupled reaction-diffusion equations to ODE to model receptor dynamics in Hydra, a freshwater polyp known for its regenerative abilities. Previous studies have shown that such models can successfully capture the emergence of spatial patterns of gene expression during regeneration, and have identified key signaling molecules such as Wnt, $\beta$-catenin and Notch as playing a critical role in this process. In this work, we come back to the model presented in \cite{AnnaThesis} that integrates a  reaction-diffusion-ODE system (1 ODE + 2 PDE) and see how far we can go in reducing the amount of parameters and investigating the phenomenon of pattern formation after reduction.
 \end{abstract}
 
-\vspace{30pt}
+\vfill
 
-\begin{remark}[Color code for Editing] Each color has a meaning: 
-	\bigskip
-	
-	\com{Pink text:} A remark / Comment: \texttt{\textbackslash com\{ ...\}}
-	\bigskip
-	
-	\incl{Green text: } Potential text to include but has the wrong formulation: \texttt{\textbackslash incl\{ ...\}}
-	\bigskip
-	
-	\bref{Blue text:} A reference that is missing and has to be included in the bibliography : \texttt{\textbackslash bref\{ ...\}}
-\end{remark}
+\centering
+\includegraphics[width=0.23\linewidth]{figures/uni_heidelberg_logo.png}
+\hfill
+\includegraphics[width=0.3\linewidth]{figures/AMULOGO.png}
+\hfill
+\includegraphics[width=0.32\linewidth]{figures/centurilogo.png}
+
+\justifying
+
 
 \newpage
 
@@ -65,10 +76,7 @@
 \tableofcontents
 \bigskip\bigskip
 
-\url{https://www.youtube.com/watch?v=6rr5oLEjMmY} : How to collect polyps and medusae
-
 \url{https://youtu.be/hmkeZ7_6owI} : Hydra morphogenesis symposium
-
 
 
 \newpage
@@ -81,9 +89,10 @@
 
 % DOCUMENT
 
-\input{chapters/Notations}
-\input{chapters/Biology.tex}
+%\input{chapters/Notations}
+\input{chapters/Biology}
 \input{chapters/GeneralTheory}
+\input{chapters/Turing}
 \input{chapters/Reduction}
 \input{chapters/Behavior}
 %\input{chapters/SpectralTheory.tex}
