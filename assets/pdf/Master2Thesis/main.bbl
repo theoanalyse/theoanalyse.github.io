@@ -19,6 +19,54 @@
 
 \refsection{0}
   \datalist[entry]{nty/global//global/global}
+    \entry{Anma2012}{article}{}
+      \name{author}{3}{}{%
+        {{hash=5fec5464a591da46b491bc59fc825345}{%
+           family={Anma},
+           familyi={A\bibinitperiod},
+           given={Atsushi},
+           giveni={A\bibinitperiod}}}%
+        {{hash=3b8791c5d3e38ea3bd53fa8ed1591369}{%
+           family={Sakamoto},
+           familyi={S\bibinitperiod},
+           given={Kunimochi},
+           giveni={K\bibinitperiod}}}%
+        {{hash=d8288d891a10e4f9647a789a2bf7ccc2}{%
+           family={Yoneda},
+           familyi={Y\bibinitperiod},
+           given={Tohru},
+           giveni={T\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Tokyo Institute of Technology, Department of Mathematics}%
+      }
+      \strng{namehash}{2cf8e2eb98c2842fc53917d6a569fd99}
+      \strng{fullhash}{2cf8e2eb98c2842fc53917d6a569fd99}
+      \strng{bibnamehash}{2cf8e2eb98c2842fc53917d6a569fd99}
+      \strng{authorbibnamehash}{2cf8e2eb98c2842fc53917d6a569fd99}
+      \strng{authornamehash}{2cf8e2eb98c2842fc53917d6a569fd99}
+      \strng{authorfullhash}{2cf8e2eb98c2842fc53917d6a569fd99}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Kodai Mathematical Journal}
+      \field{month}{6}
+      \field{number}{2}
+      \field{title}{Unstable subsystems cause Turing instability}
+      \field{volume}{35}
+      \field{year}{2012}
+      \true{nocite}
+      \verb{doi}
+      \verb 10.2996/kmj/1341401049
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.2996/kmj/1341401049
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.2996/kmj/1341401049
+      \endverb
+    \endentry
     \entry{Arendt1984}{article}{}
       \name{author}{2}{}{%
         {{hash=84d43c5b47aab622c6cb71599e59d107}{%
@@ -156,6 +204,80 @@
       \field{title}{One-parameter semigroups for linear evolution equations}
       \field{year}{2000}
       \true{nocite}
+    \endentry
+    \entry{Ghaskadbi2020}{article}{}
+      \name{author}{1}{}{%
+        {{hash=5a79ce223c63c1780ff6a791bb4061d1}{%
+           family={Ghaskadbi},
+           familyi={G\bibinitperiod},
+           given={Surendra},
+           giveni={S\bibinitperiod}}}%
+      }
+      \list{publisher}{2}{%
+        {Springer Science}%
+        {Business Media {LLC}}%
+      }
+      \strng{namehash}{5a79ce223c63c1780ff6a791bb4061d1}
+      \strng{fullhash}{5a79ce223c63c1780ff6a791bb4061d1}
+      \strng{bibnamehash}{5a79ce223c63c1780ff6a791bb4061d1}
+      \strng{authorbibnamehash}{5a79ce223c63c1780ff6a791bb4061d1}
+      \strng{authornamehash}{5a79ce223c63c1780ff6a791bb4061d1}
+      \strng{authorfullhash}{5a79ce223c63c1780ff6a791bb4061d1}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Resonance}
+      \field{month}{9}
+      \field{number}{9}
+      \field{title}{Hydra: A Powerful Biological Model}
+      \field{volume}{25}
+      \field{year}{2020}
+      \field{pages}{1197\bibrangedash 1213}
+      \range{pages}{17}
+      \verb{doi}
+      \verb 10.1007/s12045-020-1039-2
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1007/s12045-020-1039-2
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1007/s12045-020-1039-2
+      \endverb
+    \endentry
+    \entry{https://doi.org/10.48550/arxiv.0807.0088}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=bc629175192406f5252392e6f47fff6b}{%
+           family={Green},
+           familyi={G\bibinitperiod},
+           given={George},
+           giveni={G\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {arXiv}%
+      }
+      \strng{namehash}{bc629175192406f5252392e6f47fff6b}
+      \strng{fullhash}{bc629175192406f5252392e6f47fff6b}
+      \strng{bibnamehash}{bc629175192406f5252392e6f47fff6b}
+      \strng{authorbibnamehash}{bc629175192406f5252392e6f47fff6b}
+      \strng{authornamehash}{bc629175192406f5252392e6f47fff6b}
+      \strng{authorfullhash}{bc629175192406f5252392e6f47fff6b}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{An Essay on the Application of mathematical Analysis to the theories of Electricity and Magnetism}
+      \field{year}{2008}
+      \verb{doi}
+      \verb 10.48550/ARXIV.0807.0088
+      \endverb
+      \verb{urlraw}
+      \verb https://arxiv.org/abs/0807.0088
+      \endverb
+      \verb{url}
+      \verb https://arxiv.org/abs/0807.0088
+      \endverb
+      \keyw{History and Philosophy of Physics (physics.hist-ph),History and Overview (math.HO),General Physics (physics.gen-ph),FOS: Physical sciences,FOS: Physical sciences,FOS: Mathematics,FOS: Mathematics}
     \endentry
     \entry{https://doi.org/10.48550/arxiv.2201.12748}{misc}{}
       \name{author}{3}{}{%
@@ -486,6 +608,7 @@
       \field{title}{The chemical basis of morphogenesis}
       \field{volume}{237}
       \field{year}{1952}
+      \true{nocite}
       \field{pages}{37\bibrangedash 72}
       \range{pages}{36}
       \verb{doi}

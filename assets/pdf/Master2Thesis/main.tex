@@ -10,6 +10,10 @@
 \usepackage{ragged2e}
 \usepackage{fancyhdr}
 
+
+% Multiple-lined equations
+%\usepackage{breqn}
+
 \usepackage{epigraph}
 \setlength\epigraphwidth{.8\textwidth}
 \setlength\epigraphrule{0pt}
@@ -22,11 +26,18 @@
 \usepackage{biblatex}
 \addbibresource{biblio.bib}
 
+% specific macros
+\def\mf{\mu_f}
+\def\mb{\mu_b}
+\def\ml{\mu_l}
+\def\me{\mu_e}
+
+\newcommand{\com}[1]{\textcolor{orange}{#1}}
 
 \usepackage{TheoStyle}
 
 \title{\textbf{Pattern formation in  Parabolic-ODE receptor-based models}}
-\author{Théo ANDRÉ \\ Turing Center For Living Systems,  Aix-Marseille Université \and Anna MARCINIAK-CZOCHRA \\ Universität Heidelberg, Institut für Angewandte Analysis, IWR} 
+\author{Théo ANDRÉ \\ Aix-Marseille Université, Turing Center For Living Systems \vspace{1em} \\   \vspace{1em} \small{supervised by} \and Anna MARCINIAK-CZOCHRA \\ Universität Heidelberg, Institut für Mathematik, IWR} 
 
 \date{January 2023 - July 2023}
 
@@ -50,7 +61,7 @@
 \maketitle
 
 % LE TITRE
-\input{chapters/titlepage}
+%\input{chapters/titlepage}
 
 \vspace{1.5cm}
 %ABSTRACT
@@ -92,7 +103,7 @@ This thesis builds upon previous work pioneered by Anna Marciniak-Czochra \cite{
 %\input{chapters/Notations}
 \input{chapters/Biology}
 \input{chapters/GeneralTheory}
-\input{chapters/Turing}
+%\input{chapters/Turing}
 \input{chapters/Reduction}
 \input{chapters/Behavior}
 %\input{chapters/SpectralTheory.tex}

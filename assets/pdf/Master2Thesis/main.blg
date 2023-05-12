@@ -1,17 +1,17 @@
 [0] Config.pm:307> INFO - This is Biber 2.17
 [0] Config.pm:310> INFO - Logfile is 'main.blg'
-[58] biber-darwin:340> INFO - === Fri Apr 28, 2023, 16:51:17
-[71] Biber.pm:418> INFO - Reading 'main.bcf'
-[140] Biber.pm:969> INFO - Using all citekeys in bib section 0
-[152] Biber.pm:4383> INFO - Processing section 0
-[160] Biber.pm:4574> INFO - Looking for bibtex file 'biblio.bib' for section 0
-[161] bibtex.pm:1713> INFO - LaTeX decoding ...
-[174] bibtex.pm:1518> INFO - Found BibTeX data source 'biblio.bib'
-[238] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[238] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[238] Biber.pm:4203> INFO - Sorting list 'nty/global//global/global' of type 'entry' with template 'nty' and locale 'en-US'
-[238] Biber.pm:4209> INFO - No sort tailoring available for locale 'en-US'
-[250] bbl.pm:654> INFO - Writing 'main.bbl' with encoding 'UTF-8'
-[255] bbl.pm:757> INFO - Output to main.bbl
-[255] Biber.pm:130> WARN - Duplicate entry key: '1952' in file 'biblio.bib', skipping ...
-[255] Biber.pm:132> INFO - WARNINGS: 1
+[50] biber-darwin:340> INFO - === Tue May  9, 2023, 10:25:48
+[60] Biber.pm:418> INFO - Reading 'main.bcf'
+[129] Biber.pm:969> INFO - Using all citekeys in bib section 0
+[140] Biber.pm:4383> INFO - Processing section 0
+[148] Biber.pm:4574> INFO - Looking for bibtex file 'biblio.bib' for section 0
+[149] bibtex.pm:1713> INFO - LaTeX decoding ...
+[164] bibtex.pm:1518> INFO - Found BibTeX data source 'biblio.bib'
+[233] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[233] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[233] Biber.pm:4203> INFO - Sorting list 'nty/global//global/global' of type 'entry' with template 'nty' and locale 'en-US'
+[233] Biber.pm:4209> INFO - No sort tailoring available for locale 'en-US'
+[246] bbl.pm:654> INFO - Writing 'main.bbl' with encoding 'UTF-8'
+[252] bbl.pm:757> INFO - Output to main.bbl
+[252] Biber.pm:130> WARN - Duplicate entry key: '1952' in file 'biblio.bib', skipping ...
+[252] Biber.pm:132> INFO - WARNINGS: 1

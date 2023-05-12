@@ -17,18 +17,21 @@ This chapter is dedicated to the analytical study of general forms of RD-ODE sys
 
 For the sake of notation, we also  drop the $\nu$ symbol in the Laplace operator. i.e., we will write $\Delta_\nu = \Delta$. 
 
-\subsection{Derivation of reaction-diffusion equations}
+\subsection{Deriving reaction-diffusion equations}
 
-
-In this section we seek to derive reaction-diffusion equations from scratch based on famous physical principles. The derivation is performed under strong regularity assumptions and has for purpose to give the reader a physical intuition behind RD equations. To this end, introduce the divergence theorem which is required for the following computations  
+In this section we seek to derive reaction-diffusion equations from scratch based on famous physical principles. We assume to have enough regularity for each quantity in order to carry out the computations. This derivation has for purpose to give the reader a physical intuition behind such equations. To this end, we first introduce the divergence theorem
 
 \begin{theorem}[Divergence theorem]
 	Consider a bounded domain $\Omega \subset \R^d$, enclosed by the surface $\Gamma := \del \Omega \subset \R^{d-1}$. Let $\bm F$ be an arbitrary smooth vector field and the application $\nu$ such that for all $\xi \in S$, $\nu(\xi)$ is the outward-pointing unit vector of $S$ at $\xi$. Finally, if $dA$ denotes the measure $d x_1 ... d x_d$ and $ds$ is the surface measure, then the following equality holds
 	
-	$$\oint_\Gamma \lp \bm F \cdot \nu \rp ds = \int_\Omega \grad \cdot \lp \bm F\rp d A$$
+	$$\oint_\Gamma \lp \bm F \cdot \nu \rp ds = \int_\Omega \grad \cdot \lp \bm F\rp d A.$$
 \end{theorem}
 
-General laws of conservation tell us that if $u$ denotes a physical concentration (heat, cells, gene expression, receptors, ...), then
+\begin{proof}
+	Various well-known proofs exist in the literature (see \cite{https://doi.org/10.48550/arxiv.0807.0088} for the original derivation by G. Green)
+\end{proof}
+
+We are all set, let us proceed. General laws of conservation tell us that if $u$ denotes a physical quantity (heat, amount of cells, gene expression, ...), then
 
 $$\underbrace{\frac{\del}{\del t} \int_{\Omega} u d\Omega}_{\text{amount of material in } \Omega} =  \underbrace{D \oint_\Gamma \lp \grad u \cdot \nu \rp d\Gamma}_{\text{flux of material crossing } \Gamma} + \underbrace{\int_\Omega f(u) d\Omega}_{\text{material created inside} \Omega}.$$
 
@@ -36,24 +39,25 @@ Where we obtained the diffusive flux of material crossing $\Gamma$ using Fick's 
 
 $$\int_{\Omega} \frac{\del u}{\del t} d\Omega =  \int_\Omega D \grad \cdot \lp \grad u \rp d\Omega + \int_\Omega f(u) d\Omega.$$
 
-Which after reordering the terms and putting everyone under the same integral is equivalent to
+After reordering the terms, we put everyone under the same integral and find
 
-$$\int_\Omega \lp \frac{\del u}{\del t}(x, t) - D \Delta u (x, t) - f(u(x, t)) \rp d\Omega = 0$$
+$$\int_\Omega \lp \frac{\del u}{\del t}(x, t) - D \Delta u (x, t) - f(u(x, t)) \rp d\Omega = 0.$$
 
-Under smoothness assumptions on each term being integrated and a choice of $\Omega$ satisfying $\mu(\Omega) > 0$ ($\mu$ is the Lebesgue measure), we deduce that what is under the integral must vanish. i.e., 
+Each term being integrated on an arbitrary $\Omega$ with size $\mu(\Omega) > 0$, we deduce that what is under the integral must vanish. i.e., 
 
-\begin{equation}\label{rdeq} \frac{\del u }{\del t}(x, t) = D \Delta u(x, t) + f(x, t)\end{equation}
-
-Which, once embedded with boundary and initial conditions, is the form under which most classical reaction-diffusion systems are presented in the literature.
+\begin{equation}\label{eq:rdeq} \frac{\del u }{\del t}(x, t) = D \Delta u(x, t) + f(x, t)\end{equation}
 
 \subsection{Reaction-Diffusion-ODE problems}
 
-Until recently, the matrix $D$ in (\ref{rdeq}) was mainly chosen as a diagonal matrix $D = diag(d_1, ..., d_d)$, with $d_i > 0$, $i = 1, ..., d$. Taking a coefficient $d_i = 0$ results in canceling the effect of the Laplace operator, thus transforming equation $i$ into a classical ODE coupled to the PDE system. In this paragraph, we inspect the properties of such systems coupling $k >0$ ODE to $m > 0$ reaction-diffusion equations. For that, let $n \in \N$ such that $m+k = n$ and a bounded domain $\Omega \subset \R^{n}$. Let us consider the $\mathcal-C^2$ nonlinearities $\bm f : \R^k \times \R^m \longrightarrow \R^{m+k}$ describing the reaction kinetics between each components of the system. We aim to investigate properties of
+Reaction-diffusion-ODE systems are what one obtains when writing evolution equations for coupled diffusive and non-diffusive quantities. Mathematically, this rewrites under the formed of Until recently, the matrix $D$ in (\ref{eq:rdeq}) was mainly chosen as a diagonal matrix $D = diag(d_1, ..., d_d)$, with $d_i > 0$, $i = 1, ..., d$. Taking a coefficient $d_i = 0$ results in canceling the effect of the Laplace operator, thus transforming equation $i$ into a classical ODE coupled to the PDE system. In this paragraph, we inspect the properties of such systems coupling $k >0$ ODE to $m > 0$ reaction-diffusion equations. For that, let $n \in \N$ such that $m+k = n$ and a bounded domain $\Omega \subset \R^{n}$. Let us consider the $\mathcal{C}^2$-nonlinearities $\bm f : \R^k \times \R^m \longrightarrow \R^{m+k}$ describing the reaction kinetics between each components of the system. We aim to investigate properties of
  
-\begin{align}
-	& \del_t\uu  = \bm{\mathrm D} \Delta \uu + \bm{f}(\uu) \quad\quad \text{on } \Omega \times \mathbb R^{+} \notag \\  &\del_\nu u_i = 0 \qquad\qquad\qquad\! \text{on } \del\Omega \times \mathbb R^{+}, \text{ for } i \in [\![ m+1, k ]\!]\\
-	&\bm{u}(\cdot, 0) = \bm{u}_0(\cdot) \qquad\qquad\; \text{on } \Omega, \notag
-\end{align}
+\vspace{1em}
+\begin{center}
+\begin{tabular}{lcl}
+	$\del_t\uu  = \bm{\mathrm D} \Delta \uu + \bm{f}(\uu)$ & & on $\Omega \times \mathbb R^{+}$ \\[0.5em] $\del_\nu u_i = 0$ & &on $\del\Omega \times \mathbb R^{+}$, for $i \in [\![ m+1, k ]\!]$ \\[0.5em]
+	$\bm{u}(\cdot, 0) = \bm{u}_0(\cdot)$ & &on $\Omega$.
+\end{tabular}
+\end{center}
 
 
 \subsubsection{Existence of solutions}
@@ -93,15 +97,6 @@ The goal of this section is to show that for an autonomous abstract Cauchy probl
 %	$$\xi(t, \cdot) = T(t)\xi(0, \cdot) + \int_{0}^{t} T(t- \tau) \xi(\tau, \cdot) d\tau$$
 %\end{definition}
 
-
-\begin{definition}[Submatrices defined by a pair of indices]
-	Consider a matrix $A \in \euM_n(\R)$, for any couple of distinct indices $(i, j)$ with $1 \le i, j \le n$, we introduce the notation $A_{ij}$ to be the $2 \! \times \! 2$-matrix whose entries are formed by the entries of $A$ on line and column $i, j$.
-\end{definition}
-
-
-\begin{proposition}[Characteristic polynomial of a $3\times3$ matrix] Consider a matrix $A \in \euM_3(\R)$ whose entries are the $a_{ij}$ for $1 \le i, j \le 3$. Then 
-	$$\chi_A(\lambda) = -\lambda^3 + \tr(A) \lambda^2 - \lp \sum_{i < j} \det(A_{ij})\rp \lambda + \det(A)$$.
-\end{proposition}
 
 \begin{proof}
 	It is a straightforward computation. The result is obtained by expanding and refactoring the expression $\det(A - \lambda)$
