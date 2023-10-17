@@ -7,7 +7,7 @@ This chapter is dedicated to the analytical study of general forms of RD-ODE sys
 	$$W^{k, p}(\Omega) := \lc u \in L^p(\Omega) : \forall \alpha \in \N^d, \varphi \in \mathcal C^\infty(\Omega), \exists v \in L^p(\Omega) : \int_\Omega v \varphi = (-1)^{|\alpha|} \int_\Omega u \del^\alpha \varphi \rc$$   
 \end{definition}
 
-\begin{definition}[Laplace operator on a bounded domain]
+\begin{definition}[Laplace operator]
 	
 	We define the \textbf{Laplace operator}  $\Delta$ on a bounded domain $\Omega \subset \R^d$ endowed with Neumann boundary conditions ($\del_{\nu} = 0$ on $\del\Omega$) through the relation
 	$$\Delta_\nu = \sum_{i=1}^d \frac{\del^2}{\del x_i^2}.$$
@@ -17,35 +17,6 @@ This chapter is dedicated to the analytical study of general forms of RD-ODE sys
 
 For the sake of notation, we also  drop the $\nu$ symbol in the Laplace operator. i.e., we will write $\Delta_\nu = \Delta$. 
 
-\subsection{Deriving reaction-diffusion equations}
-
-In this section we seek to derive reaction-diffusion equations from scratch based on famous physical principles. We assume to have enough regularity for each quantity in order to carry out the computations. This derivation has for purpose to give the reader a physical intuition behind such equations. To this end, we first introduce the divergence theorem
-
-\begin{theorem}[Divergence theorem]
-	Consider a bounded domain $\Omega \subset \R^d$, enclosed by the surface $\Gamma := \del \Omega \subset \R^{d-1}$. Let $\bm F$ be an arbitrary smooth vector field and the application $\nu$ such that for all $\xi \in S$, $\nu(\xi)$ is the outward-pointing unit vector of $S$ at $\xi$. Finally, if $dA$ denotes the measure $d x_1 ... d x_d$ and $ds$ is the surface measure, then the following equality holds
-	
-	$$\oint_\Gamma \lp \bm F \cdot \nu \rp ds = \int_\Omega \grad \cdot \lp \bm F\rp d A.$$
-\end{theorem}
-
-\begin{proof}
-	Various well-known proofs exist in the literature (see \cite{https://doi.org/10.48550/arxiv.0807.0088} for the original derivation by G. Green)
-\end{proof}
-
-We are all set, let us proceed. General laws of conservation tell us that if $u$ denotes a physical quantity (heat, amount of cells, gene expression, ...), then
-
-$$\underbrace{\frac{\del}{\del t} \int_{\Omega} u d\Omega}_{\text{amount of material in } \Omega} =  \underbrace{D \oint_\Gamma \lp \grad u \cdot \nu \rp d\Gamma}_{\text{flux of material crossing } \Gamma} + \underbrace{\int_\Omega f(u) d\Omega}_{\text{material created inside} \Omega}.$$
-
-Where we obtained the diffusive flux of material crossing $\Gamma$ using Fick's law. Now using the divergence theorem on the second integral yields
-
-$$\int_{\Omega} \frac{\del u}{\del t} d\Omega =  \int_\Omega D \grad \cdot \lp \grad u \rp d\Omega + \int_\Omega f(u) d\Omega.$$
-
-After reordering the terms, we put everyone under the same integral and find
-
-$$\int_\Omega \lp \frac{\del u}{\del t}(x, t) - D \Delta u (x, t) - f(u(x, t)) \rp d\Omega = 0.$$
-
-Each term being integrated on an arbitrary $\Omega$ with size $\mu(\Omega) > 0$, we deduce that what is under the integral must vanish. i.e., 
-
-\begin{equation}\label{eq:rdeq} \frac{\del u }{\del t}(x, t) = D \Delta u(x, t) + f(x, t)\end{equation}
 
 \subsection{Reaction-Diffusion-ODE problems}
 
@@ -73,7 +44,7 @@ The goal of this section is to show that for an autonomous abstract Cauchy probl
 
 \begin{itemize}
 	\item Abstract Cauchy Problem
-	\item 
+	\item \texttt{}
 \end{itemize}
 
 

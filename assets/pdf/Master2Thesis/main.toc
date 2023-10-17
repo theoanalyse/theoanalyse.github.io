@@ -1,23 +1,25 @@
 \babel@toc {english}{}\relax 
-\contentsline {section}{\numberline {1}Hydra Morphogenesis and regenerative properties}{4}{section.1}%
+\contentsline {section}{\numberline {1}Biological motivation: Hydra Morphogenesis}{4}{section.1}%
 \contentsline {subsection}{\numberline {1.1}Anatomy of a Hydra}{4}{subsection.1.1}%
 \contentsline {subsection}{\numberline {1.2}A few words about Wnt proteins}{5}{subsection.1.2}%
 \contentsline {subsection}{\numberline {1.3}Position-based regrowth and grafting experiments}{5}{subsection.1.3}%
 \contentsline {section}{\numberline {2}General Theory}{5}{section.2}%
-\contentsline {subsection}{\numberline {2.1}Deriving reaction-diffusion equations}{6}{subsection.2.1}%
-\contentsline {subsection}{\numberline {2.2}Reaction-Diffusion-ODE problems}{7}{subsection.2.2}%
-\contentsline {subsubsection}{\numberline {2.2.1}Existence of solutions}{7}{subsubsection.2.2.1}%
-\contentsline {section}{\numberline {3}A receptor based model for hydra morphogenesis}{8}{section.3}%
-\contentsline {subsection}{\numberline {3.1}Introduction of the model}{8}{subsection.3.1}%
-\contentsline {subsubsection}{\numberline {3.1.1}Biological derivation and description of kinetics}{8}{subsubsection.3.1.1}%
+\contentsline {subsection}{\numberline {2.1}Reaction-Diffusion-ODE problems}{6}{subsection.2.1}%
+\contentsline {subsubsection}{\numberline {2.1.1}Existence of solutions}{6}{subsubsection.2.1.1}%
+\contentsline {section}{\numberline {3}A receptor based model for hydra morphogenesis}{7}{section.3}%
+\contentsline {subsection}{\numberline {3.1}Introduction of the model}{7}{subsection.3.1}%
+\contentsline {subsubsection}{\numberline {3.1.1}Biological derivation and description of kinetics}{7}{subsubsection.3.1.1}%
 \contentsline {subsubsection}{\numberline {3.1.2}Choosing kinetic functions}{9}{subsubsection.3.1.2}%
 \contentsline {subsection}{\numberline {3.2}Model reduction and properties}{10}{subsection.3.2}%
 \contentsline {subsubsection}{\numberline {3.2.1}Quasi-steady-state approximation}{10}{subsubsection.3.2.1}%
 \contentsline {subsubsection}{\numberline {3.2.2}Change of variable}{11}{subsubsection.3.2.2}%
 \contentsline {subsection}{\numberline {3.3}Existence of solutions}{12}{subsection.3.3}%
 \contentsline {subsection}{\numberline {3.4}Finding equilibria and bounds on parameters}{15}{subsection.3.4}%
-\contentsline {subsubsection}{\numberline {3.4.1}Analytical expression of constant steady-states}{15}{subsubsection.3.4.1}%
-\contentsline {subsubsection}{\numberline {3.4.2}Snack break: finding bounds on asymptotically stable spatially homogeneous stationary solutions}{17}{subsubsection.3.4.2}%
-\contentsline {subsection}{\numberline {3.5}Linear dynamics and local behavior of the system}{17}{subsection.3.5}%
-\contentsline {subsubsection}{\numberline {3.5.1}In a neighborhood of the origin}{18}{subsubsection.3.5.1}%
-\contentsline {subsubsection}{\numberline {3.5.2}Around the other steady state}{18}{subsubsection.3.5.2}%
+\contentsline {subsubsection}{\numberline {3.4.1}Analytical expression of constant steady-states}{16}{subsubsection.3.4.1}%
+\contentsline {subsubsection}{\numberline {3.4.2}Snack break: finding bounds on asymptotically stable spatially homogeneous stationary solutions}{18}{subsubsection.3.4.2}%
+\contentsline {subsection}{\numberline {3.5}Linear dynamics and local behavior of the system}{18}{subsection.3.5}%
+\contentsline {subsubsection}{\numberline {3.5.1}In a neighborhood of the origin}{19}{subsubsection.3.5.1}%
+\contentsline {subsubsection}{\numberline {3.5.2}Around the other steady state}{20}{subsubsection.3.5.2}%
+\contentsline {section}{\numberline {A}Mathematical material}{22}{appendix.A}%
+\contentsline {subsection}{\numberline {A.1}Deriving reaction-diffusion equations}{22}{subsection.A.1}%
+\contentsline {subsection}{\numberline {A.2}Rigorous convergence of the quasi-static approximation}{23}{subsection.A.2}%

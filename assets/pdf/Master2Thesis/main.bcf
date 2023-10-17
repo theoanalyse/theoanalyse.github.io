@@ -2353,26 +2353,25 @@
     <bcf:citekey order="3">Neupane2022</bcf:citekey>
     <bcf:citekey order="4">Neupane2022</bcf:citekey>
     <bcf:citekey order="5">Ghaskadbi2020</bcf:citekey>
-    <bcf:citekey order="6">https://doi.org/10.48550/arxiv.0807.0088</bcf:citekey>
-    <bcf:citekey order="7">Arendt1984</bcf:citekey>
+    <bcf:citekey order="6">Arendt1984</bcf:citekey>
+    <bcf:citekey order="7">AnnaThesis</bcf:citekey>
     <bcf:citekey order="8">AnnaThesis</bcf:citekey>
     <bcf:citekey order="9">AnnaThesis</bcf:citekey>
-    <bcf:citekey order="10">AnnaThesis</bcf:citekey>
+    <bcf:citekey order="10">Smoller1994</bcf:citekey>
     <bcf:citekey order="11">Smoller1994</bcf:citekey>
     <bcf:citekey order="12">Smoller1994</bcf:citekey>
     <bcf:citekey order="13">Smoller1994</bcf:citekey>
     <bcf:citekey order="14">Smoller1994</bcf:citekey>
     <bcf:citekey order="15">Smoller1994</bcf:citekey>
     <bcf:citekey order="16">Smoller1994</bcf:citekey>
-    <bcf:citekey order="17">AnnaThesis</bcf:citekey>
-    <bcf:citekey order="18">Smoller1994</bcf:citekey>
+    <bcf:citekey order="17">https://doi.org/10.48550/arxiv.0807.0088</bcf:citekey>
     <bcf:citekey order="0" nocite="1">*</bcf:citekey>
-    <bcf:citekey order="19">AnnaThesis</bcf:citekey>
-    <bcf:citekey order="20">Neupane2022</bcf:citekey>
-    <bcf:citekey order="21">Ghaskadbi2020</bcf:citekey>
-    <bcf:citekey order="22">https://doi.org/10.48550/arxiv.0807.0088</bcf:citekey>
-    <bcf:citekey order="23">Arendt1984</bcf:citekey>
-    <bcf:citekey order="24">Smoller1994</bcf:citekey>
+    <bcf:citekey order="18">AnnaThesis</bcf:citekey>
+    <bcf:citekey order="19">Neupane2022</bcf:citekey>
+    <bcf:citekey order="20">Ghaskadbi2020</bcf:citekey>
+    <bcf:citekey order="21">Arendt1984</bcf:citekey>
+    <bcf:citekey order="22">Smoller1994</bcf:citekey>
+    <bcf:citekey order="23">https://doi.org/10.48550/arxiv.0807.0088</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="nty">

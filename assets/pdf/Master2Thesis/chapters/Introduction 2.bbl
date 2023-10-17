@@ -1,0 +1,69 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.2 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{nty/global//global/global}
+    \entry{Mercker2013Dec}{article}{}
+      \name{author}{3}{}{%
+        {{hash=59d3e2f73c5c141d8d7646f4f2fd82df}{%
+           family={Mercker},
+           familyi={M\bibinitperiod},
+           given={Moritz},
+           giveni={M\bibinitperiod}}}%
+        {{hash=c7f460c72fa499371b60a97bfe8ae55b}{%
+           family={Hartmann},
+           familyi={H\bibinitperiod},
+           given={Dirk},
+           giveni={D\bibinitperiod}}}%
+        {{hash=e3d0db70dbef160b7a38fd7c643466f0}{%
+           family={Marciniak-Czochra},
+           familyi={M\bibinithyphendelim C\bibinitperiod},
+           given={Anna},
+           giveni={A\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Public Library of Science}%
+      }
+      \strng{namehash}{fade5bd2a0d2c2a5b700d025d58b91b9}
+      \strng{fullhash}{fade5bd2a0d2c2a5b700d025d58b91b9}
+      \strng{bibnamehash}{fade5bd2a0d2c2a5b700d025d58b91b9}
+      \strng{authorbibnamehash}{fade5bd2a0d2c2a5b700d025d58b91b9}
+      \strng{authornamehash}{fade5bd2a0d2c2a5b700d025d58b91b9}
+      \strng{authorfullhash}{fade5bd2a0d2c2a5b700d025d58b91b9}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{1932-6203}
+      \field{journaltitle}{PLoS One}
+      \field{month}{12}
+      \field{number}{12}
+      \field{title}{{A Mechanochemical Model for Embryonic Pattern Formation: Coupling Tissue Mechanics and Morphogen Expression}}
+      \field{volume}{8}
+      \field{year}{2013}
+      \field{pages}{e82617}
+      \range{pages}{-1}
+      \verb{doi}
+      \verb 10.1371/journal.pone.0082617
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

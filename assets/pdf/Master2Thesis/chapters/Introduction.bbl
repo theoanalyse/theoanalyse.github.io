@@ -1,0 +1,940 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.2 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{nty/global//global/global}
+    \entry{Anma2012}{article}{}
+      \name{author}{3}{}{%
+        {{hash=5fec5464a591da46b491bc59fc825345}{%
+           family={Anma},
+           familyi={A\bibinitperiod},
+           given={Atsushi},
+           giveni={A\bibinitperiod}}}%
+        {{hash=3b8791c5d3e38ea3bd53fa8ed1591369}{%
+           family={Sakamoto},
+           familyi={S\bibinitperiod},
+           given={Kunimochi},
+           giveni={K\bibinitperiod}}}%
+        {{hash=d8288d891a10e4f9647a789a2bf7ccc2}{%
+           family={Yoneda},
+           familyi={Y\bibinitperiod},
+           given={Tohru},
+           giveni={T\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Tokyo Institute of Technology, Department of Mathematics}%
+      }
+      \strng{namehash}{2cf8e2eb98c2842fc53917d6a569fd99}
+      \strng{fullhash}{2cf8e2eb98c2842fc53917d6a569fd99}
+      \strng{bibnamehash}{2cf8e2eb98c2842fc53917d6a569fd99}
+      \strng{authorbibnamehash}{2cf8e2eb98c2842fc53917d6a569fd99}
+      \strng{authornamehash}{2cf8e2eb98c2842fc53917d6a569fd99}
+      \strng{authorfullhash}{2cf8e2eb98c2842fc53917d6a569fd99}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Kodai Mathematical Journal}
+      \field{month}{6}
+      \field{number}{2}
+      \field{title}{Unstable subsystems cause Turing instability}
+      \field{volume}{35}
+      \field{year}{2012}
+      \true{nocite}
+      \verb{doi}
+      \verb 10.2996/kmj/1341401049
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.2996/kmj/1341401049
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.2996/kmj/1341401049
+      \endverb
+    \endentry
+    \entry{Arendt1984}{article}{}
+      \name{author}{2}{}{%
+        {{hash=84d43c5b47aab622c6cb71599e59d107}{%
+           family={Arendt},
+           familyi={A\bibinitperiod},
+           given={Wolfgang},
+           giveni={W\bibinitperiod}}}%
+        {{hash=f93dc1ee57d5eac7a6b1aa75366fa411}{%
+           family={Greiner},
+           familyi={G\bibinitperiod},
+           given={Günther},
+           giveni={G\bibinitperiod}}}%
+      }
+      \list{publisher}{2}{%
+        {Springer Science}%
+        {Business Media {LLC}}%
+      }
+      \strng{namehash}{7f6222a9941a2f3b4332d2d73bd395b7}
+      \strng{fullhash}{7f6222a9941a2f3b4332d2d73bd395b7}
+      \strng{bibnamehash}{7f6222a9941a2f3b4332d2d73bd395b7}
+      \strng{authorbibnamehash}{7f6222a9941a2f3b4332d2d73bd395b7}
+      \strng{authornamehash}{7f6222a9941a2f3b4332d2d73bd395b7}
+      \strng{authorfullhash}{7f6222a9941a2f3b4332d2d73bd395b7}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Semigroup Forum}
+      \field{month}{12}
+      \field{number}{1}
+      \field{title}{The spectral mapping theorem for one-parameter groups of positive operators on Co(X)}
+      \field{volume}{30}
+      \field{year}{1984}
+      \true{nocite}
+      \field{pages}{297\bibrangedash 330}
+      \range{pages}{34}
+      \verb{doi}
+      \verb 10.1007/bf02573461
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1007/bf02573461
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1007/bf02573461
+      \endverb
+    \endentry
+    \entry{Brinkmann2018Jul}{article}{}
+      \name{author}{4}{}{%
+        {{hash=ddec40f71ea3f1ef5b9d4f6105aec5be}{%
+           family={Brinkmann},
+           familyi={B\bibinitperiod},
+           given={Felix},
+           giveni={F\bibinitperiod}}}%
+        {{hash=59d3e2f73c5c141d8d7646f4f2fd82df}{%
+           family={Mercker},
+           familyi={M\bibinitperiod},
+           given={Moritz},
+           giveni={M\bibinitperiod}}}%
+        {{hash=cb61aa92ffd9430b9ec659d498d4fde7}{%
+           family={Richter},
+           familyi={R\bibinitperiod},
+           given={Thomas},
+           giveni={T\bibinitperiod}}}%
+        {{hash=e3d0db70dbef160b7a38fd7c643466f0}{%
+           family={Marciniak-Czochra},
+           familyi={M\bibinithyphendelim C\bibinitperiod},
+           given={Anna},
+           giveni={A\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Public Library of Science}%
+      }
+      \strng{namehash}{9efc2e6c17db37382503ec1c5fd77c02}
+      \strng{fullhash}{f8e444d14d653bd411aa5b00844916ce}
+      \strng{bibnamehash}{9efc2e6c17db37382503ec1c5fd77c02}
+      \strng{authorbibnamehash}{9efc2e6c17db37382503ec1c5fd77c02}
+      \strng{authornamehash}{9efc2e6c17db37382503ec1c5fd77c02}
+      \strng{authorfullhash}{f8e444d14d653bd411aa5b00844916ce}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{1553-7358}
+      \field{journaltitle}{PLoS Comput. Biol.}
+      \field{month}{7}
+      \field{number}{7}
+      \field{title}{{Post-Turing tissue pattern formation: Advent of mechanochemistry}}
+      \field{volume}{14}
+      \field{year}{2018}
+      \true{nocite}
+      \field{pages}{e1006259}
+      \range{pages}{-1}
+      \verb{doi}
+      \verb 10.1371/journal.pcbi.1006259
+      \endverb
+    \endentry
+    \entry{Browne1909Aug}{article}{}
+      \name{author}{1}{}{%
+        {{hash=b194d770c52a0104a873195dc4b2399b}{%
+           family={Browne},
+           familyi={B\bibinitperiod},
+           given={Ethel\bibnamedelima Nicholson},
+           giveni={E\bibinitperiod\bibinitdelim N\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {John Wiley {\&} Sons, Ltd}%
+      }
+      \strng{namehash}{b194d770c52a0104a873195dc4b2399b}
+      \strng{fullhash}{b194d770c52a0104a873195dc4b2399b}
+      \strng{bibnamehash}{b194d770c52a0104a873195dc4b2399b}
+      \strng{authorbibnamehash}{b194d770c52a0104a873195dc4b2399b}
+      \strng{authornamehash}{b194d770c52a0104a873195dc4b2399b}
+      \strng{authorfullhash}{b194d770c52a0104a873195dc4b2399b}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0022-104X}
+      \field{journaltitle}{J. Exp. Zool.}
+      \field{month}{8}
+      \field{number}{1}
+      \field{title}{{The production of new hydranths in Hydra by the insertion of small grafts}}
+      \field{volume}{7}
+      \field{year}{1909}
+      \true{nocite}
+      \field{pages}{1\bibrangedash 23}
+      \range{pages}{23}
+      \verb{doi}
+      \verb 10.1002/jez.1400070102
+      \endverb
+    \endentry
+    \entry{Cygan2022}{article}{}
+      \name{author}{4}{}{%
+        {{hash=38bd87831670d8817ad98eedd26420ef}{%
+           family={Cygan},
+           familyi={C\bibinitperiod},
+           given={Szymon},
+           giveni={S\bibinitperiod}}}%
+        {{hash=e3d0db70dbef160b7a38fd7c643466f0}{%
+           family={Marciniak-Czochra},
+           familyi={M\bibinithyphendelim C\bibinitperiod},
+           given={Anna},
+           giveni={A\bibinitperiod}}}%
+        {{hash=61eafd64a1031f8f2a176ffd6b6717e6}{%
+           family={Karch},
+           familyi={K\bibinitperiod},
+           given={Grzegorz},
+           giveni={G\bibinitperiod}}}%
+        {{hash=5bfb51d8b769bf47b4a29d50a5e74d5a}{%
+           family={Suzuki},
+           familyi={S\bibinitperiod},
+           given={Kanako},
+           giveni={K\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier {BV}}%
+      }
+      \strng{namehash}{4ee6d8e7f85086308ff7bc02b84b5d8d}
+      \strng{fullhash}{c0f5a1e3bd9f6be8d139131fc7fb8103}
+      \strng{bibnamehash}{4ee6d8e7f85086308ff7bc02b84b5d8d}
+      \strng{authorbibnamehash}{4ee6d8e7f85086308ff7bc02b84b5d8d}
+      \strng{authornamehash}{4ee6d8e7f85086308ff7bc02b84b5d8d}
+      \strng{authorfullhash}{c0f5a1e3bd9f6be8d139131fc7fb8103}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Differential Equations}
+      \field{month}{11}
+      \field{title}{Instability of all regular stationary solutions to reaction-diffusion-{ODE} systems}
+      \field{volume}{337}
+      \field{year}{2022}
+      \true{nocite}
+      \field{pages}{460\bibrangedash 482}
+      \range{pages}{23}
+      \verb{doi}
+      \verb 10.1016/j.jde.2022.08.007
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1016/j.jde.2022.08.007
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1016/j.jde.2022.08.007
+      \endverb
+    \endentry
+    \entry{Engel2000-nj}{book}{}
+      \name{author}{2}{}{%
+        {{hash=65c941a1a1b12ebbafd658a09a89b334}{%
+           family={Engel},
+           familyi={E\bibinitperiod},
+           given={Klaus-Jochen},
+           giveni={K\bibinithyphendelim J\bibinitperiod}}}%
+        {{hash=a3677a98a02dd239c00af22363bd492b}{%
+           family={Nagel},
+           familyi={N\bibinitperiod},
+           given={Rainer},
+           giveni={R\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \list{location}{1}{%
+        {New York, NY}%
+      }
+      \list{publisher}{1}{%
+        {Springer}%
+      }
+      \strng{namehash}{2e2696ad9059e2bf945cb0a30bb790d7}
+      \strng{fullhash}{2e2696ad9059e2bf945cb0a30bb790d7}
+      \strng{bibnamehash}{2e2696ad9059e2bf945cb0a30bb790d7}
+      \strng{authorbibnamehash}{2e2696ad9059e2bf945cb0a30bb790d7}
+      \strng{authornamehash}{2e2696ad9059e2bf945cb0a30bb790d7}
+      \strng{authorfullhash}{2e2696ad9059e2bf945cb0a30bb790d7}
+      \field{sortinit}{E}
+      \field{sortinithash}{8da8a182d344d5b9047633dfc0cc9131}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{edition}{2000}
+      \field{month}{12}
+      \field{series}{Graduate Texts in Mathematics}
+      \field{title}{One-parameter semigroups for linear evolution equations}
+      \field{year}{2000}
+      \true{nocite}
+    \endentry
+    \entry{Ghaskadbi2020}{article}{}
+      \name{author}{1}{}{%
+        {{hash=5a79ce223c63c1780ff6a791bb4061d1}{%
+           family={Ghaskadbi},
+           familyi={G\bibinitperiod},
+           given={Surendra},
+           giveni={S\bibinitperiod}}}%
+      }
+      \list{publisher}{2}{%
+        {Springer Science}%
+        {Business Media {LLC}}%
+      }
+      \strng{namehash}{5a79ce223c63c1780ff6a791bb4061d1}
+      \strng{fullhash}{5a79ce223c63c1780ff6a791bb4061d1}
+      \strng{bibnamehash}{5a79ce223c63c1780ff6a791bb4061d1}
+      \strng{authorbibnamehash}{5a79ce223c63c1780ff6a791bb4061d1}
+      \strng{authornamehash}{5a79ce223c63c1780ff6a791bb4061d1}
+      \strng{authorfullhash}{5a79ce223c63c1780ff6a791bb4061d1}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Resonance}
+      \field{month}{9}
+      \field{number}{9}
+      \field{title}{Hydra: A Powerful Biological Model}
+      \field{volume}{25}
+      \field{year}{2020}
+      \true{nocite}
+      \field{pages}{1197\bibrangedash 1213}
+      \range{pages}{17}
+      \verb{doi}
+      \verb 10.1007/s12045-020-1039-2
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1007/s12045-020-1039-2
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1007/s12045-020-1039-2
+      \endverb
+    \endentry
+    \entry{https://doi.org/10.48550/arxiv.0807.0088}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=bc629175192406f5252392e6f47fff6b}{%
+           family={Green},
+           familyi={G\bibinitperiod},
+           given={George},
+           giveni={G\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {arXiv}%
+      }
+      \strng{namehash}{bc629175192406f5252392e6f47fff6b}
+      \strng{fullhash}{bc629175192406f5252392e6f47fff6b}
+      \strng{bibnamehash}{bc629175192406f5252392e6f47fff6b}
+      \strng{authorbibnamehash}{bc629175192406f5252392e6f47fff6b}
+      \strng{authornamehash}{bc629175192406f5252392e6f47fff6b}
+      \strng{authorfullhash}{bc629175192406f5252392e6f47fff6b}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{An Essay on the Application of mathematical Analysis to the theories of Electricity and Magnetism}
+      \field{year}{2008}
+      \true{nocite}
+      \verb{doi}
+      \verb 10.48550/ARXIV.0807.0088
+      \endverb
+      \verb{urlraw}
+      \verb https://arxiv.org/abs/0807.0088
+      \endverb
+      \verb{url}
+      \verb https://arxiv.org/abs/0807.0088
+      \endverb
+      \keyw{History and Philosophy of Physics (physics.hist-ph),History and Overview (math.HO),General Physics (physics.gen-ph),FOS: Physical sciences,FOS: Physical sciences,FOS: Mathematics,FOS: Mathematics}
+    \endentry
+    \entry{Khetan2018Oct}{article}{}
+      \name{author}{3}{}{%
+        {{hash=d34e280a21380c0124982c714c0fc8b7}{%
+           family={Khetan},
+           familyi={K\bibinitperiod},
+           given={Neha},
+           giveni={N\bibinitperiod}}}%
+        {{hash=5fe613fe798cbc4e7cee58a25cc2e922}{%
+           family={Maheshwari},
+           familyi={M\bibinitperiod},
+           given={Shagun},
+           giveni={S\bibinitperiod}}}%
+        {{hash=5b4c74601924a96714862607d83f573d}{%
+           family={Athale},
+           familyi={A\bibinitperiod},
+           given={Chaitanya\bibnamedelima A.},
+           giveni={C\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Indian National Science Academy}%
+      }
+      \strng{namehash}{26f8ad39018e78575281c6f3d0863101}
+      \strng{fullhash}{26f8ad39018e78575281c6f3d0863101}
+      \strng{bibnamehash}{26f8ad39018e78575281c6f3d0863101}
+      \strng{authorbibnamehash}{26f8ad39018e78575281c6f3d0863101}
+      \strng{authornamehash}{26f8ad39018e78575281c6f3d0863101}
+      \strng{authorfullhash}{26f8ad39018e78575281c6f3d0863101}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0370-0046}
+      \field{journaltitle}{Proc. Indian Natl. Sci. Acad.}
+      \field{month}{10}
+      \field{number}{1}
+      \field{title}{{Quantitative Detachment Mechanics of Hydra from Substrates}}
+      \field{volume}{99}
+      \field{year}{2018}
+      \verb{doi}
+      \verb 10.16943/ptinsa/2018/49505
+      \endverb
+    \endentry
+    \entry{https://doi.org/10.48550/arxiv.2201.12748}{misc}{}
+      \name{author}{3}{}{%
+        {{hash=0c22b0d25e1caa158dfc473a8ca2c691}{%
+           family={Kowall},
+           familyi={K\bibinitperiod},
+           given={Chris},
+           giveni={C\bibinitperiod}}}%
+        {{hash=e3d0db70dbef160b7a38fd7c643466f0}{%
+           family={Marciniak-Czochra},
+           familyi={M\bibinithyphendelim C\bibinitperiod},
+           given={Anna},
+           giveni={A\bibinitperiod}}}%
+        {{hash=142eee4c9d6133d03eb8d753f1dbed45}{%
+           family={Münnich},
+           familyi={M\bibinitperiod},
+           given={Finn},
+           giveni={F\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {arXiv}%
+      }
+      \strng{namehash}{9f54c5cb2d691e84132907d3fa5b2a8b}
+      \strng{fullhash}{9f54c5cb2d691e84132907d3fa5b2a8b}
+      \strng{bibnamehash}{9f54c5cb2d691e84132907d3fa5b2a8b}
+      \strng{authorbibnamehash}{9f54c5cb2d691e84132907d3fa5b2a8b}
+      \strng{authornamehash}{9f54c5cb2d691e84132907d3fa5b2a8b}
+      \strng{authorfullhash}{9f54c5cb2d691e84132907d3fa5b2a8b}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Stability Results for Bounded Stationary Solutions of Reaction-Diffusion-ODE Systems}
+      \field{year}{2022}
+      \true{nocite}
+      \verb{doi}
+      \verb 10.48550/ARXIV.2201.12748
+      \endverb
+      \verb{urlraw}
+      \verb https://arxiv.org/abs/2201.12748
+      \endverb
+      \verb{url}
+      \verb https://arxiv.org/abs/2201.12748
+      \endverb
+      \keyw{Analysis of PDEs (math.AP),Spectral Theory (math.SP),FOS: Mathematics,FOS: Mathematics,35K57,35B35 (primary) 35B36,35P05,47D06 (secondary)}
+    \endentry
+    \entry{Neupane2022}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=242ce4d83307430a98173cae52d00091}{%
+           family={Laxmi\bibnamedelima Neupane},
+           familyi={L\bibinitperiod\bibinitdelim N\bibinitperiod},
+           given={Sagar\bibnamedelima Aryal},
+           giveni={S\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+      }
+      \strng{namehash}{242ce4d83307430a98173cae52d00091}
+      \strng{fullhash}{242ce4d83307430a98173cae52d00091}
+      \strng{bibnamehash}{242ce4d83307430a98173cae52d00091}
+      \strng{authorbibnamehash}{242ce4d83307430a98173cae52d00091}
+      \strng{authornamehash}{242ce4d83307430a98173cae52d00091}
+      \strng{authorfullhash}{242ce4d83307430a98173cae52d00091}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://thebiologynotes.com/hydra-reproduction-regeneration/}}
+      \field{note}{[Online; accessed 15-April 2023]}
+      \field{title}{{Hydra- Reproduction (Budding and Sexual), Regeneration, Immortality}}
+      \field{year}{2022}
+      \true{nocite}
+    \endentry
+    \entry{Lepschy1988}{article}{}
+      \name{author}{3}{}{%
+        {{hash=ed5d7eb525fa3fe57cdc94a81793023b}{%
+           family={Lepschy},
+           familyi={L\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
+        {{hash=38a93d15d351eae89cdf13b41f0830ec}{%
+           family={Mian},
+           familyi={M\bibinitperiod},
+           given={G.A.},
+           giveni={G\bibinitperiod}}}%
+        {{hash=23a254808eeeaf1b573845a80c8bd4a0}{%
+           family={Viaro},
+           familyi={V\bibinitperiod},
+           given={U.},
+           giveni={U\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier {BV}}%
+      }
+      \strng{namehash}{8158e534f23ee4fa4bc479128e4f1a7a}
+      \strng{fullhash}{8158e534f23ee4fa4bc479128e4f1a7a}
+      \strng{bibnamehash}{8158e534f23ee4fa4bc479128e4f1a7a}
+      \strng{authorbibnamehash}{8158e534f23ee4fa4bc479128e4f1a7a}
+      \strng{authornamehash}{8158e534f23ee4fa4bc479128e4f1a7a}
+      \strng{authorfullhash}{8158e534f23ee4fa4bc479128e4f1a7a}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of the Franklin Institute}
+      \field{month}{1}
+      \field{number}{6}
+      \field{title}{A Geometrical Interpretation of the Routh Test}
+      \field{volume}{325}
+      \field{year}{1988}
+      \true{nocite}
+      \field{pages}{695\bibrangedash 703}
+      \range{pages}{9}
+      \verb{doi}
+      \verb 10.1016/0016-0032(88)90003-8
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1016/0016-0032(88)90003-8
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1016/0016-0032(88)90003-8
+      \endverb
+    \endentry
+    \entry{AnnaThesis}{article}{}
+      \name{author}{1}{}{%
+        {{hash=e3d0db70dbef160b7a38fd7c643466f0}{%
+           family={Marciniak-Czochra},
+           familyi={M\bibinithyphendelim C\bibinitperiod},
+           given={Anna},
+           giveni={A\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Heidelberg University Library}%
+      }
+      \strng{namehash}{e3d0db70dbef160b7a38fd7c643466f0}
+      \strng{fullhash}{e3d0db70dbef160b7a38fd7c643466f0}
+      \strng{bibnamehash}{e3d0db70dbef160b7a38fd7c643466f0}
+      \strng{authorbibnamehash}{e3d0db70dbef160b7a38fd7c643466f0}
+      \strng{authornamehash}{e3d0db70dbef160b7a38fd7c643466f0}
+      \strng{authorfullhash}{e3d0db70dbef160b7a38fd7c643466f0}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Developmental models with cell surface receptor densities defining morphological position}
+      \field{year}{2004}
+      \true{nocite}
+      \verb{doi}
+      \verb 10.11588/HEIDOK.00004549
+      \endverb
+      \verb{urlraw}
+      \verb http://archiv.ub.uni-heidelberg.de/volltextserver/id/eprint/4549
+      \endverb
+      \verb{url}
+      \verb http://archiv.ub.uni-heidelberg.de/volltextserver/id/eprint/4549
+      \endverb
+      \keyw{510 Mathematics}
+    \endentry
+    \entry{Mercker2013Dec}{article}{}
+      \name{author}{3}{}{%
+        {{hash=59d3e2f73c5c141d8d7646f4f2fd82df}{%
+           family={Mercker},
+           familyi={M\bibinitperiod},
+           given={Moritz},
+           giveni={M\bibinitperiod}}}%
+        {{hash=c7f460c72fa499371b60a97bfe8ae55b}{%
+           family={Hartmann},
+           familyi={H\bibinitperiod},
+           given={Dirk},
+           giveni={D\bibinitperiod}}}%
+        {{hash=e3d0db70dbef160b7a38fd7c643466f0}{%
+           family={Marciniak-Czochra},
+           familyi={M\bibinithyphendelim C\bibinitperiod},
+           given={Anna},
+           giveni={A\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Public Library of Science}%
+      }
+      \strng{namehash}{fade5bd2a0d2c2a5b700d025d58b91b9}
+      \strng{fullhash}{fade5bd2a0d2c2a5b700d025d58b91b9}
+      \strng{bibnamehash}{fade5bd2a0d2c2a5b700d025d58b91b9}
+      \strng{authorbibnamehash}{fade5bd2a0d2c2a5b700d025d58b91b9}
+      \strng{authornamehash}{fade5bd2a0d2c2a5b700d025d58b91b9}
+      \strng{authorfullhash}{fade5bd2a0d2c2a5b700d025d58b91b9}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{1932-6203}
+      \field{journaltitle}{PLoS One}
+      \field{month}{12}
+      \field{number}{12}
+      \field{title}{{A Mechanochemical Model for Embryonic Pattern Formation: Coupling Tissue Mechanics and Morphogen Expression}}
+      \field{volume}{8}
+      \field{year}{2013}
+      \field{pages}{e82617}
+      \range{pages}{-1}
+      \verb{doi}
+      \verb 10.1371/journal.pone.0082617
+      \endverb
+    \endentry
+    \entry{Mercker2015May}{article}{}
+      \name{author}{3}{}{%
+        {{hash=59d3e2f73c5c141d8d7646f4f2fd82df}{%
+           family={Mercker},
+           familyi={M\bibinitperiod},
+           given={Moritz},
+           giveni={M\bibinitperiod}}}%
+        {{hash=31eb06998c6578abf29482972fd69240}{%
+           family={K{\ifmmode\ddot{o}\elseö\fi}the},
+           familyi={K\bibinitperiod},
+           given={Alexandra},
+           giveni={A\bibinitperiod}}}%
+        {{hash=e3d0db70dbef160b7a38fd7c643466f0}{%
+           family={Marciniak-Czochra},
+           familyi={M\bibinithyphendelim C\bibinitperiod},
+           given={Anna},
+           giveni={A\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {The Biophysical Society}%
+      }
+      \strng{namehash}{1874c42959288a8fcb9f51dc5eba8c11}
+      \strng{fullhash}{1874c42959288a8fcb9f51dc5eba8c11}
+      \strng{bibnamehash}{1874c42959288a8fcb9f51dc5eba8c11}
+      \strng{authorbibnamehash}{1874c42959288a8fcb9f51dc5eba8c11}
+      \strng{authornamehash}{1874c42959288a8fcb9f51dc5eba8c11}
+      \strng{authorfullhash}{1874c42959288a8fcb9f51dc5eba8c11}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Biophys. J.}
+      \field{month}{5}
+      \field{number}{9}
+      \field{title}{{Mechanochemical Symmetry Breaking in Hydra Aggregates}}
+      \field{volume}{108}
+      \field{year}{2015}
+      \true{nocite}
+      \field{pages}{2396}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1016/j.bpj.2015.03.033
+      \endverb
+    \endentry
+    \entry{Mercker2016}{article}{}
+      \name{author}{4}{}{%
+        {{hash=59d3e2f73c5c141d8d7646f4f2fd82df}{%
+           family={Mercker},
+           familyi={M\bibinitperiod},
+           given={Moritz},
+           giveni={M\bibinitperiod}}}%
+        {{hash=ddec40f71ea3f1ef5b9d4f6105aec5be}{%
+           family={Brinkmann},
+           familyi={B\bibinitperiod},
+           given={Felix},
+           giveni={F\bibinitperiod}}}%
+        {{hash=e3d0db70dbef160b7a38fd7c643466f0}{%
+           family={Marciniak-Czochra},
+           familyi={M\bibinithyphendelim C\bibinitperiod},
+           given={Anna},
+           giveni={A\bibinitperiod}}}%
+        {{hash=cb61aa92ffd9430b9ec659d498d4fde7}{%
+           family={Richter},
+           familyi={R\bibinitperiod},
+           given={Thomas},
+           giveni={T\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {BioMed Central}%
+      }
+      \strng{namehash}{ba1033eaa2275ca904ad0d409f4c34a1}
+      \strng{fullhash}{76335eeb983ec0cb663d210045385022}
+      \strng{bibnamehash}{ba1033eaa2275ca904ad0d409f4c34a1}
+      \strng{authorbibnamehash}{ba1033eaa2275ca904ad0d409f4c34a1}
+      \strng{authornamehash}{ba1033eaa2275ca904ad0d409f4c34a1}
+      \strng{authorfullhash}{76335eeb983ec0cb663d210045385022}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Biol. Direct}
+      \field{title}{{Beyond Turing: mechanochemical pattern formation in biological tissues}}
+      \field{volume}{11}
+      \field{year}{2016}
+      \true{nocite}
+      \verb{doi}
+      \verb 10.1186/s13062-016-0124-7
+      \endverb
+    \endentry
+    \entry{Murray1990-ad}{book}{}
+      \name{author}{1}{}{%
+        {{hash=790abbe74e44643827c46e77f00c8397}{%
+           family={Murray},
+           familyi={M\bibinitperiod},
+           given={James\bibnamedelima D},
+           giveni={J\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \list{location}{1}{%
+        {Berlin, Germany}%
+      }
+      \list{publisher}{1}{%
+        {Springer}%
+      }
+      \strng{namehash}{790abbe74e44643827c46e77f00c8397}
+      \strng{fullhash}{790abbe74e44643827c46e77f00c8397}
+      \strng{bibnamehash}{790abbe74e44643827c46e77f00c8397}
+      \strng{authorbibnamehash}{790abbe74e44643827c46e77f00c8397}
+      \strng{authornamehash}{790abbe74e44643827c46e77f00c8397}
+      \strng{authorfullhash}{790abbe74e44643827c46e77f00c8397}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{edition}{1}
+      \field{month}{11}
+      \field{series}{Biomathematics}
+      \field{title}{Mathematical biology}
+      \field{year}{1990}
+      \true{nocite}
+    \endentry
+    \entry{Pazy2012-rc}{book}{}
+      \name{author}{1}{}{%
+        {{hash=a15d3bdd508deabfc7d45824da2a7c92}{%
+           family={Pazy},
+           familyi={P\bibinitperiod},
+           given={Amnon},
+           giveni={A\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \list{location}{1}{%
+        {New York, NY}%
+      }
+      \list{publisher}{1}{%
+        {Springer}%
+      }
+      \strng{namehash}{a15d3bdd508deabfc7d45824da2a7c92}
+      \strng{fullhash}{a15d3bdd508deabfc7d45824da2a7c92}
+      \strng{bibnamehash}{a15d3bdd508deabfc7d45824da2a7c92}
+      \strng{authorbibnamehash}{a15d3bdd508deabfc7d45824da2a7c92}
+      \strng{authornamehash}{a15d3bdd508deabfc7d45824da2a7c92}
+      \strng{authorfullhash}{a15d3bdd508deabfc7d45824da2a7c92}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{edition}{1983}
+      \field{month}{12}
+      \field{series}{Applied mathematical sciences}
+      \field{title}{Semigroups of linear operators and applications to partial differential equations}
+      \field{year}{2012}
+      \true{nocite}
+    \endentry
+    \entry{Perthame2015}{book}{}
+      \name{author}{1}{}{%
+        {{hash=52efbc4b2bc845c82cd9fbb82cb9e0b7}{%
+           family={Perthame},
+           familyi={P\bibinitperiod},
+           given={Benoit},
+           giveni={B\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Springer International Publishing}%
+      }
+      \strng{namehash}{52efbc4b2bc845c82cd9fbb82cb9e0b7}
+      \strng{fullhash}{52efbc4b2bc845c82cd9fbb82cb9e0b7}
+      \strng{bibnamehash}{52efbc4b2bc845c82cd9fbb82cb9e0b7}
+      \strng{authorbibnamehash}{52efbc4b2bc845c82cd9fbb82cb9e0b7}
+      \strng{authornamehash}{52efbc4b2bc845c82cd9fbb82cb9e0b7}
+      \strng{authorfullhash}{52efbc4b2bc845c82cd9fbb82cb9e0b7}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Parabolic Equations in Biology}
+      \field{year}{2015}
+      \true{nocite}
+      \verb{doi}
+      \verb 10.1007/978-3-319-19500-1
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1007/978-3-319-19500-1
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1007/978-3-319-19500-1
+      \endverb
+    \endentry
+    \entry{philip_2022}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=6fa092e5d7d81a6504e3f2292e2dd0fb}{%
+           family={Philip},
+           familyi={P\bibinitperiod},
+           given={Peter},
+           giveni={P\bibinitperiod}}}%
+      }
+      \strng{namehash}{6fa092e5d7d81a6504e3f2292e2dd0fb}
+      \strng{fullhash}{6fa092e5d7d81a6504e3f2292e2dd0fb}
+      \strng{bibnamehash}{6fa092e5d7d81a6504e3f2292e2dd0fb}
+      \strng{authorbibnamehash}{6fa092e5d7d81a6504e3f2292e2dd0fb}
+      \strng{authornamehash}{6fa092e5d7d81a6504e3f2292e2dd0fb}
+      \strng{authorfullhash}{6fa092e5d7d81a6504e3f2292e2dd0fb}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{09}
+      \field{title}{Ordinary diﬀerential equations - LMU}
+      \field{year}{2022}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://www.mathematik.uni-muenchen.de/~philip/publications/lectureNotes/philipPeter_ODE.pdf
+      \endverb
+      \verb{url}
+      \verb https://www.mathematik.uni-muenchen.de/~philip/publications/lectureNotes/philipPeter_ODE.pdf
+      \endverb
+    \endentry
+    \entry{Smoller1994}{book}{}
+      \name{author}{1}{}{%
+        {{hash=ad4840b151d71d36090dfd910120f7f5}{%
+           family={Smoller},
+           familyi={S\bibinitperiod},
+           given={Joel},
+           giveni={J\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Springer New York}%
+      }
+      \strng{namehash}{ad4840b151d71d36090dfd910120f7f5}
+      \strng{fullhash}{ad4840b151d71d36090dfd910120f7f5}
+      \strng{bibnamehash}{ad4840b151d71d36090dfd910120f7f5}
+      \strng{authorbibnamehash}{ad4840b151d71d36090dfd910120f7f5}
+      \strng{authornamehash}{ad4840b151d71d36090dfd910120f7f5}
+      \strng{authorfullhash}{ad4840b151d71d36090dfd910120f7f5}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Shock Waves and Reaction{—}Diffusion Equations}
+      \field{year}{1994}
+      \verb{doi}
+      \verb 10.1007/978-1-4612-0873-0
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1007/978-1-4612-0873-0
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1007/978-1-4612-0873-0
+      \endverb
+    \endentry
+    \entry{1952}{article}{}
+      \list{publisher}{1}{%
+        {The Royal Society}%
+      }
+      \field{sortinit}{T}
+      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Philosophical Transactions of the Royal Society of London. Series B, Biological Sciences}
+      \field{month}{8}
+      \field{number}{641}
+      \field{title}{The chemical basis of morphogenesis}
+      \field{volume}{237}
+      \field{year}{1952}
+      \true{nocite}
+      \field{pages}{37\bibrangedash 72}
+      \range{pages}{36}
+      \verb{doi}
+      \verb 10.1098/rstb.1952.0012
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1098/rstb.1952.0012
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1098/rstb.1952.0012
+      \endverb
+    \endentry
+    \entry{Veerman2021Dec}{article}{}
+      \name{author}{3}{}{%
+        {{hash=52d05e938713fb621a543280fec22fb1}{%
+           family={Veerman},
+           familyi={V\bibinitperiod},
+           given={Frits},
+           giveni={F\bibinitperiod}}}%
+        {{hash=59d3e2f73c5c141d8d7646f4f2fd82df}{%
+           family={Mercker},
+           familyi={M\bibinitperiod},
+           given={Moritz},
+           giveni={M\bibinitperiod}}}%
+        {{hash=e3d0db70dbef160b7a38fd7c643466f0}{%
+           family={Marciniak-Czochra},
+           familyi={M\bibinithyphendelim C\bibinitperiod},
+           given={Anna},
+           giveni={A\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {See full text options at Atypon}%
+      }
+      \strng{namehash}{8338b37e81146dec14adca3bf68f11c9}
+      \strng{fullhash}{8338b37e81146dec14adca3bf68f11c9}
+      \strng{bibnamehash}{8338b37e81146dec14adca3bf68f11c9}
+      \strng{authorbibnamehash}{8338b37e81146dec14adca3bf68f11c9}
+      \strng{authornamehash}{8338b37e81146dec14adca3bf68f11c9}
+      \strng{authorfullhash}{8338b37e81146dec14adca3bf68f11c9}
+      \field{sortinit}{V}
+      \field{sortinithash}{afb52128e5b4dc4b843768c0113d673b}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{1471-2962}
+      \field{journaltitle}{Philos. Trans. A Math. Phys. Eng. Sci.}
+      \field{month}{12}
+      \field{number}{2213}
+      \field{title}{{Beyond Turing: far-from-equilibrium patterns and mechano-chemical feedback}}
+      \field{volume}{379}
+      \field{year}{2021}
+      \true{nocite}
+      \field{pages}{20200278.}
+      \range{pages}{-1}
+      \verb{doi}
+      \verb 10.1098/rsta.2020.0278
+      \endverb
+      \verb{eprint}
+      \verb 34743599
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

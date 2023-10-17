@@ -1,6 +1,6 @@
 \subsection{Finding equilibria and bounds on parameters}
 
-We recall that a \textit{steady state} of the system is a solution to the PDE, satisfying boundary conditions that does not depend on time, resulting in a vanishing time-derivative in equations. E.g., calling $\bm\psi$ a steady state of (\ref{eq:system}), it holds
+We recall that a \textit{steady state} of the system is a solution to the PDE, satisfying boundary conditions that does not depend on time, resulting in a vanishing time-derivative in equations. E.g., calling $\bm\psi$ a steady state of (\ref{eq:redu})-(\ref{eq:redw}), it holds
 $$0 = \del_x^2 \bm\psi + \bm f(\bm\psi), \qquad \del_x \bm\psi(0) = \del_x\bm\psi(1) = 0.$$
 By the look of things, an analytical derivation of all steady-states of this system seems a little bit too optimistic. That being said, one can look at \textit{constant steady-states} $\bar{\bm u} = (\bar u, \bar v, \bar w)$ with $\bar u, \bar v, \bar w \in \R$. Proceeding as such leads to the term $\del_x^2 \bar{\bm u}$ vanishing, the problem reformulates into a less daunting one: finding a triplet of reals $\bar{\bm u}$ such that
 $$\bm f(\bar{\bm u}) = 0.$$
@@ -68,8 +68,25 @@ While this is quite a ludicrous task to achieve, one could derive the exact anal
 
 \subsubsection{Snack break: finding bounds on asymptotically stable spatially homogeneous stationary solutions}
 
-hey hey
+Assuming we know the values of the non-zero steady-state $\bar u, \bar v, \bar w$, one can use $f(\bar{\bm u}) = g(\bar{\bm u}) = h(\bar{\bm u})$ to derive a lower bound for each quantity. 
 
+\begin{proposition}[Lower bounds on $\bm u$.]
+
+Assume the parameters $m_1, m_2 > \mb$ and that $\bar u, \bar v, \bar w > 0$. Then 
+	
+\begin{center}
+\begin{tabular}{c <{\hspace{2em}} c >{\hspace{2em}} c}
+	$\bar u > \dfrac{\mf}{m_1 - \mb}$, & $\bar v > \dfrac{\ml}{m_2 - \mb}$, & $w >\dfrac{m_3}{\me}$
+\end{tabular}
+\end{center}
+\end{proposition}
+
+\begin{proof}
+	We drop the $\bar{\cdot}$ (bar) notation for simplicity and start with $f(\bm u) = 0$. Substituting $f$ by its value from the system leads to
+	$$0 = -\mf u + m_1 \frac{uv}{1 + uv} - \mb uv = u\biggl( -\mf + m_1 \frac{v}{1 + uv} - \mb v\biggr).$$
+	We now use $\bar u \ne 0$ and rearrange the left-and-right-hand side.
+	$$m_1 v = (\mf + \mb v) \underbrace{(1 + uv)}_{>1} > \mf + \mb v \quad\iff\quad v > \frac{\mf}{m_1 - \mb}$$
+\end{proof}
 
 \subsection{Linear dynamics and local behavior of the system}
 
@@ -98,13 +115,13 @@ which, by positivity of $\mu_f, \mu_b, \mu_e$ is unconditionally stable. Take a 
 \begin{figure}
 	\centering
 	\includegraphics[width=\textwidth]{figures/stable_origin.png}
-	\caption{space-time plot of numerical solutions $u, v, w$ to \ref{eq:system} with constant initial condition $\bm X_0 = (\uu_0, \vv_0, \ww_0)$ close to the origin. One clearly sees how each quantity converges towards 0}
+	\caption{space-time plot of numerical solutions $u, v, w$ to (\ref{eq:redu})-(\ref{eq:redw}) with constant initial condition $\bm X_0 = (\uu_0, \vv_0, \ww_0)$ close to the origin. One clearly sees how each quantity converges towards 0}
 	\label{fig:simulations}
 \end{figure}
 
 \subsubsection{Around the other steady state}
 
-Let us move our interest to the other stable steady state (provided the choice of parameters allows it to exist). Using the fact that each term $u, v, w$ is positive, we can operate some surgery on identities \ref{identities} to derive
+For the entirety of this part, we assume the steady state to be non-trivial (which, otherwise, would compromise most computations we carry on). Let us move our interest to the other stable steady state provided the choice of parameters allows it. Using the fact that each term $u, v, w$ is positive, we can derive the following equalities from $f(u, v, w) = g(u, v, w) = h(u, v, w) = 0$
 
 \begin{equation}
 	\label{new_identities}
@@ -136,12 +153,12 @@ Alternatively, let $\Tilde{\chi}_{M}(\lambda) = a_0 + a_1 \lambda + a_2 \lambda^
 \end{proposition}
 
 
-\begin{lemma}[Necessary condition for DDI] Let $B := A - \lambda D$ denote the matrix of the linearized system. We claim that we obtain DDI if and only if $\det(B_{12}) < 0$ and 
+\begin{lemma}[Necessary condition for DDI] Let $B := A - \lambda D$ denote the matrix of the linearized system. We claim that we can obtain DDI if and only if $\det(B_{12}) < 0$ and 
 	
 \end{lemma}
 
 
-\begin{remark}[Minimum] The function $\mu \longmapsto |A - \mu D|$ reaches its minimum at the point:
+\begin{remark}[Minimum] The function $\mu \longmapsto |J - \mu D|$ reaches its minimum at the point:
 	
 \begin{equation}
 	\resizebox{\hsize}{!}{%
@@ -160,4 +177,8 @@ Please do not make me compute $\det(A - \mu_{\textrm{min}} D)$ ;-;. Also
 
 $$\frac{|A_{12}| + |A_{13}|d_2}{2a_{11} d_2}$$
 
+
+$$\bar u \bar v > \frac{\ml\mf}{(m_1 -\mb)(m_2 - \mb)} > 1 (1)$$
+
+$$|J_{12}| = A - (1 - u^2 v^2)B > 0 \quad \text{if} (1)$$
 
