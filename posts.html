@@ -14,7 +14,7 @@
         <link href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" rel="stylesheet" type="text/css" />
         <!-- Core theme CSS (includes Bootstrap)-->
         <link href="css/styles.css" rel="stylesheet" />
-        <!-- KaTeX distribution for mathematics -->
+        <!-- KaTeX distribution for Maths Display -->
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.4/dist/katex.min.css" integrity="sha384-vKruj+a13U8yHIkAyGgK1J3ArTLzrFGBbBc0tDp4ad/EyewESeXE/Iv67Aj8gKZ0" crossorigin="anonymous">
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.4/dist/katex.min.css" integrity="sha384-vKruj+a13U8yHIkAyGgK1J3ArTLzrFGBbBc0tDp4ad/EyewESeXE/Iv67Aj8gKZ0" crossorigin="anonymous">
         <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.4/dist/katex.min.js" integrity="sha384-PwRUT/YqbnEjkZO0zZxNqcxACrXe+j766U2amXcgMg5457rve2Y7I6ZJSm2A0mS4" crossorigin="anonymous"></script>
@@ -36,7 +36,7 @@
                 <div class="collapse navbar-collapse" id="navbarResponsive">
                     <ul class="navbar-nav ms-auto py-4 py-lg-0">
                         <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href="index.html">Home</a></li>
-                        <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href="about.html">About</a></li>
+                        <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href="posts.html">Posts</a></li>
                         <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href="cv.html">Curriculum Vitae</a></li>
                     </ul>
                 </div>
@@ -47,38 +47,55 @@
             <div class="container position-relative px-4 px-lg-5">
                 <div class="row gx-4 gx-lg-5 justify-content-center">
                     <div class="col-md-10 col-lg-8 col-xl-7">
-                        <div class="page-heading">
-                            <h1>ABOUT ME</h1>
+                        <div class="site-heading">
+                            <h1>Blog Posts</h1>
                         </div>
                     </div>
                 </div>
             </div>
         </header>
         <!-- Main Content-->
-        <main class="mb-4">
-            <div class="container px-4 px-lg-5">
-                <div class="row gx-4 gx-lg-5 justify-content-center">
-                        <div class="col-8">
-                            <p>Greetings! My name is Théo, and I am a soon-to-be PhD student at the interface of applied mathematics and computer science with a strong focus on Partial Differential Equations and their applications. My research centers around Reaction Diffusion equations with non-linear kinetics, i.e., equations of the form, 
-                                
-                            $$\begin{aligned} \partial_t \mathbf{u} - \sum_{|\alpha| \le m} a_\alpha(x) \partial_s^\alpha \mathbf{u} + f(\mathbf{u}) = 0 \quad &\text{on } \Omega \\
-                            \partial_{\nu} \mathbf{u} = 0 \quad &\text{on } \partial\Omega\\[0.7em]
-                            \mathbf{u}(\cdot, 0) = \mathbf{u}_0 \quad & \text{in } L^p(\Omega)\end{aligned}$$
-
-                            which are essential tools in understanding complex biological phenomena, such as the behavior of cancer cells (glioblastoma), angiogenesis, the receptor dynamics of cells and other diffusion-related processes.</p>
-
-                            <p>Although my work is heavily math-focused, I also have a keen interest in programming and enjoy overusing Python to help me solve mathematical problems more efficiently or simply as a tool to better visualize complex sceniaros. I am a passionate problem solver and enjoy tackling challenging mathematical concepts head-on, whatever the field.</p>
-                        
-                            <p>When I'm not working on my research or coding projects, I like to spend my free time playing the guitar and exploring the great outdoors. This allows me to clear my mind, find balance between work and personal space. This way, I am always ready to face the next day's mathematical challenges! I also work as a fashion model on the side when I am not in the lab. </p>
-
-                            <p>Overall, my love of mathematics and programming fuels my curiosity and drives me to constantly learn more. I believe that these skills are not just important in my academic work, but are valuable assets that can be applied in a wide range of fields than one could think of.</p>
-                        </div>
-                    <div class="col-4 my-auto p-8 d-none d-md-block">                          
-                            <img src="assets/img/photo-theo3.jpg" class="rounded img-fluid"> 
+        <div class="container px-4 px-lg-5">
+            <div class="row gx-4 gx-lg-5 justify-content-center">
+                <div class="col-md-10 col-lg-8 col-xl-7">
+                    <!-- Post preview-->
+                    <div class="post-preview">
+                        <a href="blog_posts/probabilistic_method.html" target="_blank"><h2 class="post-title">An invitation to the probabilistic method</h2></a>
+                        <!-- <a href="assets/pdf/Master2Thesis/main.pdf" target="_blank"> -->
+                        <!-- </a> -->
+                        <p class="post-meta">
+                            Some proofs are hard, some are trivial. Some are elegant and some are... a lot less elegant. The probabilistic method is an elegant proof tactic following the lines of "if an object exists with positive probability, then it exists". In this short note we take a stroll through some examples of statements that can be effectively proven using this probabilistic approach.</p>
+                        <p class="post-meta">November, 2023</p>
                     </div>
-                </div>
+
+                    <!-- Divider-->
+                    <!-- <hr class="my-4" /> -->
+
+                    <!-- <a href="assets/pdf/PERPHARMANCE_RETREAT_pdf.pdf" target="_blank"><h2 class="post-title">Perpharmance Retreat slides</h2></a>  -->
+
+                    <!-- Divider-->
+                    <hr class="my-4" />
+                    <!-- Post preview-->
+                    <div class="post-preview">
+                        <a href="blog_posts/turing_FD.html" target="_blank"><h2 class="post-title">Simulating the original Turing 2-PDE Reaction-Diffusion model with Finite Differences</h2></a>
+                        <p class="post-meta">
+                            This small blog post acts as a humble walkthrough the most common steps from finite differences to discretize a 2-PDE parabolic system with Neumann Condition and discuss it's numerical implementation using Python.</p>
+                        <p class="post-meta">April, 2022</p>
+                    </div>
+                    <!-- divider -->
+                    <hr class="my-4" />
+                    <!-- Post preview-->
+                    <div class="post-preview">
+                        <a href="assets/pdf/MASTER1_THESIS.pdf" target="_blank"><h2 class="post-title">My first year's Master's thesis.</h2></a>
+                        <p class="post-meta">
+                            This is a link to my highly interdisciplinary 6-months research project supervised by Philippe Roudot (I2M), Claudio Collinet (IBDM) and Thomas Lecuit (IBDM, Collège de France). The topic was the one of tissue morphogenesis in drosophila, more precisely, finding new methods for cellular tracking and imaging of endo/exocytic traffiking of molecules such as food. The method is based on fluorescent microscopy using TagGFP to track Clathrin (Clc) and E-Cadherin (Ecad) proteins which are markers of such trafficking activity.</p>
+                        <p class="post-meta">July, 2022</p>
+                    </div>
+                    <!-- Pager
+                    <div class="d-flex justify-content-end mb-4"><a class="btn btn-primary text-uppercase" href="#!">Older Posts →</a></div>
+                </div> -->
             </div>
-        </main>
+        </div>
         <!-- Footer-->
         <footer class="border-top">
             <div class="container px-4 px-lg-5">
