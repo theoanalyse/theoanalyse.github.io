@@ -52,7 +52,7 @@
             </div>
         </nav>
         <!-- Page Header-->
-        <header class="masthead" style="background-image: url('assets/img/turingfd.jpg')">
+        <header class="masthead" style="background-image: url('assets/img/probamethod.jpg')">
             <div class="container position-relative px-4 px-lg-5">
                 <div class="row gx-4 gx-lg-5 justify-content-center">
                     <div class="col-md-10 col-lg-8 col-xl-7">
@@ -69,64 +69,69 @@
                 <div class="row justify-content-end">
                     <div class="col-8 ">
                             <blockquote>
-                                "Mathematical reasoning may be regarded rather schematically as the exercise of a combination of two facilities, which we may call intuition and ingenuity." - Alan Turing
+                                "A mathematician is a device for turning coffee into theorems." - Paul Erdös
                             </blockquote>
                     </div>
                 </div>
+                
                 <div class="row gx-4 gx-xl-5 justify-content-center">
+
                         <div class="col-10">
-                            <p>Turing patterns are what is called by mathematicians a class of finite-wavelength, stationary solutions which can develop from homogeneous initial conditions following local systems of parabolic reaction-diffusion equations. Barbaric terms aside, this is what the common of mortals call "spots" and "stripes" that can be observed on the fur coat of zebras, giraffe, leopards, cats and other animal species (see figure [1]). In this rather short blog post, I intend to numerically implement the classical system of two partial differential equations derived by Alan Turing in his original paper "The Chemical basis of morphogenesis" published in 1952 using Python. The structure is three-folds: In the first part I derive mathematical equations of finite differences schemes used in the code. A second part is dedicated to the code implementation in Python using <span style="font-weight:bold;">Numpy</span> and <span style="font-weight:bold;">Matplotlib</span>. Finally, the last part is dedicated to what can one obtain by playing with parameters of the model.</p>
-
-                            <figure>
-                            <img src="assets/img/maya.jpeg" style="display: block;margin-left: auto;margin-right: auto;width: 50%;" alt="missing"/>
-                            <figcaption style="text-align: center;">Figure 1: A ferocious beast exhibiting Turing patterns.</figcaption>
-                            </figure>
-                        
-                            <h2>Deriving Equations of the scheme</h2>
-
-                            <p>For the sake of simplicity, I choose the easy way by using an Euler-Explicit method for the time discretization while using 1D Finite-Differences for each equation. However, if one wishes, they could use a more creative method such as RK-4 for time as an example. We recall that the system proposed by Turing is the following one
-
-                            $$\begin{aligned} \partial_t U = d_1 \partial_{xx}^2 U + f(U, V) & \quad \text{in } \Omega \\[0.7em] \partial_t V = d_2 \partial_{xx}^2 V + g(U, V) & \quad \text{in } \Omega\\[0.7em] \partial_x U = 0, \partial_x V = 0 & \quad \text{in }\partial\Omega, \end{aligned}$$
-
-                            Where $U$ and $V$ denote two chemical quantities interacting with each other and $\Omega = [0, 1]$ is the domain in which the problem lies. Conventionally, $U$ is considered to be a chemical activator, which is mathematically translated by $\partial_U f(U, V) > 0$ and $V$ an inhibitor, i.e. $\partial_V g(U, V) < 0$. The two functions $f$ and $g$ are what defines the kinetics of the reaction between $U$ and $V$. They are assumed to be continuous and sufficiently smooth: $f, g \in \mathcal{C}^k(\Omega, \mathbb{R})$ with $k \in \mathbb{N}$. We keep them as general as we can for now, but we will later replace them by actual expressions fitting our modelling needs.
+                            
+                            <p>
+                                There exists two types of mathematicians. Those we  call constructivists, who consider an object exists if and only if you can clearly build it; and those we call non-constructivists, who in contrast, allow objects to exists even if a clear form isn't explicitly provided. It so happens that the probabilistic method is highly appreciated by non-constructivists (including myself). I always enjoyed when a mathematical approach does not require one to identify an object for proving its existence. However, just as strong induction, contradiction or direct proof, the probabilistic method enables you to rigorously prove mathematical propositions as we will demonstrate using classical examples.
                             </p>
 
-                            <h4>Space-discretization</h3>
+                            <div class="row">
+                                <div class="col">
+                                    <figure>
+                                    <img src="assets/img/Erdos.jpg" style="display: block;margin-left: auto;margin-right: auto;height: 100%;" alt="missing"/>
+                                    <figcaption style="text-align: center; padding-top: 0.5cm;">Portrait of Paul Erdös</figcaption>
+                                    </figure>
+                                </div>
+                                <div class="col">
+                                    <img src="assets/img/Szele.jpeg" style="display: block;margin-left: auto;margin-right: auto;height: 66.6%;" alt="missing"/>
+                                    <figcaption style="text-align: center; padding-top: 0.5cm;">Portrait of Tibor Szele</figcaption>
+                            </div>
+
+                            <h3>Roots of the method</h3>
+                            <p>
+                                The probabilistic method shows its first signs of life during the year 1943 when <b>Tibor Szele</b> starts manifesting interest in the problem of counting Hamiltonian cycles $H_T(n)$ within a tournament, <em>i.e.</em>, in a complete graph graph endowed with an orientation. That year, he showed $$H_T(n) = n!2^{-(n-1)},$$ using (you guessed it) a probabilistic argument. Four years later, the great <b>Paul Erdös</b> championed the method and even began to use it at each combinatorics conference he would attend to. His goal? To find counterexamples to each speakers' propositions. With time, the name of Erdös completely overshadowed the one of Szele and, to this day, most consider the method really started in 1947.  The true beauty of this approach resides in its simplicity: the entire method is based on the single following statement 
+                            </p>
 
                             <p>
-                                To be able to run simulations of such model, one has to move to a discrete world, since Python does not understand the notion of continuity. Let us start with space and consider $\Omega_D$ to be a discretized mesh of $\Omega$ defined by the series of points $\{x_0, ..., x_{N-1}\}$ with the convention $x_i = i/(N-1) = ih$, i.e. $(h = 1/(N-1))$. Let $u \in \mathcal{C^2(\Omega, \mathbb{R})}$, we perform classical Taylor expansions to the left and right of an arbitrary point $x_i \in \Omega_D$.
-
-                                $$\begin{aligned} u(x_i + h) = u(x_i) + h u'(x_i) + \frac{h^2}{2} u''(x_i) + O(h^3), \\[1em] u(x_i - h) = u(x_i) - h u'(x_i) + \frac{h^2}{2} u''(x_i) + O(h^3). \end{aligned}$$
-
-                                Summing both lines makes odd order terms vanish on the right-hand side, leaving us with
-
-                                $$u(x_i + h) + u(x_i - h) = 2u(x_i) + h^2 u''(x_i) + O(h^3).$$
-
-                                or equivalently
-
-                                $$\frac{u(x_i - h) - 2u(x_i) + u(x_i + h)}{h^2} = u''(x_i) + O(h).$$
-
-                                We can then drop the "$O(h)$" notation for now and consider that the quantity on the left-hand side is a nice approximation of the second-order derivative of $u$ around $x_i$. In a quest of lighter notations, I will now write $u(x_i) = u_i$ so that we can rewrite both equations of the system at each point of the mesh $\Omega_D$:
-
-                                $$
-                                \begin{aligned} \frac{d}{dt} U_i(t) &= d_1 \frac{U_{i-1}(t) - 2U_i(t) + U_{i+1}(t)}{h^2} + f(U_i(t), V_i(t)) \\[1em] \frac{d}{dt} V_i(t) &= d_2 \frac{V_{i-1}(t) - 2V_i(t) + V_{i+1}(t)}{h^2} + g(U_i(t), V_i(t)). \end{aligned}
-                                $$
-
-                                Still, we have to deal with boundary conditions, but luckily the one-dimensional case is easy to deal with. An approximation of the first order derivative on both endpoints is enough to get discrete boundary conditions
-
-                                $$\partial_x u(x_i) \approx \frac{u(x_i) - u(x_{i+h})}{h}.$$
-
-                                Plugging in $i=0$ and $i=N-1$ (since $\partial\Omega = \{0, 1\} = \{ x_0, x_{N-1}\}$) yields
-
-                                $$0 = \partial_x U(0, t) = \frac{U_0(t) - U_1(t)}{h}.$$
-                                
-                                In other words, $U_0(t) = U_1(t)$ as well as $U_{N-1}(t) = U_{N-2}(t)$. With that, we're all done regarding the space discretization, it is left to deal with time discretization.
+                                <em>Let $\Omega$ be a set of object. If a randomly chosen object $\omega \in \Omega$ satisfies a property $(\mathcal P)$ with probability $p > 0$, then there must exists an $\omega' \in \Omega$, satisfying $(\mathcal P)$. </em>
                             </p>
 
-                            <h4>Time discretization</h4>
-                            
-                            <p>hello</p>
+                            <p>
+                                A shorter version by <b>Dr. Robert Kübler</b> reads: <em>"If an object exists with positive probability, it exists."</em>, shedding some light on the true essence of this approach.
+                            </p>
 
+                            <h3>A colorful first example</h3>
+
+                            <p>
+                                Most textbooks introducing the method begin with a problem involving the coloring of a family of objects with given size. For short:
+                            </p>
+
+                            <p class="box">
+                                <b>Problem 1</b>: Let $X$ be a finite set of objects, and fix $d \ge 2$. Consider a family $\mathcal F$ of $d-$sets on $X$ such that $|\mathcal F| = m$. If, $m \le 2^{d-1}$, then the family $\mathcal F$ is $2-$colorable
+                            </p>
+
+                            
+                            <p>
+                                
+                            A few definitions are in order. First, we call a familly "2-colorable" if there exists a coloring of $X$, $\chi : X \longrightarrow \{R, B\}$ such that for each element $A_i \in \mathcal F$, both colors appear in $A_i$. Let us prove that robabilistic method to prove this result, then we should define carefully our goals. We precisely want to show that there exists some sort of coloring, the probabilistic method suggests us to consider $\Omega = \{R, B\}^X$ the set of all 2-colorings on $X$ as well a property $(\mathcal P)$
+                            $$(\mathcal P_\chi) : \text{"} \chi \text{ makes the family } \mathcal F \text{ is monochromatic"}.$$
+                            It now suffices to pick a random coloring $\chi \in \Omega$, and a few basic computations show that
+                            $$\mathbb P \bigr( \mathcal P_\chi \bigr) > 1 - m2^{1-d}$$
+                            Here comes the punchline: Recall $m \le 2^{d-1}$ or put differently $-m \ge -2^{d-1}$ hence
+                            $$\mathbb P \bigl( \mathcal P_\chi \bigl) > 1 - 2^{d-1}\cdot 2^{1-d} = 0$$
+                            Et voilà! Since $\mathbb P \bigr( \mathcal P_\chi \bigr) > 0$ we can conclude about the existence of a coloring $\omega \in \Omega$ such that $\mathcal F$ is 2-colorable.
+                            </p>
+
+
+
+                                
                         </div>
                 </div>
             </div>
