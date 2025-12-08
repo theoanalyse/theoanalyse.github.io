@@ -25,20 +25,39 @@
   </script>
 </head>
 <body>
-
-  <!-- Navigation bar (now sits on top of the banner or below it) -->
-  <header>
-    <nav>
-      <a href="{{ site.baseurl }}/">Home</a>
-      <a href="{{ site.baseurl }}/about">About</a>
-      <a href="{{ site.baseurl }}/contact">Contact</a>
-    </nav>
-  </header>
-  <main>
-    {{ content }}
-  </main>
-  <footer>
-    <p>&copy; {{ site.time | date: "%Y" }} {{ site.title }}</p>
-  </footer>
-</body>
+    <div class="banner">… your banner code …</div>
+  
+    <div class="container">
+      <!-- LEFT SIDEBAR -->
+      <aside class="sidebar">
+        <div class="profile">
+          <img src="{{ '/images/photo.jpg' | relative_url }}" alt="Your Name" class="profile-photo">
+          <h1>Your Name</h1>
+          <p class="title">Assistant Professor / Postdoc / PhD Candidate</p>
+          <p class="affiliation">Department of Something<br>University of Somewhere</p>
+        </div>
+  
+        <nav class="sidebar-nav">
+          <a href="{{ site.baseurl }}/">Research</a>
+          <a href="{{ site.baseurl }}/publications">Publications</a>
+          <a href="{{ site.baseurl }}/teaching">Teaching</a>
+          <a href="{{ site.baseurl }}/cv">CV</a>
+          <a href="{{ site.baseurl }}/blog">Blog</a>
+        </nav>
+  
+        <div class="contact-icons">
+          <a href="mailto:you@university.edu">Email</a> • 
+          <a href="https://scholar.google.com/…" target="_blank">Scholar</a> • 
+          <a href="https://github.com/yourusername" target="_blank">GitHub</a>
+        </div>
+      </aside>
+  
+      <!-- MAIN CONTENT (wide) -->
+      <main class="main-content">
+        {{ content }}
+      </main>
+    </div>
+  
+    <footer>…</footer>
+  </body>
 </html>

@@ -90,3 +90,46 @@
   .mathjax-wrapper {
     color: #e0e0e0;
   }
+
+
+  .container {
+    display: flex;
+    gap: 40px;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+
+  .sidebar {
+    flex: 0 0 260px;
+    position: sticky;
+    top: 20px;
+    align-self: start;
+  }
+
+  .main-content {
+    flex: 1;
+    min-width: 0;           /* allows long equations to shrink */
+  }
+
+  /* Mobile: stack vertically */
+  @media (max-width: 900px) {
+    .container { flex-direction: column; }
+    .sidebar { position: static; flex: 1; }
+  }
+
+  /* Sidebar styling */
+  .profile-photo {
+    width: 100%;
+    border-radius: 8px;
+    margin-bottom: 20px;
+  }
+
+  .sidebar h1 { font-size: 1.8rem; margin: 0 0 8px; }
+  .sidebar .title { color: #bb86fc; font-weight: 500; }
+  .sidebar-nav a {
+    display: block;
+    padding: 8px 0;
+    color: #64b5f6;
+  }
+  .sidebar-nav a:hover { color: white; }
