@@ -89,3 +89,9 @@
   .mathjax-wrapper {
     color: #e0e0e0;
   }
+
+  mjx-container[display="true"] {
+    margin: 1.5em 0 !important;   /* extra breathing room around display equations */
+    overflow-x: auto;
+    overflow-y: hidden;
+  }
