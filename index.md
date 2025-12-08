@@ -10,7 +10,6 @@ title: Home
 <img src="./images/photo-theo.jpg" width="300" height="300">
 </center> -->
 
-![photo](./images/photo-theo.jpg).{center}
 
 Hi there! I'm a 3rd year PhD student at Heidelberg University. I work on Reaction-Diffusion-ODE systems and mathematical modeling of stem cells dynamics, under the supervision of [Prof. Dr. Anna Marciniak-Czochra](https://biostruct.iwr.uni-heidelberg.de/compactseminar_res_bib.php).
 
