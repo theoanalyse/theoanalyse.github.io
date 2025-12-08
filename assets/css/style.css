@@ -91,7 +91,6 @@
     color: #e0e0e0;
   }
 
-
   .container {
     display: flex;
     gap: 40px;
@@ -109,13 +108,23 @@
 
   .main-content {
     flex: 1;
-    min-width: 0;           /* allows long equations to shrink */
+    min-width: 0;
   }
 
   /* Mobile: stack vertically */
   @media (max-width: 900px) {
     .container { flex-direction: column; }
     .sidebar { position: static; flex: 1; }
+  }
+
+  @media (min-width: 1200px) {
+    .sidebar {
+      flex: 0 0 320px;   /* extra wide sidebar only on big screens */
+    }
+    .container {
+      max-width: 1400px; /* lets everything breathe */
+      gap: 60px;
+    }
   }
 
   /* Sidebar styling */
