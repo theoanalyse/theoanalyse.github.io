@@ -10,11 +10,18 @@
   <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
 </head>
 <body>
+    
+  <!-- Full-width banner -->
+  <div class="banner">
+    <img src="{{ '/images/banner.jpg' | relative_url }}" alt="Banner">
+  </div>
+
+  <!-- Navigation bar (now sits on top of the banner or below it) -->
   <header>
     <nav>
-      <a href="/">Home</a>
-      <a href="/about">About</a>
-      <a href="/contact">Contact</a>
+      <a href="{{ site.baseurl }}/">Home</a>
+      <a href="{{ site.baseurl }}/about">About</a>
+      <a href="{{ site.baseurl }}/contact">Contact</a>
     </nav>
   </header>
   <main>
