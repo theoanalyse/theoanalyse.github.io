@@ -8,7 +8,7 @@ permalink: pretty
 markdown: kramdown
 
 # Theme settings (we'll override with custom CSS)
-theme: al-folio  # Use minima as base, but we'll customize
+theme: minima  # Use minima as base, but we'll customize
 
 # Exclude unnecessary files
 exclude:
