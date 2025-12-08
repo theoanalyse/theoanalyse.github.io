@@ -29,14 +29,14 @@
     border-radius: 8px;
   }
   
-  nav a {
-    color: #86a4fc; /* Blue accent for links */
+  a {
+    color: #89b4fa;
     text-decoration: none;
     margin-right: 20px;
     font-weight: 500;
   }
   
-  nav a:hover {
+  a:hover {
     color: #ffffff;
   }
   
