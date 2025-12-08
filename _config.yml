@@ -1,0 +1,16 @@
+title: My Minimal Site
+description: A simple dark-themed site with Markdown and LaTeX support.
+baseurl: ""  # Leave empty for root domain
+url: "https://yourusername.github.io"
+permalink: pretty
+
+# Enable Markdown processing
+markdown: kramdown
+
+# Theme settings (we'll override with custom CSS)
+theme: minima  # Use minima as base, but we'll customize
+
+# Exclude unnecessary files
+exclude:
+  - Gemfile
+  - Gemfile.lock
