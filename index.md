@@ -4,16 +4,16 @@ title: Home
 ---
 
 
-# Théo André - Welcome to my Personal Page
+# Hi, I'm Théo André. Welcome to my page!
 
 <!-- <center>
 <img src="./images/photo-theo.jpg" width="300" height="300">
 </center> -->
 
-
+## About Me
 Hi there! I'm a 3rd year PhD student at Heidelberg University. I work on Reaction-Diffusion-ODE systems and mathematical modeling of neural stem cells dynamics, under the supervision of [Prof. Dr. Anna Marciniak-Czochra](https://biostruct.iwr.uni-heidelberg.de/compactseminar_res_bib.php).
 
-## Research projects
+## Research Projects
 
 ### Turing-like patterns in Reaction-Diffusion-ODE systems
 
@@ -31,4 +31,6 @@ We investigate what shape these regulation feedbacks may take by means of non-li
 
 ## Publications
 
-- [Spatial scale separation and emergent patterns in coupled diffusive-nondiffusive systems](https://arxiv.org/abs/2511.15648) -- Théo André, Szymon Cygan, Anna Marciniak-Czochra, Finn Münnich.
+- **Théo André**, Szymon Cygan, Anna Marciniak-Czochra, Finn Münnich  
+   “Spatial scale separation and emergent patterns in coupled diffusive-nondiffusive systems”  
+   *Preprint*, (2025) [[arXiv:2511.15648](https://arxiv.org/abs/2511.15648)]
