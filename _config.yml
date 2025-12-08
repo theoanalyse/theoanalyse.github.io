@@ -1,7 +1,7 @@
 title: My Minimal Site
 description: A simple dark-themed site with Markdown and LaTeX support.
 baseurl: ""  # Leave empty for root domain
-url: "https://yourusername.github.io"
+url: "https://theoanalyse.github.io"
 permalink: pretty
 
 # Enable Markdown processing

@@ -9,9 +9,10 @@
     background-color: #121212;
     color: #e0e0e0;
     font-family: "Inter", "SF Pro Display", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
-    font-size: 18px;           /* default was ~16px → now 18px (feels much better) */line-height: 1.6;
+    font-size: 16px;
+    line-height: 1.6;
     padding: 20px;
-    max-width: 840px;
+    max-width: 1040px;
     margin: 0 auto;
   }
 
