@@ -1,8 +1,11 @@
 ---
 layout: default
 title: Home
-banner: /images/banner.jpg
 ---
+
+<center>
+<img src="images/photo-theo.jpg" width="200" height="200">
+</center>
 
 # Théo André - Welcome to my Personal Page
 
