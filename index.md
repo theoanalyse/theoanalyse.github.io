@@ -6,12 +6,12 @@ title: Home
 
 # Hi, I'm Théo André. Welcome to my page!
 
-<!-- <center>
+<center>
 <img src="./images/photo-theo.jpg" width="300" height="300">
-</center> -->
+</center>
 
 ## About Me
-Hi there! I'm a 3rd year PhD student at Heidelberg University. I work on Reaction-Diffusion-ODE systems and mathematical modeling of neural stem cells dynamics, under the supervision of [Prof. Dr. Anna Marciniak-Czochra](https://biostruct.iwr.uni-heidelberg.de/compactseminar_res_bib.php).
+Hi there! I'm a 3rd year PhD student at Heidelberg University. I work on Reaction-Diffusion-ODE systems and mathematical modeling of neural stem cells dynamics, under the supervision of [Prof. Dr. Anna Marciniak-Czochra.](https://biostruct.iwr.uni-heidelberg.de/compactseminar_res_bib.php)
 
 ## Research Projects
 
