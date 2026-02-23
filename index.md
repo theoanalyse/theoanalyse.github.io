@@ -26,4 +26,4 @@ We investigate what shape these regulation feedbacks may take by means of non-li
 
 - **Théo André**, Szymon Cygan, Anna Marciniak-Czochra, Finn Münnich  
    “Spatial scale separation and emergent patterns in coupled diffusive-nondiffusive systems”  
-   *Preprint*, (2025) [[arXiv:2511.15648](https://arxiv.org/abs/2511.15648)]
+   *Preprint*, (2025) [[arXiv:2511.15648]](https://arxiv.org/abs/2511.15648)
