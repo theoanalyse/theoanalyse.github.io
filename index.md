@@ -28,7 +28,8 @@ We investigate what shape these regulation feedbacks may take by means of non-li
    “Spatial scale separation and emergent patterns in coupled diffusive-nondiffusive systems”  
    *Preprint*, (2025) [[Paper]](https://arxiv.org/abs/2511.15648)
 
-- Marco David, **Théo André**..., Jonas Bayer:  
+- Marco David, **Théo André**, Mathis Bouverot-Dupuis, Eva
+Brenner, ..., Jonas Bayer:  
    “Universal Pairs for Diophantine Equations”  
    *Isabelle Library*, (2026) [[Library Paper]](https://www.isa-afp.org/browser_info/current/AFP/Diophantine_Universal_Pairs/document.pdf) and [[Associated Paper]](https://arxiv.org/abs/2506.20909)
 
