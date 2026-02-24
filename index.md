@@ -36,7 +36,7 @@ We investigate what shape these regulation feedbacks may take by means of non-li
 ## List of Talks and Posters
 
 - Poster presentation "Reduction and Diffusion-Driven Instability Analysis In a Receptor-Based Model for Hydra Morphogenesis" at MIMUW, 05/2023, Warsaw. ([Poster](./talks_and_posters/PosterMIMUW052023.pdf))
-- Invited talk "" at I2M, 10/2024, Marseille. ([slides](./talks_and_posters/PosterMIMUW052023.pdf))
+- Invited talk "" at I2M, 10/2024, Marseille. ([slides](./talks_and_posters/TalkI2M122024%20.pdf))
 - Talk "Modeling Zebrafish’s Adult Neural Stem Cell
 Dynamics with Feedback", 10/2025, Heidelberg. ([slides](./talks_and_posters/TalkUH102025.pdf))) 
 - Invited talk "Comparing mathematical models of NSC Dynamics in Zebrafish against the Mouse" at DKFZ, 02/2026, Heidelberg. ([slides](./talks_and_posters/TalkDKFZ022026.pdf)
