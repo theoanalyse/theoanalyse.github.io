@@ -31,11 +31,7 @@ We investigate what shape these regulation feedbacks may take by means of non-li
 - Marco David, **Théo André**, Mathis Bouverot-Dupuis, Eva
 Brenner, ..., Jonas Bayer:  
    “Universal Pairs for Diophantine Equations”  
-<<<<<<< HEAD
    *Isabelle Library*, (2026) [[Library Paper]](https://www.isa-afp.org/browser_info/current/AFP/Diophantine_Universal_Pairs/document.pdf) and [[Associated Paper]](https://arxiv.org/abs/2505.16963)
-=======
-   *Isabelle Library*, (2026) [[Library Paper]](https://www.isa-afp.org/browser_info/current/AFP/Diophantine_Universal_Pairs/document.pdf), [[Associated Paper]](https://arxiv.org/abs/2506.20909)
->>>>>>> 05f879e6a7371153f55266f4c20e335de7283809
 
 
 ## List of Talks and Posters
