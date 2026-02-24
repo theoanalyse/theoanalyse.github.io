@@ -28,17 +28,22 @@ We investigate what shape these regulation feedbacks may take by means of non-li
    “Spatial scale separation and emergent patterns in coupled diffusive-nondiffusive systems”  
    *Preprint*, (2025) [[Paper]](https://arxiv.org/abs/2511.15648)
 
-- Marco David, **Théo André**..., Jonas Bayer:  
+- Marco David, **Théo André**, Mathis Bouverot-Dupuis, Eva
+Brenner, ..., Jonas Bayer:  
    “Universal Pairs for Diophantine Equations”  
+<<<<<<< HEAD
    *Isabelle Library*, (2026) [[Library Paper]](https://www.isa-afp.org/browser_info/current/AFP/Diophantine_Universal_Pairs/document.pdf) and [[Associated Paper]](https://arxiv.org/abs/2505.16963)
+=======
+   *Isabelle Library*, (2026) [[Library Paper]](https://www.isa-afp.org/browser_info/current/AFP/Diophantine_Universal_Pairs/document.pdf), [[Associated Paper]](https://arxiv.org/abs/2506.20909)
+>>>>>>> 05f879e6a7371153f55266f4c20e335de7283809
 
 
 ## List of Talks and Posters
 
-- Poster presentation "Reduction and Diffusion-Driven Instability Analysis In a Receptor-Based Model for Hydra Morphogenesis" at MIMUW, 05/2023, Warsaw. ([Poster](./talks_and_posters/PosterMIMUW052023.pdf))
-- Invited talk "" at I2M, 10/2024, Marseille. ([slides](./talks_and_posters/PosterMIMUW052023.pdf))
+- Poster presentation "Reduction and Diffusion-Driven Instability Analysis In a Receptor-Based Model for Hydra Morphogenesis" at MIMUW, 05/2023, Warsaw. [(Poster)](./talks_and_posters/PosterMIMUW052023.pdf)
+- Invited talk "" at I2M, 10/2024, Marseille. [(slides)](./talks_and_posters/TalkI2M122024%20.pdf)
 - Talk "Modeling Zebrafish’s Adult Neural Stem Cell
-Dynamics with Feedback", 10/2025, Heidelberg. ([slides](./talks_and_posters/TalkUH102025.pdf))) 
-- Invited talk "Comparing mathematical models of NSC Dynamics in Zebrafish against the Mouse" at DKFZ, 02/2026, Heidelberg. ([slides](./talks_and_posters/TalkDKFZ022026.pdf)
+Dynamics with Feedback", 10/2025, Heidelberg. [(slides)](./talks_and_posters/TalkUH102025.pdf)
+- Invited talk "Comparing mathematical models of NSC Dynamics in Zebrafish against the Mouse" at DKFZ, 02/2026, Heidelberg. [(slides)](./talks_and_posters/TalkDKFZ022026.pdf)
 
 
